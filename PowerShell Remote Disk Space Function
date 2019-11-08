@@ -1,4 +1,8 @@
-PS C:\> diskspace $servername
+# ADD THIS TO C:\Users\$USER\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+# How To Use
+# ==========
+# PS C:\> diskspace $servername
 
 
 function diskspace { Get-WMIObject Win32_Logicaldisk -ComputerName $args | Select PSComputername,DeviceID,@{Name="SizeGB";Expression={$_.Size/1GB -as [int]}},@{Name="FreeGB";Expression={[math]::Round($_.Freespace/1GB,2)}} }
