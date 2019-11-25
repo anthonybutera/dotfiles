@@ -9,7 +9,7 @@ set showmatch
 set ignorecase
 set smartcase
 set incsearch
-set number
+set number! relativenumber!
 set wildmenu
 set ruler
 set hlsearch
