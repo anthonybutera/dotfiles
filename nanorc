@@ -113,7 +113,7 @@ set nonewlines
 # set rebinddelete
 
 ## Fix numeric keypad key confusion problem.
-set rebindkeypad
+# set rebindkeypad
 
 ## Do extended regular expression searches by default.
 set regexp
