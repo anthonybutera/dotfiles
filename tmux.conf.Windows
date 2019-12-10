@@ -5,18 +5,18 @@
 # Meta (Alt)  = M-
 # Shift	      = S-
 #
-# Trigger = C-g (control + g)
+# Trigger = C-a (control + a)
 
 # Re-map prefix key
 unbind C-b
-set -g prefix C-g
+set -g prefix C-a
 
 # force a reload of the config file
 unbind r
 bind-key r source-file ~/.tmux.conf \; display-message "Configuration reloaded" 
 
 # quick pane cycling
-unbind ^A
+# unbind ^A
 unbind-key o
 #unbind-key ;
 bind-key -n M-u 		select-pane -t :.+
@@ -115,69 +115,3 @@ set -g window-status-current-style fg=white,bg=red   	#font
 #Active Pane Border Style
 set -g pane-active-border-style bg=brightblack
 
-
-
-
-# ================================================================
-
-# # Copied from GOTBLETU's Github
-# # ------------------------------
-#
-#
-# #-------- Statusbar {{{
-# #------------------------------------------------------
-# # UTF-8 character support in the status bar
-# #set-option -g status-utf8 on
-#
-# # refresh the status bar every 1 second.
-# set-option -g status-interval 1000
-#
-# # Time messages remain in the status bar. Lower this number
-# # if this is too distracting.
-# set-option -g display-time 2000
-#
-# # command/message line colors
-# set-option -g message-fg white
-# set-option -g message-bg black
-# set-option -g message-attr bright
-#
-#
-#
-# # CENTER {{{
-# # window notifications; display activity on other window
-# ## set-window-option -g monitor-activity on
-# ## set-option -g visual-activity on
-# 
-# # statusbar colors
-# set-option -g status-fg white
-# set-option -g status-bg black
-# set-option -g status-attr default
-#
-# # window title colors; non active
-# set-window-option -g window-status-fg cyan
-# set-window-option -g window-status-bg default
-# set-window-option -g window-status-attr dim
-#
-# # window title colors; active
-# set-window-option -g window-status-current-fg white	#font
-# set-window-option -g window-status-current-bg red	#boarder
-# set-window-option -g window-status-current-attr bright
-#
-#
-# #}}}
-# # LEFT SIDE {{{
-# # in the status bar.
-# set-option -g status-justify centre
-# set-option -g status-left-length 40
-# set-option -g status-left "#[fg=green]Session: #S #[fg=yellow]#I #[fg=cyan]#P"
-#
-#
-# #}}}
-# # RIGHT SIDE {{{
-# # use "man date" to set the clock to your liking
-# set-option -g status-right "#[fg=blue]#(~/battery Discharging) | #[fg=cyan]%a %D %l:%M:%p"
-# 
-# #}}}
-#
-#
-# #}}}
