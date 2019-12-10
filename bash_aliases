@@ -24,7 +24,7 @@ alias whois='whois -H'					# Install whois
 alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
 
 #################
-# Apt-get Aliases
+# Apt Aliases
 #################
 
 alias clean='sudo apt clean'
