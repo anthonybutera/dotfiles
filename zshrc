@@ -1,4 +1,6 @@
 
+setopt  autocd autopushd
+
 # Comment this out to disable weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
@@ -9,6 +11,10 @@ export TERM=xterm-256color
 
 # Sets BROWSER variable to Vivaldi
 export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+
+
+# ZSH-specific aliases
+alias history='fc -flt "%A  %b/%d/%Y  %r"'
 
 
 # Alias definitions.
@@ -69,6 +75,11 @@ export LESS_TERMCAP_se=$'\E[0m'                 # end standout-mode
 export LESS_TERMCAP_so=$'\E[01;44;33m'          # begin standout-mode - info box
 export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
 export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
+
+
+
+
+
 
 
 

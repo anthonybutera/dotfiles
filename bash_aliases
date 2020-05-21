@@ -58,7 +58,7 @@ alias watch='watch -c'
 alias weather='curl http://wttr.in/tampa'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'          # Install whois
-alias zhistory='fc -fl'
+alias zhistory='fc -flt "%A  %b/%d/%Y  %r"'
 
 alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
 
