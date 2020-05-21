@@ -62,7 +62,7 @@ set updatetime=250                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set scrolloff=10						            " Keeps 10 lines above or below visible while scrolling
-" set termguicolors                       " Sets TrueColor to ON
+set termguicolors                       " Sets TrueColor to ON
 
 
 
@@ -137,9 +137,9 @@ nnoremap <leader>l <C-w>l
 
 
 "NerdTreeToggle
-map <leader>e :NERDTreeToggle<CR>
+map <leader>e :NERDTreeToggle / <CR>
 let g:NERDTreeWinPos = "right"
-
+let g:NERDTreeWinSize = "45"
 
 " Fuzzy Finder
 nnoremap <leader>f :Files<CR>
