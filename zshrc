@@ -1,48 +1,11 @@
-# Customize to your needs...
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.local.bin:/mnt/c/Windows/System32/
 
 # Comment this out to disable weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
-# PromptInit Themes
-autoload -Uz compinit promptinit colors && colors
-compinit
-promptinit
-
-# This will set the default prompt to the green Walters theme
-prompt fade green
-
-# Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-# ZSH Tab Completion - Case Insensitivity
-zstyle ':completion*' menu select
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
-
-
-
-
-# ZSH Themes
-# source /path/to/zsh/theme/mrtazz.zsh-theme
-# source /path/to/zsh/theme/terminalparty.zsh-theme
-# source /path/to/zsh/theme/mortalscumbag.zsh-theme
-
-
-
-#-------- Color Manpages
-export LESS_TERMCAP_mb=$'\E[01;31m'             # begin blinking
-export LESS_TERMCAP_md=$'\E[01;31m'             # begin bold
-export LESS_TERMCAP_me=$'\E[0m'                 # end mode
-export LESS_TERMCAP_se=$'\E[0m'                 # end standout-mode
-export LESS_TERMCAP_so=$'\E[01;44;33m'          # begin standout-mode - info box
-export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
-export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
-
-
 
 # Sets terminal type to Xterm 256-color
 export TERM=xterm-256color
+
 
 # Sets BROWSER variable to Vivaldi
 export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
@@ -58,15 +21,63 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 
+# Customize to your needs...
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.local.bin:/mnt/c/Windows/System32/
 
 
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1) 
+# Fix CTRL + Arrow Keys issue
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+
+# History settings
 HISTSIZE=100000
-HISTFILESIZE=200000
-export HISTTIMEFORMAT=" %F  %T  "   #ORIGINAL
-# export HISTTIMEFORMAT="%A  %b/%d/%y  %r  "
-setopt histappend                      # append to history, don't overwrite it
+SAVEHIST=$HISTSIZE
+HISTFILE=$HOME/.zsh_history
+setopt histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+
+# Add blank line after each command
+precmd() { print "" }
+
+
+# PromptInit themes
+autoload -Uz compinit promptinit colors && colors
+compinit
+promptinit
+
+
+# This will set the default prompt to the green Walters theme
+prompt fade green
+
+
+# Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# ZSH Tab Completion - Case Insensitivity
+zstyle ':completion*' menu select
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+
+#-------- Color Manpages
+export LESS_TERMCAP_mb=$'\E[01;31m'             # begin blinking
+export LESS_TERMCAP_md=$'\E[01;31m'             # begin bold
+export LESS_TERMCAP_me=$'\E[0m'                 # end mode
+export LESS_TERMCAP_se=$'\E[0m'                 # end standout-mode
+export LESS_TERMCAP_so=$'\E[01;44;33m'          # begin standout-mode - info box
+export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
+export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
+
+
+
+
+
+
+# ======================================
+# ======================================
+# ======================================
 
 
 # WINDOWS SUBSYSTEM FOR LINUX
@@ -75,15 +86,14 @@ export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
 
-
-# ======================================
-# ======================================
-# ======================================
-
+# ZSH Themes
+# source /path/to/zsh/theme/mrtazz.zsh-theme
+# source /path/to/zsh/theme/terminalparty.zsh-theme
+# source /path/to/zsh/theme/mortalscumbag.zsh-theme
 
 
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+### ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -105,4 +115,7 @@ ZSH=$HOME/.oh-my-zsh
 ###  plugins=(zsh-syntax-highlighting command-not-found)
 
 ###  source $ZSH/oh-my-zsh.sh
+
+
+
 

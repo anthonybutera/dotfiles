@@ -39,7 +39,7 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias fuck='sudo !!'
 alias grep='grep --color=auto'
-alias History='fc -fl'
+alias History='history -t %c'
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
@@ -58,6 +58,7 @@ alias watch='watch -c'
 alias weather='curl http://wttr.in/tampa'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'          # Install whois
+alias zhistory='fc -fl'
 
 alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
 

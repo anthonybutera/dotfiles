@@ -16,8 +16,8 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
-export HISTTIMEFORMAT=" %F  %T  "   #ORIGINAL
-# export HISTTIMEFORMAT="%A  %b/%d/%y  %r  "
+# export HISTTIMEFORMAT=" %F  %T  "   #ORIGINAL
+export HISTTIMEFORMAT="%A  %b/%d/%y  %R  "
 
 
 # check the window size after each command and, if necessary,

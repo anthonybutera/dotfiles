@@ -11,6 +11,9 @@ promptinit
 # This will set the default prompt to the walters theme
 prompt fade red
 
+# Adds a blank line after command output
+precmd() { print "" }
+
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
