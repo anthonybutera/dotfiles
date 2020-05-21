@@ -1,6 +1,4 @@
 
-setopt  autocd autopushd
-
 # Comment this out to disable weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
@@ -15,6 +13,26 @@ export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vi
 
 # ZSH-specific aliases
 alias history='fc -flt "%A  %b/%d/%Y  %r"'
+
+
+# ZSH-specific options
+setopt autocd
+setopt autopushd
+setopt nobeep
+setopt extendedhistory
+setopt noflowcontrol 
+setopt histignoredups
+setopt histignorespace
+setopt histverify
+setopt incappendhistory
+setopt interactive
+setopt menucomplete
+setopt monitor
+setopt promptsubst
+setopt pushdignoredups
+setopt sharehistory
+setopt zle
+
 
 
 # Alias definitions.
