@@ -15,6 +15,14 @@ prompt fade green
 # Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+# ZSH Tab Completion - Case Insensitivity
+zstyle ':completion*' menu select
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+
+
+
 # ZSH Themes
 # source /path/to/zsh/theme/mrtazz.zsh-theme
 # source /path/to/zsh/theme/terminalparty.zsh-theme

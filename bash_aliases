@@ -7,6 +7,31 @@ alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ......='cd ../../../../../'
+alias .......='cd ../../../../../../'
+alias ........='cd ../../../../../../../'
+alias .........='cd ../../../../../../../../'
+alias ..........='cd ../../../../../../../../../'
+alias ...........='cd ../../../../../../../../../../'
+alias ............='cd ../../../../../../../../../../../'
+alias .............='cd ../../../../../../../../../../../../'
+
+
+
+alias ..='cd ../'
+alias 2..='cd ../../'
+alias 3..='cd ../../../'
+alias 4..='cd ../../../../'
+alias 5..='cd ../../../../../'
+alias 6..='cd ../../../../../../'
+alias 7..='cd ../../../../../../../'
+alias 8..='cd ../../../../../../../../'
+alias 9..='cd ../../../../../../../../../'
+alias 10..='cd ../../../../../../../../../../'
+alias 11..='cd ../../../../../../../../../../../'
+alias 12..='cd ../../../../../../../../../../../../'
+
+
+
 
 alias cmd='/mnt/c/Windows/System32/cmd.exe'
 alias dmesg='dmesg --color'
@@ -22,17 +47,17 @@ alias ls='ls --color=auto'
 alias motd='clear && cat /etc/motd'
 alias mule-password-svc_mule='/mnt/c/Windows/System32/OpenSSH/ssh.exe -l svc_nsoc 10.240.29.43'
 alias nano='nano -m'
-alias open='xdg-open'					# Install xdg-utils
+alias open='xdg-open'         # Install xdg-utils
 alias Ping='ping -OA -c 10'
 alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
 alias sl='ls'
-alias smotd='clear && neofetch'				# Install neofetch
+alias smotd='clear && neofetch'       # Install neofetch
 alias start='cmd.exe /C start $*'
 alias w='w -fus'
 alias watch='watch -c'
-alias weather='curl http://wttr.in/tampa'		# Install curl
+alias weather='curl http://wttr.in/tampa'   # Install curl
 alias who='who | column -t'
-alias whois='whois -H'					# Install whois
+alias whois='whois -H'          # Install whois
 
 alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
 
@@ -80,4 +105,3 @@ alias xrdesktop='xfreerdp -g 1280x768 /v:$1 '
 alias sssh='ssh -l root'
 alias rdp='/mnt/c/Windows/System32/mstsc.exe /v:$1 '
 alias mstsc='/mnt/c/Windows/System32/mstsc.exe /v:$1 '
-
