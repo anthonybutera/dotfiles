@@ -1,0 +1,36 @@
+ZSH_DISABLE_COMPFIX=true
+
+ZSH=/home/anthony/.oh-my-zsh
+# ZSH_THEME="mrtazz"
+
+
+autoload -Uz compinit promptinit
+compinit
+promptinit
+
+# This will set the default prompt to the walters theme
+prompt fade red
+
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+plugins=(zsh-syntax-highlighting command-not-found)
+
+
+# Customize to your needs...
+export TERM='xterm-256color'
+
+# Fix CTRL + Arrow Keys issue
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+
+
+source $ZSH
+
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+
