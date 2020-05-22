@@ -20,7 +20,6 @@ call plug#end()
 let g:mapleader="\<Space>"
 " colorscheme gruvbox
 
-
 syntax on                               " Enables syntax highlighing
 set background=dark
 highlight Comment ctermfg=green
@@ -80,11 +79,11 @@ nnoremap <S-k> <C-u>
 
 
 " Page Down Full
-nnoremap <C-j> <C-d>
+nnoremap <C-j> <C-f>
 
 
 " Page Up Full
-nnoremap <C-k> <C-u>
+nnoremap <C-k> <C-b>
 
 
 
@@ -105,17 +104,14 @@ map Y y$
 
 " Alternate way to writeout
 nnoremap <leader>w :w<CR>
-nnoremap <S-w> :w<CR>
 
 
 " Alternate way to save
 nnoremap <leader>s :x<CR>
-nnoremap <S-s> :x<CR>
 
 
 " Alternate way to quit
 nnoremap <leader>q :q!<CR>
-nnoremap <S-q> :q!<CR>
 
 
 " Alternate way to split buffers
@@ -146,5 +142,7 @@ let g:NERDTreeWinSize = "45"
 " Fuzzy Finder
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
+
+
 
 
