@@ -9,13 +9,15 @@ call plug#begin('~/.vim/plugged')
   Plug 'scrooloose/nerdtree'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-  Plug 'BurntSushi/ripgrep'
   Plug 'itchyny/lightline.vim'
   Plug 'vim-scripts/AutoComplPop'
+  Plug 'rhysd/vim-healthcheck'
+  Plug 'sheerun/vim-polyglot'
+
 
 " Colorschemes
-  Plug 'morhetz/gruvbox'
-  Plug 'gosukiwi/vim-atom-dark'
+  Plug 'morhetz/gruvbox'          " <leader>1
+  Plug 'gosukiwi/vim-atom-dark'   " <leader>2
 
 call plug#end()
 
@@ -62,7 +64,7 @@ set splitbelow                " Horizontal splits will automatically be below
 set splitright                " Vertical splits will automatically be to the right
 set tabstop=2                 " Insert 2 spaces for a tab
 set t_Co=256                  " Support 256 colors
-set termguicolors             " Sets TrueColor to ON
+"set termguicolors             " Sets TrueColor to ON
 set timeoutlen=250            " By default timeoutlen is 1000 ms
 set updatetime=100            " Faster completion
 set wildmenu
@@ -70,6 +72,11 @@ set wildmenu
 
 " Keybindings
 " ===========
+
+" Moves cursor by line on screen instead of file  
+nnoremap j gj
+nnoremap k gk
+
 
 " Page 1/2 Up 
 nnoremap <S-j> <C-d>
@@ -149,12 +156,27 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
 
 
+" Tab Completion (built-in)
+inoremap <leader><TAB> <C-n>
 
 
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
 map <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
 map <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
