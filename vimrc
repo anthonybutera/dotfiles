@@ -10,8 +10,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'morhetz/gruvbox'
   Plug 'BurntSushi/ripgrep'
-  Plug 'rhysd/vim-healthcheck'
   Plug 'itchyny/lightline.vim'
+  Plug 'vim-scripts/AutoComplPop'
 
 call plug#end()
 
@@ -63,6 +63,7 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set scrolloff=10						            " Keeps 10 lines above or below visible while scrolling
 set termguicolors                       " Sets TrueColor to ON
+set complete+=kspell                    " AutoComplete Suggestion
 
 
 
@@ -118,9 +119,9 @@ nnoremap <S-q> :q!<CR>
 
 
 " Alternate way to split buffers
-nnoremap <S-v>      :vsp<CR>
-nnoremap <S-h>      :sp<CR>
-nnoremap <leader>ls :ls<CR>
+nnoremap <leader>sv      :vsp<CR>
+nnoremap <leader>sh      :sp<CR>
+nnoremap <leader>ls      :ls<CR>
 
 
 " Escape real quick
@@ -141,7 +142,9 @@ map <leader>e :NERDTreeToggle / <CR>
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeWinSize = "45"
 
+
 " Fuzzy Finder
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
+
 
