@@ -2,16 +2,20 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
+
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
 
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
@@ -24,22 +28,27 @@ export HISTTIMEFORMAT="%A  %b/%d/%y  %R  "
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
 #shopt -s globstar
 
+
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
+
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
+
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
@@ -66,6 +75,7 @@ else
 fi
 unset color_prompt force_color_prompt
 
+
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
@@ -84,6 +94,7 @@ esac
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -118,13 +129,12 @@ export LESS_TERMCAP_so=$'\E[01;44;33m'          # begin standout-mode - info box
 export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
 export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 
-# export MANPAGER="/usr/bin/most -s"             # color using most
+
 export PATH=$HOME/.local/bin/:$PATH
 export TERM="xterm-256color"
 export COLORTERM="truecolor"
 export EDITOR="nano"
-export BROWSER='/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
-
+export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 
 # INSTALL XMING GRAPHICAL DISPLAY SERVER 
