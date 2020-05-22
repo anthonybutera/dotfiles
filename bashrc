@@ -142,4 +142,5 @@ export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
 
-
+# Turn off flow control
+stty -ixon

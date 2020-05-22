@@ -50,7 +50,7 @@ set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set laststatus=2                        " Always display the status line
 set cursorline                          " Enable highlighting of the current line
-" set cursorcolumn                        " Enable highlighting of the current column
+set cursorcolumn                        " Enable highlighting of the current column
 set showtabline=2                       " Always show tabs 
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc
@@ -62,7 +62,7 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set scrolloff=10						            " Keeps 10 lines above or below visible while scrolling
 set termguicolors                       " Sets TrueColor to ON
-set complete+=kspell                    " AutoComplete Suggestion
+set spell! spelllang=en_us 
 
 
 
@@ -89,6 +89,10 @@ nnoremap <C-k> <C-b>
 
 " Miscellaneous
 " =============
+
+" Disable flow control
+map <C-s> <Nop>
+
 
 " Go to the beginning of the line
 nnoremap gh 0
