@@ -62,7 +62,7 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set scrolloff=10						            " Keeps 10 lines above or below visible while scrolling
 set termguicolors                       " Sets TrueColor to ON
-set spell! spelllang=en_us 
+" set spell! spelllang=en_us 
 
 
 
