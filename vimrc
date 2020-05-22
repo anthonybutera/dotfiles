@@ -15,8 +15,6 @@ call plug#begin('~/.vim/plugged')
 
 " Colorschemes
   Plug 'morhetz/gruvbox'
-  Plug 'kristijanhusak/vim-hybrid-material'
-  Plug 'jacoborus/tender.vim'
   Plug 'gosukiwi/vim-atom-dark'
 
 call plug#end()
@@ -24,59 +22,50 @@ call plug#end()
 
 " set leader key and color scheme
 let g:mapleader="\<Space>"
-" colorscheme gruvbox
+
 
 syntax on                     " Enables syntax highlighing
 highlight Comment ctermfg=green
-set background=dark
+set autoindent                " Good auto indent
+set autoread                  " Autoread
+set background=dark 
+set clipboard=unnamedplus     " Copy paste between vim and everything else
+set cmdheight=1               " More space for displaying messages
+set conceallevel=0            " So that I can see `` in markdown files
+set cursorcolumn              " Enable highlighting of the current column
+set cursorline                " Enable highlighting of the current line
+set encoding=utf-8            " The encoding displayed 
+set expandtab                 " Converts tabs to spaces
+set fileencoding=utf-8        " The encoding written to file
+set hidden                    " Required to keep multiple buffers open multiple buffers
+set ignorecase
+set incsearch
+set iskeyword+=-              " treat dash separated words as a word text object"
+set laststatus=2              " Always display the status line
+set mouse=a                   " Enable your mouse
+set nobackup                  " This is recommended by coc
+set noshowmode                " We don't need to see things like -- INSERT -- anymore
+set noswapfile                " Same as nobackup
+set nowritebackup             " This is recommended by coc
+set pumheight=10              " Makes popup menu smaller
+set relativenumber
+set ruler
+set scrolloff=10						  " Keeps 10 lines above or below visible while scrolling
+set shiftwidth=2              " Change the number of space characters inserted for indentation
 set showcmd
 set showmatch
-set ignorecase
+set showtabline=2             " Always show tabs 
 set smartcase
-set incsearch
-set relativenumber
-set wildmenu
-set ruler
-set hidden                    " Required to keep multiple buffers open multiple buffers
-set encoding=utf-8            " The encoding displayed 
-set pumheight=10              " Makes popup menu smaller
-set fileencoding=utf-8        " The encoding written to file
-set cmdheight=1               " More space for displaying messages
-set iskeyword+=-              " treat dash separated words as a word text object"
-set mouse=a                   " Enable your mouse
+set smartindent               " Makes indenting smart
+set smarttab                  " Makes tabbing smarter will realize you have 2 vs 4
 set splitbelow                " Horizontal splits will automatically be below
 set splitright                " Vertical splits will automatically be to the right
-set t_Co=256                  " Support 256 colors
-set conceallevel=0            " So that I can see `` in markdown files
 set tabstop=2                 " Insert 2 spaces for a tab
-set shiftwidth=2              " Change the number of space characters inserted for indentation
-set smarttab                  " Makes tabbing smarter will realize you have 2 vs 4
-set expandtab                 " Converts tabs to spaces
-set smartindent               " Makes indenting smart
-set autoindent                " Good auto indent
-set laststatus=2              " Always display the status line
-set cursorline                " Enable highlighting of the current line
-set cursorcolumn              " Enable highlighting of the current column
-set showtabline=2             " Always show tabs 
-set noshowmode                " We don't need to see things like -- INSERT -- anymore
-set nobackup                  " This is recommended by coc
-set nowritebackup             " This is recommended by coc
-set noswapfile                " Same as nobackup
-set autoread                  " Autoread
-set updatetime=250            " Faster completion
-set timeoutlen=500            " By default timeoutlen is 1000 ms
-set clipboard=unnamedplus     " Copy paste between vim and everything else
-set scrolloff=10						  " Keeps 10 lines above or below visible while scrolling
+set t_Co=256                  " Support 256 colors
 set termguicolors             " Sets TrueColor to ON
-" set spell! spelllang=en_us 
-
-
-" Colorschemes
-" ============
-map ! :colorscheme gruvbox<CR>               " https://github.com/morhetz/gruvbox
-map @ :colorscheme vim-material<CR>          " https://github.com/kristijanhusak/vim-hybrid-material
-map # :colorscheme tender<CR>                " https://github.com/jacoborus/tender.vim
-map $ :colorscheme atom-dark-256<CR>         " https://github.com/gosukiwi/vim-atom-dark
+set timeoutlen=250            " By default timeoutlen is 1000 ms
+set updatetime=100            " Faster completion
+set wildmenu
 
 
 " Keybindings
@@ -159,6 +148,13 @@ let g:NERDTreeWinSize = "45"
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
 
+
+
+
+" Colorschemes (must be at the bottom of the .vimrc file)
+" ============
+map <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
+map <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
 
 
 
