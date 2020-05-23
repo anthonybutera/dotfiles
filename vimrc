@@ -14,10 +14,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'rhysd/vim-healthcheck'
   Plug 'sheerun/vim-polyglot'
 
-
 " Colorschemes
-  Plug 'morhetz/gruvbox'          " <leader>1
-  Plug 'gosukiwi/vim-atom-dark'   " <leader>2
+  Plug 'morhetz/gruvbox'                    " <leader>1
+  Plug 'gosukiwi/vim-atom-dark'             " <leader>2
+  Plug 'pcostasgr/red_alert_vim_theme'      " <leader>3 -- Must enable 'set termguicolors'
 
 call plug#end()
 
@@ -52,10 +52,11 @@ set nowritebackup             " This is recommended by coc
 set pumheight=10              " Makes popup menu smaller
 set relativenumber
 set ruler
-set scrolloff=10						  " Keeps 10 lines above or below visible while scrolling
+set scrolloff=10						  " Keeps 10 lines above or below the cursor visible while scrolling
 set shiftwidth=2              " Change the number of space characters inserted for indentation
 set showcmd
 set showmatch
+set sidescrolloff=5           " Keeps 5 lines left or right of the cursor visible while scrolling
 set showtabline=2             " Always show tabs 
 set smartcase
 set smartindent               " Makes indenting smart
@@ -64,7 +65,7 @@ set splitbelow                " Horizontal splits will automatically be below
 set splitright                " Vertical splits will automatically be to the right
 set tabstop=2                 " Insert 2 spaces for a tab
 set t_Co=256                  " Support 256 colors
-"set termguicolors             " Sets TrueColor to ON
+set termguicolors             " Sets TrueColor to ON
 set timeoutlen=250            " By default timeoutlen is 1000 ms
 set updatetime=100            " Faster completion
 set wildmenu
@@ -164,8 +165,10 @@ inoremap <leader><TAB> <C-n>
 " ============
 map <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
 map <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
+map <leader>3 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
 
 
-
-
+if $USER == 'root'
+  :colorscheme red_alert
+endif
 
