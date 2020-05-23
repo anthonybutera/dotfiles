@@ -17,9 +17,8 @@ call plug#begin('~/.vim/plugged')
 " Colorschemes
   Plug 'morhetz/gruvbox'                    " <leader>1
   Plug 'gosukiwi/vim-atom-dark'             " <leader>2
-  Plug 'pcostasgr/red_alert_vim_theme'      " <leader>3 -- Must enable 'set termguicolors'
-  Plug 'float168/vim-colors-cherryblossom'
-
+  Plug 'float168/vim-colors-cherryblossom'  " <leader>3
+  Plug 'pcostasgr/red_alert_vim_theme'      " <leader>4 -- Must enable 'set termguicolors'
 call plug#end()
 
 
