@@ -178,8 +178,8 @@ set suspend
 ## In root's .nanorc you might want to use:
  set titlecolor brightwhite,red
  set statuscolor brightwhite,red
-# set errorcolor brightwhite,red
-# set selectedcolor brightwhite,brightblue
+ set errorcolor brightwhite,red
+ set selectedcolor brightwhite,magenta
  set numbercolor brightred
  set keycolor brightred
  set functioncolor white
