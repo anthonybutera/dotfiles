@@ -169,14 +169,3 @@ map <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gos
 
 
 
-
-
-
-
-
-
-
-
-
-
-
