@@ -1,7 +1,7 @@
 "Use double quotes to comment lines out in .vimrc
 
 
-" Vim-Plug
+" Vim-Plug                    " https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
 
 " Scripts
