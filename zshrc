@@ -72,8 +72,19 @@ compinit
 promptinit
 
 
+# This will set the default prompt to the Walters theme
+# User = green
+# Root = red
+
+if ! [ $(id -u) = 0 ]; then
+     prompt fade green
+  else
+     prompt fade red
+fi
+
+
 # This will set the default prompt to the green Walters theme
-prompt fade green
+## prompt fade green
 
 
 # Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )

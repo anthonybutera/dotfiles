@@ -65,7 +65,7 @@ set mouse
 
 ## Switch on multiple file buffers (inserting a file will put it into
 ## a separate buffer).
-# set multibuffer
+set multibuffer
 
 ## Don't convert files from DOS/Mac format.
 set noconvert
@@ -93,7 +93,7 @@ set nonewlines
 # set positionlog
 
 ## Preserve the XON and XOFF keys (^Q and ^S).
-# set preserve
+set preserve
 
 ## The characters treated as closing punctuation when justifying
 ## paragraphs.  They cannot contain blank characters.  Only closing
