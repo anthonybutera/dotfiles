@@ -1,4 +1,29 @@
 
+# PromptInit themes
+autoload -Uz compinit promptinit colors && colors
+compinit
+promptinit
+
+
+# =====================================================
+# This will set the default prompt to the Walters theme
+# User = green
+# Root = red
+
+THEMES_DIR=/home/anthony/dotfiles
+
+if ! [ $(id -u) = 0 ]; then
+     prompt fade green 
+#     source $THEMES_DIR/themes/mortalscumbag.zsh-theme       # Green 2-lined prompt
+#     source $THEMES_DIR/themes/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
+else
+     prompt fade red
+#     source $THEMES_DIR/themes/mrtazz.zsh-theme              # Red standard prompt
+
+fi
+# =====================================================
+
+
 # Comment this out to disable weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
@@ -66,25 +91,11 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 precmd() { print "" }
 
 
-# PromptInit themes
-autoload -Uz compinit promptinit colors && colors
-compinit
-promptinit
 
 
-# This will set the default prompt to the Walters theme
-# User = green
-# Root = red
-
-if ! [ $(id -u) = 0 ]; then
-     prompt fade green
-  else
-     prompt fade red
-fi
 
 
-# This will set the default prompt to the green Walters theme
-## prompt fade green
+
 
 
 # Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )
@@ -125,11 +136,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
-
-# ZSH Themes
-# source /path/to/zsh/theme/mrtazz.zsh-theme
-# source /path/to/zsh/theme/terminalparty.zsh-theme
-# source /path/to/zsh/theme/mortalscumbag.zsh-theme
 
 
 # Path to your oh-my-zsh configuration.
