@@ -18,6 +18,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'morhetz/gruvbox'                    " <leader>1
   Plug 'gosukiwi/vim-atom-dark'             " <leader>2
   Plug 'pcostasgr/red_alert_vim_theme'      " <leader>3 -- Must enable 'set termguicolors'
+  Plug 'float168/vim-colors-cherryblossom'
 
 call plug#end()
 
@@ -165,7 +166,8 @@ inoremap <leader><TAB> <C-n>
 " ============
 map <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
 map <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
-map <leader>3 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
+map <leader>3 :colorscheme cherryblossom<CR>            " https://github.com/float168/vim-colors-cherryblossom
+map <leader>4 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
 
 
 if $USER == 'root'
