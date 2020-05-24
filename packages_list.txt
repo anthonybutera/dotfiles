@@ -1,6 +1,6 @@
 # Reinstall Debian packages command
 # - https://linuxize.com/post/how-to-list-installed-packages-on-debian/
-#
+# - https://www.linuxquestions.org/questions/linux-software-2/force-apt-get-to-redownload-and-reinstall-dependencies-as-well-873038/
 # sudo xargs -a packages_list.txt apt install
 
 # Package list as of Saturday, May 23, 2020

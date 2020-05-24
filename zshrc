@@ -8,8 +8,9 @@ compinit
 promptinit
 
 
-# =====================================================
+# ==========================================================
 # This will set the default prompt to the Walters theme
+# Only 1 line from each section can be uncommented at a time
 # User = green
 # Root = red
 

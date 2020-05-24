@@ -170,5 +170,7 @@ nnoremap <leader>4 :colorscheme red_alert<CR>                " https://github.co
 
 if $USER == 'root'
   :colorscheme red_alert
+else
+  :colorscheme gruvbox
 endif
 
