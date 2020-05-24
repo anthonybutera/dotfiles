@@ -10,7 +10,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'itchyny/lightline.vim'
-  Plug 'vim-scripts/AutoComplPop'
   Plug 'rhysd/vim-healthcheck'
   Plug 'sheerun/vim-polyglot'
 
@@ -33,8 +32,10 @@ set autoread                  " Autoread
 set background=dark 
 set clipboard=unnamedplus     " Copy paste between vim and everything else
 set cmdheight=1               " More space for displaying messages
+set complete+=k               " Shortcut for autocomplete
+set cot=longest,menuone       " Sets completeopt option
 set conceallevel=0            " So that I can see `` in markdown files
-set cursorcolumn              " Enable highlighting of the current column
+" set cursorcolumn              " Enable highlighting of the current column
 set cursorline                " Enable highlighting of the current line
 set encoding=utf-8            " The encoding displayed 
 set expandtab                 " Converts tabs to spaces
@@ -93,6 +94,7 @@ nnoremap <C-j> <C-f>
 
 " Page Up Full
 nnoremap <C-k> <C-b>
+
 
 
 
@@ -157,16 +159,13 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
 
 
-" Tab Completion (built-in)
-inoremap <leader><TAB> <C-n>
-
 
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
-map <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
-map <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
-map <leader>3 :colorscheme cherryblossom<CR>            " https://github.com/float168/vim-colors-cherryblossom
-map <leader>4 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
+nnoremap <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
+nnoremap <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
+nnoremap <leader>3 :colorscheme cherryblossom<CR>            " https://github.com/float168/vim-colors-cherryblossom
+nnoremap <leader>4 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
 
 
 if $USER == 'root'

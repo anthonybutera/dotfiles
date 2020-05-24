@@ -1,4 +1,7 @@
 
+# Customize to your needs...
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.local.bin:/mnt/c/Windows/System32/
+
 # PromptInit themes
 autoload -Uz compinit promptinit colors && colors
 compinit
@@ -59,21 +62,6 @@ setopt sharehistory
 setopt zle
 
 
-
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-
-# Customize to your needs...
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.local.bin:/mnt/c/Windows/System32/
-
-
 # Fix CTRL + Arrow Keys issue
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
@@ -91,13 +79,6 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 precmd() { print "" }
 
 
-
-
-
-
-
-
-
 # Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -105,6 +86,14 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # ZSH Tab Completion - Case Insensitivity
 zstyle ':completion*' menu select
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+
+
+
+
+# ======================================
+# ======================================
+# ======================================
 
 
 #-------- Color Manpages
@@ -118,19 +107,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 
 
 
-
-
-
-
-
-
-
-
-# ======================================
-# ======================================
-# ======================================
-
-
 # WINDOWS SUBSYSTEM FOR LINUX
 # - INSTALL XMING GRAPHICAL DISPLAY SERVER
 export DISPLAY=:0
@@ -138,30 +114,14 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 
 
-# Path to your oh-my-zsh configuration.
-### ZSH=$HOME/.oh-my-zsh
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-
-# ZSH_THEME="mrtazz"
-# ZSH_THEME="terminalparty"		# 1-lined, % symbol and right-side full working directory 
-# ZSH_THEME="clean"			# 1-lined,white username:blue working directory and right-side HH:MM:SS
-# ZSH_THEME="eastwood"			# 1-lined, no time displayed, aqua color prompt, prints full working directory
-### ZSH_THEME="fox"				# 2-lined, time on left, prints full working directory
-# ZSH_THEME="geoffgarside"		# 1-lined, aqua color, time on left, prints short directory
-# ZSH_THEME="jonathan"			# 2-lined with bright colors and a turquiose bar across the command line
-# ZSH_THEME="mortalscumbag"		# 2-lined, green prompt, no time display, *** CARRIAGE RETURN AFTER COMMAND RESULT OUTPUT! ***
-# ZSH_THEME="pmcgee"			# 2-lined, green prompt, right-side time display, carriage return after command result output
-
-
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-###  plugins=(zsh-syntax-highlighting command-not-found)
-
-###  source $ZSH/oh-my-zsh.sh
-
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 
 

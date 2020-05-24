@@ -53,6 +53,7 @@ alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
 alias sl='ls'
 alias smotd='clear && neofetch'       # Install neofetch
 alias start='cmd.exe /C start $*'
+alias vim='nvim'
 alias w='w -fus'
 alias watch='watch -c'
 alias weather='curl http://wttr.in/tampa'   # Install curl
