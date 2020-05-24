@@ -55,7 +55,6 @@ e2fsprogs-l10n
 elinks
 elinks-data
 emacsen-common
-exim4-config
 exuberant-ctags
 fd-find
 file
@@ -404,7 +403,6 @@ mc-data
 mime-support
 mlocate
 mount
-multiarch-support
 mysql-common
 nano
 ncurses-base
