@@ -62,6 +62,7 @@ set showtabline=2             " Always show tabs
 set smartcase
 set smartindent               " Makes indenting smart
 set smarttab                  " Makes tabbing smarter will realize you have 2 vs 4
+set spell spelllang=en_us     " Sets the spell checking language to US English
 set splitbelow                " Horizontal splits will automatically be below
 set splitright                " Vertical splits will automatically be to the right
 set tabstop=2                 " Insert 2 spaces for a tab

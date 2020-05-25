@@ -1,7 +1,10 @@
 #!/bin/sh
 # ln -sf /path/to/dotfile  /path/to/destination
 
-# sudo apt install vim neovim
+# Check for VIM/NeoVIM installation
+# - sudo apt install vim neovim
+for package in {vim,neovim}; do dpkg -s $package >/dev/null 2>&1 && {echo $package is installed.} || {sudo apt install $package}; done
+
 
 ME="$(/usr/bin/id -run)"
 
@@ -32,4 +35,5 @@ sudo ln -sf /home/$ME/dotfiles/zshrc         /root/.zshrc
 if [ ! -f $HOME/.vim/autoload/plug.vim ]; then
     curl -kfLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
+
 
