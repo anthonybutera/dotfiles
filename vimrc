@@ -18,6 +18,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'gosukiwi/vim-atom-dark'             " <leader>2
   Plug 'float168/vim-colors-cherryblossom'  " <leader>3
   Plug 'pcostasgr/red_alert_vim_theme'      " <leader>4 -- Must enable 'set termguicolors'
+
 call plug#end()
 
 
@@ -68,7 +69,7 @@ set splitright                " Vertical splits will automatically be to the rig
 set tabstop=2                 " Insert 2 spaces for a tab
 set t_Co=256                  " Support 256 colors
 set termguicolors             " Sets TrueColor to ON
-set timeoutlen=250            " By default timeoutlen is 1000 ms
+set timeoutlen=500            " By default timeoutlen is 1000 ms
 set updatetime=100            " Faster completion
 set wildmenu
 
