@@ -193,3 +193,13 @@ else
   :colorscheme gruvbox
 endif
 
+
+
+
+
+" intellij style autocomplete shortcut
+" inoremap <C-@> <C-x><C-o>
+" inoremap <C-Space> <C-x><C-o>
+
+
+
