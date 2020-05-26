@@ -42,7 +42,7 @@ set cot=longest,menuone       " Sets completeopt option
 set conceallevel=0            " So that I can see `` in markdown files
 " set cursorcolumn              " Enable highlighting of the current column
 set cursorline                " Enable highlighting of the current line
-set dictionary+=/usr/share/dict/words
+setlocal dictionary+=/usr/share/dict/words
 set encoding=utf-8            " The encoding displayed 
 set expandtab                 " Converts tabs to spaces
 set fileencoding=utf-8        " The encoding written to file
