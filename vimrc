@@ -167,4 +167,4 @@ endif
 
 
 
-
+" THIS SHOULD BE IN VIMRC, NOT IN INIT.VIM
