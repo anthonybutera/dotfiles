@@ -11,7 +11,7 @@ for package in {neovim}; do dpkg -s $package >/dev/null 2>&1 && {echo $package i
 # - https://github.com/junegunn/vim-plug
 
 if [ ! -f $HOME/.config/nvim/autoload/plug.vim ]; then
-  sh -c 'curl -kfLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
 
