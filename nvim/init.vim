@@ -10,9 +10,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'itchyny/lightline.vim'
-  Plug 'rhysd/vim-healthcheck'
   Plug 'sheerun/vim-polyglot'
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } 
 
 " Colorschemes
   Plug 'morhetz/gruvbox'                    " <leader>1
