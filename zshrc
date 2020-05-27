@@ -45,7 +45,7 @@ export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vi
 
 
 # ZSH-specific aliases
-alias history='fc -flt "%A  %b/%d/%Y  %r" 1'
+alias history='fc -flt "%A  %b-%d-%Y  %r" -500'
 
 
 # ZSH-specific options
@@ -73,7 +73,7 @@ bindkey "^[[1;5D" backward-word
 
 
 # History settings
-HISTSIZE=100000
+HISTSIZE=-1
 SAVEHIST=$HISTSIZE
 HISTFILE=$HOME/.zsh_history
 setopt histappend

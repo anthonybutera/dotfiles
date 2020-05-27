@@ -18,9 +18,9 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
 # export HISTTIMEFORMAT=" %F  %T  "   #ORIGINAL
+HISTSIZE=-1
+HISTFILESIZE=$HISTSIZE
 export HISTTIMEFORMAT="%A  %b/%d/%y  %R  "
 
 
@@ -66,16 +66,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+
 if [ "$color_prompt" = yes ]; then
     PS1='${debian_chroot:+($debian_chroot)}\n\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] $ '
-
 else
     PS1='${debian_chroot:+($debian_chroot)}\n\u@\h:\w $ '
-
 fi
 unset color_prompt force_color_prompt
-
-
 
 
 if [ $(id -u) -eq 0 ];
@@ -84,9 +81,6 @@ then # you are root, make the prompt red
     else
           PS1='${debian_chroot:+($debian_chroot)}\n\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] $ '
 fi
-
-
-
 
 
 # If this is an xterm set the title to user@host:dir
@@ -117,9 +111,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
-# [ -n "$XTERM_VERSION" ] && transset -a > /dev/null
-
-
 #-------- Color Commands
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"
@@ -146,7 +137,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 export PATH=$HOME/.local/bin/:$PATH
 export TERM="xterm-256color"
 export COLORTERM="truecolor"
-export EDITOR="nano"
+export EDITOR="nvim"
 export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 
