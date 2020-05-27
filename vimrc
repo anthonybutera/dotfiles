@@ -1,8 +1,9 @@
 "Use double quotes to comment lines out in .vimrc
 
+ME="$(/usr/bin/id -run)"
 
 " Vim-Plug                    " https://github.com/junegunn/vim-plug
-call plug#begin('~/.vim/plugged')
+call plug#begin('$ME/dotfiles/nvim/plugged')
 
 " Scripts
   Plug 'junegunn/vim-plug'
