@@ -39,7 +39,7 @@ alias dmesg='dmesg --color'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
-alias History='history 1 | fzf'
+alias History='fc -flt "%A  %b/%d/%Y  %r" 1 | fzf --tac --height=10'
 alias less='less -N'
 alias l='ls -CF'
 alias la='ls -A'
@@ -62,7 +62,6 @@ alias watch='watch -c'
 alias weather='curl http://wttr.in/tampa'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'          # Install whois
-alias zhistory='fc -flt "%A  %b/%d/%Y  %r"'
 
 alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
 
