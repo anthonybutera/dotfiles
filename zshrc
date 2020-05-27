@@ -45,7 +45,7 @@ export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vi
 
 
 # ZSH-specific aliases
-alias history='fc -flt "%A  %b/%d/%Y  %r"'
+alias history='fc -flt "%A  %b/%d/%Y  %r" 1'
 
 
 # ZSH-specific options
