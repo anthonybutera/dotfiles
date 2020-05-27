@@ -18,22 +18,22 @@ promptinit
 # User = green
 # Root = red
 
-THEMES_DIR=/home/anthony/dotfiles
+THEMES_DIR=$HOME/dotfiles
 
 if ! [ $(id -u) = 0 ]; then
      prompt fade green 
-#     source $THEMES_DIR/themes/mortalscumbag.zsh-theme       # Green 2-lined prompt
-#     source $THEMES_DIR/themes/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
+###     source $THEMES_DIR/themes/mortalscumbag.zsh-theme       # Green 2-lined prompt
+###     source $THEMES_DIR/themes/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
 else
      prompt fade red
-#     source $THEMES_DIR/themes/mrtazz.zsh-theme              # Red standard prompt
+###     source $THEMES_DIR/themes/mrtazz.zsh-theme              # Red standard prompt
 
 fi
 # =====================================================
 
 
 # Comment this out to disable weekly auto-update checks
-DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="false"
 
 
 # Sets terminal type to Xterm 256-color
@@ -48,36 +48,36 @@ export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vi
 alias history='fc -flt "%A  %b-%d-%Y  %r" -500'
 
 
+# History settings
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=$HISTSIZE
+setopt histappend
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+
 # ZSH-specific options
 setopt autocd
 setopt autopushd
-setopt nobeep
-setopt extendedhistory
-setopt noflowcontrol 
-setopt histignoredups
-setopt histignorespace
-setopt histverify
-setopt incappendhistory
+setopt no_beep
+setopt extended_history
+# setopt flowcontrol 
+setopt hist_ignore_dups
+# setopt hist_ignore_space
+setopt hist_verify
+# setopt inc_append_history                 # Disable this is SHARE_HISTORY is enabled
 setopt interactive
-setopt menucomplete
+setopt menu_complete
 setopt monitor
-setopt promptsubst
-setopt pushdignoredups
-setopt sharehistory
+setopt prompt_subst
+setopt pushd_ignore_dups
+setopt share_history
 setopt zle
 
 
 # Fix CTRL + Arrow Keys issue
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
-
-
-# History settings
-HISTSIZE=-1
-SAVEHIST=$HISTSIZE
-HISTFILE=$HOME/.zsh_history
-setopt histappend
-export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 
 # Add blank line after each command
@@ -91,9 +91,6 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # ZSH Tab Completion - Case Insensitivity
 zstyle ':completion*' menu select
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
-
-
-
 
 
 # ======================================
