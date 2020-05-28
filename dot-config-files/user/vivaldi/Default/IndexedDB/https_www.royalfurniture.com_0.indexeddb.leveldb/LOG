@@ -1,5 +1,0 @@
-2020/04/16-22:01:14.359 614a Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.royalfurniture.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/16-22:01:34.043 ea8 Level-0 table #5: started
-2020/04/16-22:01:34.053 ea8 Level-0 table #5: 576 bytes OK
-2020/04/16-22:01:34.060 ea8 Delete type=0 #3
-2020/04/16-22:01:34.060 ea8 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

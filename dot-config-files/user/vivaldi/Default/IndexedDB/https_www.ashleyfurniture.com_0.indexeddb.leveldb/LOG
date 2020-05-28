@@ -1,8 +1,0 @@
-2020/05/09-22:18:06.744 8a23 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.ashleyfurniture.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/09-22:18:06.744 8a23 Recovering log #7
-2020/05/09-22:18:06.744 8a23 Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.ashleyfurniture.com_0.indexeddb.leveldb/000007.log 
-2020/05/09-22:19:10.003 19a2 Level-0 table #11: started
-2020/05/09-22:19:10.003 19a2 Level-0 table #11: 0 bytes OK
-2020/05/09-22:19:10.008 19a2 Delete type=0 #7
-2020/05/09-22:19:10.008 19a2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/05/09-22:19:10.009 19a2 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

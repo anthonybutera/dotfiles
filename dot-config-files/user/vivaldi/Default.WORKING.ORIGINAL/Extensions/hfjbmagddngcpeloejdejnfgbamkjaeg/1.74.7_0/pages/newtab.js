@@ -1,1 +1,0 @@
-"use strict";var q=localStorage,z="false"!==q.focusNewTabContent,I=chrome;I.tabs[z?"create":"update"]({url:q.newTabUrl_f||"about:blank"},void 0),z&&close();

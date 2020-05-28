@@ -1,7 +1,0 @@
-2020/04/24-18:25:56.838 a38e Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.techradar.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/24-18:25:56.839 a38e Recovering log #3
-2020/04/24-18:25:56.839 a38e Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.techradar.com_0.indexeddb.leveldb/000003.log 
-2020/04/24-18:29:35.135 744a Level-0 table #5: started
-2020/04/24-18:29:35.142 744a Level-0 table #5: 1563 bytes OK
-2020/04/24-18:29:35.155 744a Delete type=0 #3
-2020/04/24-18:29:35.155 744a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

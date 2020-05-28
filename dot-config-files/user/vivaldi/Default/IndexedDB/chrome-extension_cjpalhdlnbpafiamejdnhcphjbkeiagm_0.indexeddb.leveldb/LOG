@@ -1,8 +1,0 @@
-2020/05/28-00:40:01.445 3bad Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/28-00:40:01.445 3bad Recovering log #82
-2020/05/28-00:40:01.445 3bad Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000082.log 
-2020/05/28-00:40:03.453 3ca1 Level-0 table #86: started
-2020/05/28-00:40:03.453 3ca1 Level-0 table #86: 0 bytes OK
-2020/05/28-00:40:03.459 3ca1 Delete type=0 #82
-2020/05/28-00:40:03.459 3ca1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/05/28-00:40:03.460 3ca1 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

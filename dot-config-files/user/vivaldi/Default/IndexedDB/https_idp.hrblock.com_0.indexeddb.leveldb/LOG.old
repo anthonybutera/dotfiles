@@ -1,9 +1,0 @@
-2020/04/04-01:56:22.354 63a3 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_idp.hrblock.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/04-01:56:29.757 5ec7 Level-0 table #5: started
-2020/04/04-01:56:29.761 5ec7 Level-0 table #5: 576 bytes OK
-2020/04/04-01:56:29.768 5ec7 Delete type=0 #3
-2020/04/04-01:56:29.768 5ec7 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2020/04/04-01:56:32.887 5ec7 Level-0 table #7: started
-2020/04/04-01:56:32.897 5ec7 Level-0 table #7: 561 bytes OK
-2020/04/04-01:56:32.901 5ec7 Delete type=0 #4
-2020/04/04-01:56:32.902 5ec7 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,5 +1,0 @@
-2020/04/24-17:49:44.265 9c38 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.zdnet.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/24-17:50:16.292 744a Level-0 table #5: started
-2020/04/24-17:50:16.305 744a Level-0 table #5: 1651 bytes OK
-2020/04/24-17:50:16.309 744a Delete type=0 #3
-2020/04/24-17:50:16.309 744a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
