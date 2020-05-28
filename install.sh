@@ -8,12 +8,25 @@ if ! [ -x "$(command -v neovim)" ]; then
 fi
 
 
+
+if [ -d /home/$ME/.config ]; then
+  mv /home/$ME/.config $ME/.config-old && ln -sf /home/$ME/dotfiles/dot-config-files/user /home/$ME/.config
+fi
+
+
+if [ -d /root/.config ]; then
+  sudo mv /root/.config /root/.config-old && ln -sf /home/$ME/dotfiles/dot-config-files/root /root/.config
+fi
+
+
+
 # Install Vim-Plug if necessary
 # - https://github.com/junegunn/vim-plug
 
 if [ ! -f $HOME/dotfiles/nvim/autoload/plug.vim ]; then
  curl -kfLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
+
 
 
 # Configure Aliases
