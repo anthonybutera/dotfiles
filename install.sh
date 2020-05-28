@@ -2,6 +2,7 @@
 
 ME="$(/usr/bin/id -run)"
 
+
 # Check for NeoVIM installation
 
 if ! [ -x "$(command -v neovim)" ]; then
@@ -42,29 +43,26 @@ fi
 # ln -sf /path/to/dotfile  /path/to/destination
 
 # User
-ln -sf $HOME/dotfiles/bash_aliases                   $HOME/.bash_aliases
-ln -sf $HOME/dotfiles/bashrc                         $HOME/.bashrc
-ln -sf $HOME/dotfiles/nvim/init.vim                  $HOME/.vimrc
-ln -sf $HOME/dotfiles/zshrc                          $HOME/.zshrc
+ln -sf $HOME/dotfiles/bash_aliases                           $HOME/.bash_aliases
+ln -sf $HOME/dotfiles/bashrc                                 $HOME/.bashrc
+ln -sf $HOME/dotfiles/dot-config-files/user/nvim/init.vim    $HOME/.vimrc
+ln -sf $HOME/dotfiles/zshrc                                  $HOME/.zshrc
 
-# ln -sf $HOME/dotfiles/nvim                           $HOME/.config/nvim
-# ln -sf $HOME/dotfiles/nanorc                         $HOME/.nanorc
-# ln -sf $HOME/dotfiles/tmux.conf                      $HOME/.tmux.conf
-# ln -sf $HOME/dotfiles/w3m_keymap                     $HOME/.w3m_keymap
+# ln -sf $HOME/dotfiles/nvim         $HOME/.config/nvim
+# ln -sf $HOME/dotfiles/nanorc       $HOME/.nanorc
+# ln -sf $HOME/dotfiles/tmux.conf    $HOME/.tmux.conf
+# ln -sf $HOME/dotfiles/w3m_keymap   $HOME/.w3m_keymap
 
 
 # Root
-sudo ln -sf /home/$ME/dotfiles/bash_aliases          /root/.bash_aliases
-sudo ln -sf /home/$ME/dotfiles/bashrc                /root/.bashrc
-sudo ln -sf /home/$ME/dotfiles/nvim/init.vim         /root/.vimrc
-sudo ln -sf /home/$ME/dotfiles/zshrc                 /root/.zshrc
+sudo ln -sf /home/$ME/dotfiles/bash_aliases                           /root/.bash_aliases
+sudo ln -sf /home/$ME/dotfiles/bashrc                                 /root/.bashrc
+sudo ln -sf /home/$ME/dotfiles/dot-config-files/user/nvim/init.vim    /root/.vimrc
+sudo ln -sf /home/$ME/dotfiles/zshrc                                  /root/.zshrc
 
-# sudo ln -sf /home/$ME/dotfiles/nvim                  /root/.config/nvim 
-# sudo ln -sf /home/$ME/dotfiles/nanorc.root           /root/.nanorc
-# sudo ln -sf /home/$ME/dotfiles/w3m_keymap            /root/.w3m_keymap
-
-
-
+# sudo ln -sf /home/$ME/dotfiles/nvim          /root/.config/nvim 
+# sudo ln -sf /home/$ME/dotfiles/nanorc.root   /root/.nanorc
+# sudo ln -sf /home/$ME/dotfiles/w3m_keymap    /root/.w3m_keymap
 
 
 echo "All done. Enjoy!"

@@ -1,6 +1,6 @@
 
 # Customize to your needs...
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$HOME/.local.bin #:/mnt/c/Windows/System32/
+export PATH=$PATH:$HOME/.local.bin:/mnt/c/Windows/System32/
 
 # Fix Globbing
 # - https://www.bartbusschots.ie/s/2019/06/12/bash-to-zsh-file-globbing-and-no-matches-found-errors/
