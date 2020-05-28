@@ -1,0 +1,50 @@
+[global_config]
+[keybindings]
+  new_tab = <Alt>t
+  go_up = <Alt>i
+  go_down = <Alt>k
+  go_left = <Alt>j
+  go_right = <Alt>l
+  split_horiz = <Alt>h
+  split_vert = <Alt>v
+  search = <Alt>f
+  resize_up = <Alt>Up
+  resize_down = <Alt>Down
+  resize_left = <Alt>Left
+  resize_right = <Alt>Right
+  move_tab_right = None
+  move_tab_left = None
+  toggle_zoom = <Alt>z
+  scaled_zoom = <Shift><Alt>z
+  hide_window = None
+  group_all = None
+  ungroup_all = None
+  group_tab = None
+  ungroup_tab = None
+  new_window = <Primary><Alt>t
+  broadcast_off = None
+  broadcast_group = None
+  broadcast_all = None
+  insert_number = None
+  insert_padded = None
+  edit_window_title = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  layout_launcher = None
+[profiles]
+  [[default]]
+    background_darkness = 0.95
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
