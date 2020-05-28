@@ -1,0 +1,8 @@
+2020/04/24-21:34:03.930 cc77 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.hgtv.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/24-21:34:03.931 cc77 Recovering log #4
+2020/04/24-21:34:03.931 cc77 Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.hgtv.com_0.indexeddb.leveldb/000004.log 
+2020/04/24-21:34:58.670 744a Level-0 table #8: started
+2020/04/24-21:34:58.670 744a Level-0 table #8: 0 bytes OK
+2020/04/24-21:34:58.679 744a Delete type=0 #4
+2020/04/24-21:34:58.679 744a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/04/24-21:34:58.679 744a Manual compaction at level-1 from (begin) .. (end); will stop at (end)

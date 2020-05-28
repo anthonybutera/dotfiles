@@ -1,0 +1,5 @@
+2020/04/25-16:39:24.305 5ec0 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_community.t-mobile.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/25-16:42:03.375 323d Level-0 table #5: started
+2020/04/25-16:42:03.379 323d Level-0 table #5: 1546 bytes OK
+2020/04/25-16:42:03.385 323d Delete type=0 #3
+2020/04/25-16:42:03.385 323d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

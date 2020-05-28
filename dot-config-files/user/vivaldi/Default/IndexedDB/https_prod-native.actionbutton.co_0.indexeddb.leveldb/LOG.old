@@ -1,0 +1,5 @@
+2020/04/27-22:07:47.258 3013 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_prod-native.actionbutton.co_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/27-22:07:49.281 2cee Level-0 table #5: started
+2020/04/27-22:07:49.290 2cee Level-0 table #5: 1192 bytes OK
+2020/04/27-22:07:49.298 2cee Delete type=0 #3
+2020/04/27-22:07:49.298 2cee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

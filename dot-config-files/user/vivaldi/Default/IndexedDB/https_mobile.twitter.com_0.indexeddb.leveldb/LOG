@@ -1,0 +1,6 @@
+2020/04/12-14:38:57.049 71cd Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_mobile.twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/12-14:38:57.050 71cd Recovering log #3
+2020/04/12-14:38:57.073 71cd Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_mobile.twitter.com_0.indexeddb.leveldb/000003.log 
+2020/04/12-15:47:57.499 7821 Level-0 table #5: started
+2020/04/12-15:47:57.528 7821 Level-0 table #5: 1211967 bytes OK
+2020/04/12-15:47:57.534 7821 Delete type=0 #3

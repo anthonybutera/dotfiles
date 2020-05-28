@@ -1,0 +1,7 @@
+2020/04/25-16:39:22.993 5e9c Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/25-16:39:22.993 5e9c Recovering log #3
+2020/04/25-16:39:22.996 5e9c Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/000003.log 
+2020/04/25-16:42:03.385 323d Level-0 table #5: started
+2020/04/25-16:42:03.390 323d Level-0 table #5: 7634 bytes OK
+2020/04/25-16:42:03.395 323d Delete type=0 #3
+2020/04/25-16:42:03.396 323d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

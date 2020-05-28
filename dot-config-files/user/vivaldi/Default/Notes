@@ -1,0 +1,62 @@
+{
+   "checksum": "d03aed9003a89ca5803a52760896bc96",
+   "children": [ {
+      "content": "",
+      "date_added": "13214356319791000",
+      "guid": "833649fd-0aba-41a2-87f8-4799dba16562",
+      "id": "22",
+      "subject": "Scratchpad",
+      "type": "note",
+      "url": ""
+   }, {
+      "content": "\nSEF-MA-RECV-8#show mac address-table | include (2450|2410|9f2e|3d72|43d4|25cf|4360|3a0d)\n  20    1860.24ef.9f2e    DYNAMIC     Gi3/0/17 -- ANDRE\n  20    c8d3.ffa3.3d72    DYNAMIC     Gi3/0/16 -- NICK\n  20    c8d3.ffa3.4360    DYNAMIC     Gi3/0/20 -- GEORGE\n  20    c8d3.ffa3.43d4    DYNAMIC     Gi3/0/18 -- NATE\n  25    c8d3.ffa7.2410    DYNAMIC     Gi2/0/26 -- DOUGLAS\n  25    c8d3.ffa7.2450    DYNAMIC     Gi1/0/32 -- ANTHONY\n  25    c8d3.ffa7.25cf     DYNAMIC     Gi1/0/40 -- ALI\n  20    c8d3.ffa3.3a0d    DYNAMIC     Gi3/0/15 -- BRANDI\n\n\n~/ grep -i svcdsk computer-list.txt\n10.100.8.68   SEF-SVCDSK-C4N  c8:d3:ff:a3:43:60 - GEORGE\n10.100.20.63  SEF-SVCDSK-V47  c8:d3:ff:a7:25:cf - ALI\n10.100.8.113  SEF-SVCDSK-C4Y  c8:d3:ff:a3:43:d4 - NATE\n10.100.8.128  SEF-SVCDSK-C4H  c8:d3:ff:a3:3d:72 - NICK\n10.100.8.182  SEF-SVCDSK-V6J  18:60:24:ef:9f:2e - ANDRE\n10.100.20.177   SEF-SVCDSK-V6K  c8:d3:ff:a7:24:50 - ANTHONY\n10.100.20.83  SEF-SVCDSK-V6B  c8:d3:ff:a7:24:10 - DOUGLAS\n10.100.9.223  SEF-SVCDSK-C4D  c8:d3:ff:a3:3a:0d - BRANDI\n\n\nVLAN 25 open ports:\n\nGi1/0/35                       down           down\nGi1/0/36                       down           down\nGi1/0/39                       down           down\nGi1/0/42                       down           down\nGi2/0/30                       down           down     PRINTER\nGi2/0/31                       down           down\nGi2/0/35                       down           down\nGi2/0/37                       down           down\nGi2/0/38                       down           down\n\n\n\n┌[anthony☮home]-(~)\n└> winexe -U roomstogo/buterant //sef-svcdsk-v6k \"powershell.exe\"\nEnter password: \n\nWindows PowerShell \nCopyright (C) Microsoft Corporation. All rights reserved.\n\nPS C:\\WINDOWS\\system32> query user\nquery user\n USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME\n buterant              console             1  Active      none   3/20/2020 11:20 PM\n",
+      "date_added": "13226204087077108",
+      "guid": "a0450309-0cca-4566-8921-b5e9d503a9cb",
+      "id": "17",
+      "subject": "NSOC Computers",
+      "type": "note",
+      "url": ""
+   }, {
+      "attachments": [ {
+         "checksum": "b38pVeI6hHp8VAY3k35CS5fiPTTiLOE4krgjII2H7hs=|138127",
+         "content": ""
+      } ],
+      "content": "SEF-SVCDSK-D6M\nor\nhttp://srv-wallboard/NexorceWeb/WebReport/RTG_Test.aspx\n",
+      "date_added": "13223595223848916",
+      "guid": "9c9d88f6-8ed4-4e5a-a602-348e9765cf4a",
+      "id": "18",
+      "subject": "Wall Board",
+      "type": "note",
+      "url": "https://teams.microsoft.com/_#/conversations/General?threadId=19:f9b4d1b4c090463f81741cc252b5e021@thread.skype&ctx=channel"
+   }, {
+      "content": "How to Run A Bridge\n\n1. Date and Time of the Incident\n2. Declare the Incident Manager\n3. Open Bridge - 800-747-5150 + bridge number + leadership code + *8 (keeps line open)\n4. Prepare Onpage\n5. Prepare Notifications (Reds / Yellow)\n6. Get someone to take timeline\n7. Monitor chats for current info / requests\n8. After issue is corrected, confirm if Yellow/Green notifications will be sent\n9. Time Stamp - State the time the bridge is being closed \n\n\n\nPerson 1 = Incident Manager\nPerson 2 = Notifications\nPerson 3 = Timeline\nPerson 4 = On-page\n\n===================\n\n\n\n\n\n\n",
+      "date_added": "13227764704966485",
+      "guid": "bb8a6fa1-2bc8-413c-abe9-3280469d470e",
+      "id": "24",
+      "subject": "",
+      "type": "note",
+      "url": ""
+   }, {
+      "children": [  ],
+      "date_added": "13202001826076934",
+      "guid": "00000000-0000-4000-A000-000000000003",
+      "id": "2",
+      "subject": "Other Notes",
+      "type": "other"
+   }, {
+      "children": [  ],
+      "date_added": "13234604250346415",
+      "guid": "00000000-0000-4000-A000-000000000004",
+      "id": "3",
+      "subject": "Trash",
+      "type": "trash"
+   } ],
+   "date_added": "13226980463448183",
+   "guid": "00000000-0000-4000-A000-000000000002",
+   "id": "1",
+   "subject": "Notes",
+   "sync_metadata": "CoQBCgoIs/4NEgQxNzUwEgAaWDlwb3RzZzEwQlI0WDZndTU5T1U2RlJQazg4K2xMR1Bnc2JKTWZyQkpsTXdEZVQvMVJacWp3K2I3dDQ0ZmVSZE0vREVHOWlramdMOEF6cXp6VE5VUWtRPT0gASoYemU0dlByYWI1byt1Wm43UDRCT09aUT09EroBCBgStQEKHDZFUXVIZDJzdWhaUmRMU1RON3ZEaDZHOVRpVT0SQDxDPlc5QWpObThzRjJVMi9vRTBRLzVlbnc9PS9iYjhhNmZhMS0yYmM4LTQxM2MtYWJlOS0zMjgwNDY5ZDQ3MGUYACAhKCEwvAo4xv2DnIouQMjt/KqhLkocNDhLRzdPSWtJd01qWTdZNC9CcFphQm1hL21JPVoeIhxreUNHZlNZeTNtOVZpc0RMektIR201Z1lJYmM9EpwBCBISlwESQDxDPnZxSzhSeGFWb0p6MjZMVU1QNWV1ZEE9PS85YzlkODhmNi04ZWQ0LTRlNWEtYTYwMi0zNDhlOTc2NWNmNGEYACAFKAUw4Qg4rYbv1/otQNPD6aWYLkocNktHT0t5S0pLNDZZOUhoU1BDcENRcUJNeGxjPVoeIhxZOFhrQ1piS3greDllcXVsejNVVk5QUUhiS289Ep0BCBESmAESQDxDPngyU2xTOWR2c2ZZVGE4cjBIQlg0Z1E9PS82ZjVjNDJkMC1iYmY2LTRiMWEtOWUwNC01ZGE1YmI0N2ZkNzkYACACKAIwmwY4pbbvs4QuQLDx7ueTLkocL2xtZ3BpQlpDUXUrak1Fb0kwYU1rQzc0Ymg0PVofIh1HbmROWnVmek9rL1ZjZjZsM2g1Y05RMXNjVkdBPRK8AQgWErcBChxBeUpicEw3Tm1MVlRWcUtYNEN5d2laYXM1djg9EkA8Qz56R29URmNyREoxcUdkR0FrbENQaWRBPT0vODMzNjQ5ZmQtMGFiYS00MWEyLTg3ZjgtNDc5OWRiYTE2NTYyGAAg/AUo/AUw1g04r4y1otgtQOj0hsilLkocWXVySmc0blVidWRUckg2M25lM2hqY1J1Ti9rPVoeIhw1QkcxSThSem9kWXNtemVHcGtjb0IrUmhBQVE9EmUIARJhEg08Uz5tYWluX25vdGVzGAAgACgAMAM4AEAAShxCYmN3M1FZblJ4aHh1YlV6T0NlZm1lVlZmUWs9WiYiJIAAAAAAAAU5M6i3J0hg9Tvgp8GovGfE94wFM3Oz1q+LGriifxJmCAISYhIOPFM+b3RoZXJfbm90ZXMYACAAKAAwBDgAQABKHEJiY3czUVluUnhoeHViVXpPQ2VmbWVWVmZRaz1aJiIkgAAAAAAABTmOPVQdqIlJmul3HnFokAs1T+NjbGYcaZ9+vPp/EmYIAxJiEg48Uz50cmFzaF9ub3RlcxgAIAAoADACOABAAEocQmJjdzNRWW5SeGh4dWJVek9DZWZtZVZWZlFrPVomIiSAAAAAAAAFOceOv2PoAwlpijlI3ZEP6yD4fi6RD8HGufQCGX8=",
+   "sync_transaction_version": "90",
+   "type": "folder",
+   "version": 1
+}

@@ -1,0 +1,15 @@
+2020/05/27-03:41:01.289 3b5d Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/27-03:41:01.289 3b5d Recovering log #109
+2020/05/27-03:41:01.297 3b5d Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000109.log 
+2020/05/27-04:22:30.656 3c5b Level-0 table #114: started
+2020/05/27-04:22:30.667 3c5b Level-0 table #114: 105397 bytes OK
+2020/05/27-04:22:30.672 3c5b Delete type=0 #109
+2020/05/27-04:22:30.672 3c5b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/27-04:22:30.672 3c5b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 20902 : 1
+2020/05/27-04:22:30.672 3c5b Compacting 1@1 + 1@2 files
+2020/05/27-04:22:30.680 3c5b Generated table #115@1: 40 keys, 2112 bytes
+2020/05/27-04:22:30.680 3c5b Compacted 1@1 + 1@2 files => 2112 bytes
+2020/05/27-04:22:30.685 3c5b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/27-04:22:30.685 3c5b Delete type=2 #114
+2020/05/27-04:22:30.685 3c5b Delete type=2 #111
+2020/05/27-04:22:30.685 3c5b Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 20902 : 1 .. (end); will stop at (end)

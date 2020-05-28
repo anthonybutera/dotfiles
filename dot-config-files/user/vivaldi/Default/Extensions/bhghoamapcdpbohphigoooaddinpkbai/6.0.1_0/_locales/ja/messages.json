@@ -1,0 +1,325 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "このアプリついて"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "アカウント"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "ユーザー名"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "QRコードをスキャン"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "手動入力"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " 追加されました。"
+   },
+   "advanced": {
+      "message": "その他"
+   },
+   "autolock": {
+      "message": "ロック時間"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "カウンター ベース"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "タイム ベース"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "キャプチャーできませんでした。再読込してもう一度お試しください。"
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "危険！お使いの環境の日時が実際の日時と離れすぎています。続ける前にまずは修正してください。"
+   },
+   "close": {
+      "description": "Close.",
+      "message": "閉じる"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "このアカウントを削除してもよろしいですか？ 実行後は元に戻せません。"
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "パスワードの再入力"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "コピーしました。"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "現在のパスワード"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "バックアップファイルのダウンロード"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "パスワードで保護されたバックアップをダウンロード"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "警告: バックアップは暗号化されていません。お気をつけください。"
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "編集"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "暗号化"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "QR コードが認識できません。"
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "無効なアカウントのシークレット"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "エクスポート/インポート"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "警告: バックアップはすべて暗号化されていません。別のアプリにアカウントを追加したい場合、アカウントの右上にカーソルを合わせ、非表示のボタンを押してください。"
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator はお使いのブラウザーで2段階認証コードを生成します。"
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Authenticator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Authenticator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "ご意見"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "バックアップのインポート"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "テキストのバックアップのインポート"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "バックアップファイルのインポート"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "バックアップをインポートするために正しいパスワードを入力してください。"
+   },
+   "invalid": {
+      "message": "無効"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "発行者"
+   },
+   "loading": {
+      "message": "読み込み中..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "パスワードをローカル環境に保存しました。すぐにメニューのセキュリティから変更してください。"
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "ロック"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "ログアウト"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "手動で同期"
+   },
+   "minutes": {
+      "message": "分"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "新しいパスワード"
+   },
+   "no": {
+      "description": "No.",
+      "message": "いいえ"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "OK"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "他のアプリのバックアップをインポートできます。"
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "詳細"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "使用できないアカウントが含まれています。暗号化されていないバックアップでは、標準のバックアップ形式を使用できません。"
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "アカウントデータを復号化するパスワードを入力してください。"
+   },
+   "period": {
+      "message": "期間"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "パスワード"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "すべてのアカウントが解読されるまで、新しいアカウントを追加したり、データをエクスポートすることはできません。続行する前に正しいパスワードを入力してください。"
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "パスワードが一致しません。"
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "ポップアップ表示"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "パスワードを記憶します。"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "アカウントのバックアップを保存していますか？ 忘れる前に今すぐ！"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "削除"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "設定"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "大きさ"
+   },
+   "search": {
+      "description": "Search",
+      "message": "検索"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "シークレット"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "セキュリティ"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "このパスワードであなたのアカウントを暗号化します。パスワードを紛失すると復旧できなくなりますのでご注意ください。"
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "設定"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "すべての登録を表示"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "サインイン"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "ソース コード"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "ストレージの場所"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "データの保存場所を選択します。 「ローカル」はPCにデータを保存します。「同期」は、そのアカウントにログインいればブラウザーを通じてクラウドとデータを同期することができます。"
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "ストレージとバックアップ"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "サードパーティのストレージサービスへ自動的にデータをバックアップします。"
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Google と時刻を同期"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "$SERVICE$ のアカウントに接続できませんでした。もう一度サインインしてください。",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "翻訳"
+   },
+   "type": {
+      "message": "タイプ"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "更新"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "失敗しました。"
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "成功しました。"
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "自動入力を使用する"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "高コントラストにする"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "はい"
+   }
+}

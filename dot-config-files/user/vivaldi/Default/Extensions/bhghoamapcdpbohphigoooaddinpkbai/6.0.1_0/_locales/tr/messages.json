@@ -1,0 +1,325 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Hakkında"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Hesap"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Kullanıcı Adı"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "QR kodunu tara"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "El ile Giriş"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " eklendi."
+   },
+   "advanced": {
+      "message": "Gelişmiş"
+   },
+   "autolock": {
+      "message": "Sonrasında kilitle"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Sayaca Dayalı"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Zamana Dayalı"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Yakalama başarısız oldu, lütfen sayfayı yeniden yükleyin ve tekrar deneyin."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Dikkat! Yerel saatiniz farklı, devam etmek için lütfen düzeltin."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Kapat"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Bu hesabı silmek istediğinize emin misiniz? Bu işlem geri alınamaz."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Şifreyi Doğrula"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Kopyalandı"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Mevcut Şifre"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Yedekleme Dosyasını İndir"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Parola Korumalı Yedeklemeyi İndirin"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Uyarı: yedeklemeler şifrelenmemiş. Kullanım kendi sorumluluğunuzdadır."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Düzenle"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Şifrelendi"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Tanınmayan QR kodu."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Geçersiz hesap anahtarı"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "İçe/Dışa aktar"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Uyarı: tüm yedeklemeler şifrelenmemiş. Başka bir uygulamaya bir hesap eklemek ister misiniz? Herhangi bir hesabın sağ üst kısmına gelin ve gizli düğmeye basın."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Kimlik Doğrulayıcı, tarayıcınızda iki faktörlü kimlik doğrulama kodları oluşturur."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Kimlik Doğrulayıcı"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Kimlik Doğrulayıcı"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Geribildirim"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Yedeklemeyi içe aktar"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Metin dosyasından içeri aktar"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Yedeklemeyi içe aktar"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Yedekleri içeri aktarmak için doğru şifreyi sağlamalısınız."
+   },
+   "invalid": {
+      "message": "Geçersiz"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Yayınlayan Kuruluş"
+   },
+   "loading": {
+      "message": "Yükleniyor..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Parolanız yerel olarak depolanır, lütfen hemen güvenlik menüsünden değiştirin."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Kilitle"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Çıkış"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "Manuel Senkronizasyon"
+   },
+   "minutes": {
+      "message": "dakika"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Yeni Şifre"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Hayır"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Tamam"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Yedekleri diğer bazı uygulamalardan içe aktarabilirsiniz."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Daha fazla bilgi edinin"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "Bir veya daha fazla Steam veya Blizzard hesabınız var. Şifrelenmemiş yedeklemeler standartlaştırılmış yedekleme biçimi kullanmaz."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Hesap verilerinin şifresini çözmek için parolanızı girin."
+   },
+   "period": {
+      "message": "Süre"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Şifre"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Tüm hesapların şifresi çözülene kadar yeni bir hesap ekleyemez veya dışa aktaramazsınız. Lütfen devam etmeden önce doğru şifreyi girin."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Şifre uyuşmuyor."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Açılır pencere modu"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Şifreyi hatırla"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Hesaplarınız için bir yedeğiniz var mı? Çok geç olana kadar beklemeyin!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Kaldır"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Tercihler"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Aralık"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Ara"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Gizli Anahtar"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Güvenlik"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Bu şifre hesaplarınızı şifrelemek için kullanılacaktır. Şifreyi unutursanız kimse size yardım edemez."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Ayarlar"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Tüm girdileri göster"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Oturum aç"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Kaynak Kodu"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "Depolama Yeri"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "Verilerinizin nerede saklanacağını seçin. 'local' kullanmak verilerinizi bilgisayarınızda depolar. 'sync' kullanılması, bir senkronizasyon hesabında oturum açtıysanız tarayıcınızın bilgilerinizi buluta senkronize etmesini sağlar."
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "Depolama & Yedekleme"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Verilerinizi otomatik olarak 3. taraf depolama hizmetlerine yedekleyin."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Saati Google ile senkronize et"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "$SERVICE$ hesabınıza bağlanırken bir sorun oluştu, lütfen tekrar oturum açın.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Çeviri"
+   },
+   "type": {
+      "message": "Tür"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Güncelle"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Hata."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Başarılı."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Otomatik Doldur özelliği kullanın"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Yüksek Kontrast Kullan"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Evet"
+   }
+}

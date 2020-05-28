@@ -1,0 +1,5 @@
+2020/05/14-13:44:13.860 22ea Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_logsextension.hosting.portal.azure.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/14-13:45:43.119 1a1a Level-0 table #5: started
+2020/05/14-13:45:43.141 1a1a Level-0 table #5: 162188 bytes OK
+2020/05/14-13:45:43.146 1a1a Delete type=0 #3
+2020/05/14-13:45:43.146 1a1a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

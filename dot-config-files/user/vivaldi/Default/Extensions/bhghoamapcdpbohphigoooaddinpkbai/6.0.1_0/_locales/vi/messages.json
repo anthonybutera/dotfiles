@@ -1,0 +1,325 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Về chúng tôi"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Tài khoản"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Tên đăng nhập"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Quét mã QR"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Nhập thủ công"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " đã được thêm."
+   },
+   "advanced": {
+      "message": "Nâng cao"
+   },
+   "autolock": {
+      "message": "Khóa sau"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Theo bộ đếm"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Theo thời gian"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Quét thất bại, vui lòng tải lại trang và thử lại."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Chú ý! Đồng hồ trên máy của bạn bị sai, xin hãy điều chỉnh lại trước khi tiếp tục."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Đóng"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Bạn có chắc sẽ xóa tài khoản này? Yêu cầu này không thể hoàn tác."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Xác nhận mật khẩu"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Đã sao chép"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Mật khẩu hiện tại"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Tải về tệp sao lưu"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Tải về tệp sao lưu đã mã hoá"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Chú ý: các bản sao lưu chưa được mã hóa. Hãy cẩn trọng khi sử dụng."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Sửa"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Đã mã hóa"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Không nhận ra mã QR."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Dữ liệu tài khoản không hợp lệ"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "Xuất / Nhập dữ liệu"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Cảnh báo: tất cả các bản sao lưu chưa được mã hóa. Cần chuyển tài khoản đến ứng dụng khác? Di chuột lên góc trên phải của tài khoản bất kỳ và nhấn vào nút ẩn."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator tạo ra mã xác thực 2 yếu tố ngay trong trình duyệt của bạn."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Authenticator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Authenticator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Phản hồi"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Nhập bản sao lưu"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Nhập bản sao lưu"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Nhập tệp sao lưu"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Mật khẩu của bản sao lưu bạn vừa nhập không đúng."
+   },
+   "invalid": {
+      "message": "Không hợp lệ"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Nhà phát hành"
+   },
+   "loading": {
+      "message": "Đang tải ..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Mật khẩu của bạn đang được lưu trữ cục bộ, vui lòng thay đổi nó trong trình đơn bảo mật ngay."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Khóa"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Đăng xuất"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "Đồng bộ thủ công"
+   },
+   "minutes": {
+      "message": "phút"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Mật khẩu mới"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Không"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Xác nhận"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Bạn có thể nhập bản sao lưu từ các ứng dụng khác."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Tìm hiểu thêm"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "Bạn có một hoặc nhiều tài khoản Steam hoặc Blizzard. Các bản sao lưu chưa được mã hóa sẽ không sử dụng định dạng sao lưu tiêu chuẩn."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Nhập mật khẩu để giải mã dữ liệu của bạn."
+   },
+   "period": {
+      "message": "Thời hạn"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Mật khẩu"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Bạn không thể thêm một tài khoản mới hoặc xuất dữ liệu cho đến khi tất cả tài khoản được giải mã. Vui lòng nhập đúng mật khẩu trước khi tiếp tục."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Mật khẩu không khớp."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Chế độ cửa sổ"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Nhớ mật khẩu"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Bạn đã tạo bản sao lưu chưa? Đừng đợi đến khi quá muộn!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Xóa"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Tuỳ chỉnh"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Tỉ lệ"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Tìm kiếm"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Mã bí mật"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Bảo mật"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Mật khẩu này sẽ được dùng để mã hóa toàn bộ dữ liệu của bạn. Không ai có thể giúp bạn nếu bạn quên mật khẩu."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Cài đặt"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Hiển thị tất cả các mục"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Đăng nhập"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Mã nguồn"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "Vị trí lưu trữ"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "Chọn nơi bạn đã lưu trữ dữ liệu. Sử dụng 'local' với dữ liệu trên PC của bạn. Sử dụng 'sync' cho phép trình duyệt đồng bộ dữ liệu trên đám mây nếu bạn đã đăng nhập vào tài khoản đó."
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "Sao lưu dữ liệu"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Tự động sao lưu dữ liệu của bạn với dịch vụ lưu trữ bên thứ 3."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Đồng bộ đồng hồ với Google"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Đã xảy ra sự cố khi kết nối với tài khoản $SERVICE$ của bạn, xin vui lòng đăng nhập lại.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Dịch thuật"
+   },
+   "type": {
+      "message": "Loại"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Cập nhật"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Thất bại."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Thành công."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Sử dụng tự động điền"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Độ tương phản cao"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Đồng ý"
+   }
+}

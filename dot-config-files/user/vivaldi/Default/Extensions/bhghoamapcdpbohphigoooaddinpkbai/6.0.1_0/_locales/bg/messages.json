@@ -1,0 +1,325 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "За Нас"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Профил"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Username"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Сканирайте QR кода"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Ръчно въвеждане"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " е добавен."
+   },
+   "advanced": {
+      "message": "Advanced"
+   },
+   "autolock": {
+      "message": "Lock after"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Брояч на базата"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Време на базата"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Заснемането неуспешно, моля презаредете страницата и опитайте отново."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Внимание! Вашият часовник не е верен, моля го оправя преди да продължите."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Затвори"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Are you sure you want to delete this account? This action cannot be undone."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Потвърди паролата"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Копирано"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Сегашна парола"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Изтегляне на резервното копие"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Изтегляне на защитени с парола архиви"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Предупреждение: архивни файлове са декриптирани. Използвайте на свой собствен риск."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Редактирай"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Криптиран"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Неразпознат QR код."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Invalid account secret"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "Експорт / Импорт"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Предупреждение: всички резервни копия са декриптирани. Искате ли да добавите акаунт към друго приложение? Задръжте над горната част на всяка сметка и натиснете скрития бутон."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator generates two-factor authentication codes in your browser."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Удостоверител"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Удостоверител"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Обратна връзка"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Импорт на резервен архив"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Импорт на Текстов архив"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Импорт на резервен архивен файл"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Трябва да въведете правилна парола, за да импортните архива."
+   },
+   "invalid": {
+      "message": "Invalid"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Издател"
+   },
+   "loading": {
+      "message": "Loading..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Паролата ви се съхранява локално, моля променете го от менюто за сигурност незабавно."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Заключване"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Изход"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "Ръчно синхронизиране"
+   },
+   "minutes": {
+      "message": "minutes"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Нова парола"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Не"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Добре"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "You can import backups from some other applications."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Learn more"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "You have one or more Steam or Blizzard accounts. Unencrypted backups will not use standardized backup format."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Въведете парола за да декриптирате данните."
+   },
+   "period": {
+      "message": "Period"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Парола"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Не можете да добавите нов акаунт или да експортирате данни, докато акаунта не се декриптира. Въведете правилната парола."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Паролите не съвпадат."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Изскачащ Прозорец"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Запомни паролата"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Do you have a backup for your accounts? Don't wait until it's too late!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Премахни"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Preferences"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Мащаб"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Търсене"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Секретен"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Сигурност"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "This password will be used to encrypt your accounts. No one can help you if you forget the password."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Настройки"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Покажи всички записи"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Вход"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Изходен код"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "Място за съхранение"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "Изберете мястото, където се съхраняват вашите данни. Използване на \"местен\" съхранява данните на вашия компютър. Използване на \"синхронизиране\" позволява на браузъра да синхронизира вашите данни в облак, ако сте си влезли в акаунта."
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "Съхранение & Архивиране"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Автоматично архивиране на вашите данни на външна памет."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Синхронизиране на часовника с Google"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Имаше проблем свързване с вашия $SERVICE$ акаунт, моля влезте отново.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Превод"
+   },
+   "type": {
+      "message": "Type"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Актуализация"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Неуспешно."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Успешно."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Използване на автоматичното попълване"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Висок контраст"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Да"
+   }
+}

@@ -1,0 +1,8 @@
+2020/05/02-18:10:04.169 6392 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_news.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/02-18:10:04.169 6392 Recovering log #2282
+2020/05/02-18:10:04.169 6392 Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_news.google.com_0.indexeddb.leveldb/002282.log 
+2020/05/02-18:10:45.655 144c Level-0 table #2286: started
+2020/05/02-18:10:45.655 144c Level-0 table #2286: 0 bytes OK
+2020/05/02-18:10:45.662 144c Delete type=0 #2282
+2020/05/02-18:10:45.662 144c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/02-18:10:45.662 144c Manual compaction at level-1 from (begin) .. (end); will stop at (end)

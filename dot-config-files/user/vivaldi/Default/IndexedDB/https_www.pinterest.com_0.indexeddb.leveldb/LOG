@@ -1,0 +1,15 @@
+2020/05/22-01:10:48.765 2b60 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/22-01:10:48.765 2b60 Recovering log #167
+2020/05/22-01:10:48.765 2b60 Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb/000167.log 
+2020/05/22-01:10:55.603 1b67 Level-0 table #172: started
+2020/05/22-01:10:55.623 1b67 Level-0 table #172: 55003 bytes OK
+2020/05/22-01:10:55.634 1b67 Delete type=0 #167
+2020/05/22-01:10:55.635 1b67 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/22-01:10:55.635 1b67 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00Pw\xa8\xac#wB\x00\x01b\x00p\x00i\x00n\x00t\x00e\x00r\x00e\x00s\x00t\x00-\x00r\x00u\x00n\x00t\x00i\x00m\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00s\x00.\x00p\x00i\x00n\x00i\x00m\x00g\x00.\x00c\x00o\x00m\x00/\x00w\x00e\x00b\x00a\x00p\x00p\x00/\x00j\x00s\x00/\x00p\x00j\x00s\x00-\x00R\x00e\x00n\x00u\x00x\x00C\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00C\x00o\x00m\x00m\x00o\x00n\x00-\x009\x001\x00d\x004\x004\x00f\x007\x003\x003\x00d\x009\x008\x00c\x000\x007\x00d\x009\x007\x00e\x000\x00.\x00m\x00j\x00s' @ 46332 : 1
+2020/05/22-01:10:55.635 1b67 Compacting 1@1 + 1@2 files
+2020/05/22-01:10:55.644 1b67 Generated table #173@1: 888 keys, 70719 bytes
+2020/05/22-01:10:55.644 1b67 Compacted 1@1 + 1@2 files => 70719 bytes
+2020/05/22-01:10:55.651 1b67 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/22-01:10:55.652 1b67 Delete type=2 #169
+2020/05/22-01:10:55.652 1b67 Delete type=2 #172
+2020/05/22-01:10:55.652 1b67 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00Pw\xa8\xac#wB\x00\x01b\x00p\x00i\x00n\x00t\x00e\x00r\x00e\x00s\x00t\x00-\x00r\x00u\x00n\x00t\x00i\x00m\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00s\x00.\x00p\x00i\x00n\x00i\x00m\x00g\x00.\x00c\x00o\x00m\x00/\x00w\x00e\x00b\x00a\x00p\x00p\x00/\x00j\x00s\x00/\x00p\x00j\x00s\x00-\x00R\x00e\x00n\x00u\x00x\x00C\x00o\x00n\x00t\x00a\x00i\x00n\x00e\x00r\x00C\x00o\x00m\x00m\x00o\x00n\x00-\x009\x001\x00d\x004\x004\x00f\x007\x003\x003\x00d\x009\x008\x00c\x000\x007\x00d\x009\x007\x00e\x000\x00.\x00m\x00j\x00s' @ 46332 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/05/05-17:35:45.179 9edd Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/05-17:35:45.179 9edd Recovering log #51
+2020/05/05-17:35:45.179 9edd Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000051.log 
+2020/05/05-17:56:38.574 608e Level-0 table #56: started
+2020/05/05-17:56:38.588 608e Level-0 table #56: 59073 bytes OK
+2020/05/05-17:56:38.593 608e Delete type=0 #51
+2020/05/05-17:56:38.593 608e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/05-17:56:38.593 608e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xa01lm\x1ewB\x00\x01J\x00i\x00m\x00a\x00g\x00e\x00s\x00-\x00v\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00i\x00.\x00s\x00c\x00d\x00n\x00.\x00c\x00o\x00/\x00i\x00m\x00a\x00g\x00e\x00/\x00a\x00b\x006\x007\x006\x001\x006\x00d\x000\x000\x000\x000\x001\x00e\x000\x002\x00a\x00e\x00e\x009\x009\x00e\x003\x008\x001\x000\x00a\x00a\x001\x003\x007\x006\x005\x00a\x005\x001\x00c\x005\x004\x00b' @ 13615 : 1
+2020/05/05-17:56:38.593 608e Compacting 1@1 + 1@2 files
+2020/05/05-17:56:38.600 608e Generated table #57@1: 795 keys, 84631 bytes
+2020/05/05-17:56:38.600 608e Compacted 1@1 + 1@2 files => 84631 bytes
+2020/05/05-17:56:38.605 608e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/05-17:56:38.605 608e Delete type=2 #53
+2020/05/05-17:56:38.605 608e Delete type=2 #56
+2020/05/05-17:56:38.605 608e Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xa01lm\x1ewB\x00\x01J\x00i\x00m\x00a\x00g\x00e\x00s\x00-\x00v\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00i\x00.\x00s\x00c\x00d\x00n\x00.\x00c\x00o\x00/\x00i\x00m\x00a\x00g\x00e\x00/\x00a\x00b\x006\x007\x006\x001\x006\x00d\x000\x000\x000\x000\x001\x00e\x000\x002\x00a\x00e\x00e\x009\x009\x00e\x003\x008\x001\x000\x00a\x00a\x001\x003\x007\x006\x005\x00a\x005\x001\x00c\x005\x004\x00b' @ 13615 : 1 .. (end); will stop at (end)

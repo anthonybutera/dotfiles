@@ -1,0 +1,15 @@
+2020/05/05-15:03:47.316 6e1f Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/05-15:03:47.316 6e1f Recovering log #11
+2020/05/05-15:03:47.316 6e1f Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/000011.log 
+2020/05/05-15:04:19.511 608e Level-0 table #16: started
+2020/05/05-15:04:19.521 608e Level-0 table #16: 190 bytes OK
+2020/05/05-15:04:19.526 608e Delete type=0 #11
+2020/05/05-15:04:19.527 608e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/05-15:04:19.527 608e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 106 : 1
+2020/05/05-15:04:19.527 608e Compacting 1@1 + 1@2 files
+2020/05/05-15:04:19.531 608e Generated table #17@1: 20 keys, 650 bytes
+2020/05/05-15:04:19.531 608e Compacted 1@1 + 1@2 files => 650 bytes
+2020/05/05-15:04:19.536 608e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/05-15:04:19.536 608e Delete type=2 #13
+2020/05/05-15:04:19.536 608e Delete type=2 #16
+2020/05/05-15:04:19.536 608e Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 106 : 1 .. (end); will stop at (end)

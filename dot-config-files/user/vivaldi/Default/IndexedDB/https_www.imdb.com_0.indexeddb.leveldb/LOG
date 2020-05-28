@@ -1,0 +1,25 @@
+2020/04/28-16:24:29.541 5553 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.imdb.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/28-16:24:29.541 5553 Recovering log #15
+2020/04/28-16:24:29.541 5553 Reusing old log /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.imdb.com_0.indexeddb.leveldb/000015.log 
+2020/04/28-16:24:34.026 2b8b Level-0 table #20: started
+2020/04/28-16:24:34.067 2b8b Level-0 table #20: 3305818 bytes OK
+2020/04/28-16:24:34.072 2b8b Delete type=0 #15
+2020/04/28-16:24:57.634 2b8b Level-0 table #22: started
+2020/04/28-16:24:57.649 2b8b Level-0 table #22: 350 bytes OK
+2020/04/28-16:24:57.654 2b8b Delete type=0 #19
+2020/04/28-16:24:57.654 2b8b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x14\x00A\x00T\x00V\x00W\x00e\x00b\x00C\x00a\x00s\x00c\x00a\x00d\x00e\x00s\x00P\x00l\x00a\x00y\x00e\x00r' @ 292 : 1
+2020/04/28-16:24:57.654 2b8b Compacting 1@0 + 1@1 files
+2020/04/28-16:24:57.705 2b8b Generated table #23@0: 28 keys, 1654159 bytes
+2020/04/28-16:24:57.705 2b8b Compacted 1@0 + 1@1 files => 1654159 bytes
+2020/04/28-16:24:57.710 2b8b compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/04/28-16:24:57.710 2b8b Delete type=2 #22
+2020/04/28-16:24:57.710 2b8b Delete type=2 #20
+2020/04/28-16:24:57.711 2b8b Manual compaction at level-0 from '\x00\x02\x01\x02\x01\x14\x00A\x00T\x00V\x00W\x00e\x00b\x00C\x00a\x00s\x00c\x00a\x00d\x00e\x00s\x00P\x00l\x00a\x00y\x00e\x00r' @ 292 : 1 .. (end); will stop at (end)
+2020/04/28-16:24:57.711 2b8b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x14\x00A\x00T\x00V\x00W\x00e\x00b\x00C\x00a\x00s\x00c\x00a\x00d\x00e\x00s\x00P\x00l\x00a\x00y\x00e\x00r' @ 292 : 1
+2020/04/28-16:24:57.711 2b8b Compacting 1@1 + 1@2 files
+2020/04/28-16:24:57.758 2b8b Generated table #24@1: 43 keys, 1653538 bytes
+2020/04/28-16:24:57.758 2b8b Compacted 1@1 + 1@2 files => 1653538 bytes
+2020/04/28-16:24:57.762 2b8b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/28-16:24:57.763 2b8b Delete type=2 #17
+2020/04/28-16:24:57.763 2b8b Delete type=2 #23
+2020/04/28-16:24:57.763 2b8b Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x14\x00A\x00T\x00V\x00W\x00e\x00b\x00C\x00a\x00s\x00c\x00a\x00d\x00e\x00s\x00P\x00l\x00a\x00y\x00e\x00r' @ 292 : 1 .. (end); will stop at (end)

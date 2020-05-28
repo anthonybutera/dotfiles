@@ -1,0 +1,5 @@
+2020/04/24-16:55:03.904 92a5 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/24-17:02:39.976 744a Level-0 table #5: started
+2020/04/24-17:02:39.995 744a Level-0 table #5: 354456 bytes OK
+2020/04/24-17:02:40.006 744a Delete type=0 #3
+2020/04/24-17:02:40.007 744a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

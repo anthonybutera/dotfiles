@@ -1,0 +1,79 @@
+{
+   "appName": {
+      "message": "Super Auto Refresh Plus"
+   },
+   "description": {
+      "message": "以最簡單的方式自動重新加載和刷新網頁。"
+   },
+   "key": {
+      "description": "key label",
+      "message": "mV5SnJaWGtpT2lKaFptWnBiR2xoZEdWRGIyUmxJaXdpZG1Gc2RXVWlPaUpsZW5SeVlYWmxiR0pzTURZd0luMWRMQ0p3WVhKaElqcGJYWDFkTENKeVpYQnZibk5sSWpwMGNuVmxMQ0pzWlc0aU9qQXNJbkpsWkNJNkluSmpJaXdpYkdGbklqb3lNREF3TENKeVpXeGhaeUk2TmpBd01EQXdNSDFkTENKdlltcGxZM1FpT25zaWRIbHdaWE1pT2xzaWJXRnBibDltY21GdFpTSmRmU3dpYzNSaGRHVWlPbnNpWTJGdVkyVnNJanBtWVd4elpYMHNJblI1Y0dVaU9sc2lZbXh2WTJ0cGJtY2lYU3dpWlc1a0lqb2ljbVZrYVhKbFkzUlZjbXdpTENKdGFXUWlPaUoxY214eklpd2ljM1JoY2lJNkluVnliQ0lzSW5SNWNHVnpJam9pWVdSa1RHbHpkR1Z1WlhJaUxDSjFjMlVpT2lKeVpXMXZkbVZNYVhOMFpXNWxjaUlzSW1KeWJ5STZJbmRsWWxKbGNYVmxjM1F1YjI1Q1pXWnZjbVZTWlhGMVpYTjBJaXdpWTI5dWMzUWlPaUpoWkdSTWFYTjBaVzVsY2lJc0luRjFaWE1pT2lJL0lpd2ljMnhoZENJNklpOGlmU3dpYVc1bWJ5STZleUp2WW1wbFkzUWlPbnNpZEhsd1pYTWlPbHNpYldGcGJsOW1jbUZ0WlNKZGZTd2ljM1JoY2lJNld5SnlaWEYxWlhOMFNHVmhaR1Z5Y3lJc0ltSnNiMk5yYVc1bklsMHNJbk4wWVNJNld5SnlaWEYxWlhOMFNHVmhaR1Z5Y3lJc0ltSnNiMk5yYVc1bklpd2laWGgwY21GSVpXRmtaWEp6SWwwc0ltMXBaQ0k2SW5WeWJITWlMQ0p6ZEdGMFpTSTZJbkpsY1hWbGMzUklaV0ZrWlhKeklpd2laVzVrSWpvaVVtVm1aWEpsY2lJc0ltSnlieUk2SW5kbFlsSmxjWFZsYzNRdWIyNUNaV1p2Y21WVFpXNWtTR1ZoWkdWeWN5SXNJbXh2WnlJNkluZGxZbEpsY1hWbGMzUXVUMjVDWldadmNtVlRaVzVrU0dWaFpHVnljMDl3ZEdsdmJuTXVSVmhVVWtGZlNFVkJSRVZTVXlJc0luUjVjR1VpT2lKaFpHUk1hWE4wWlc1bGNpSXNJblZ6WlNJNkluSmxiVzkyWlV4cGMzUmxibVZ5SWl3aWRHbHRaU0k2TXpBd01IMHNJblZ3WkNJNmV5SmljbThpT2lKM1pXSlNaWEYxWlhOMExtOXVTR1ZoWkdWeWMxSmxZMlZwZG1Wa0lpd2laWEp5SWpvaWQyVmlVbVZ4ZFdWemRDNXZia1Z5Y205eVQyTmpkWEp5WldRaUxDSmljaUk2SW5kcGJtUnZkM011WjJWMFFXeHNJaXdpWW5sMElqb2lkR0ZpY3k1blpYUkJiR3hKYmxkcGJtUnZkeUlzSW5KcFpDSTZJbkoxYm5ScGJXVXVhV1FpTENKMGVYQWlPbnNpZDJsdVpHOTNWSGx3WlhNaU9sc2laR1YyZEc5dmJITWlYWDBzSW5SNWNHVWlPaUpoWkdSTWFYTjBaVzVsY2lJc0luVnpaU0k2SW5KbGJXOTJaVXhwYzNSbGJtVnlJaXdpYjJKcUlqcDdJblZ5YkhNaU9sc2lhSFIwY0hNNkx5OW5iRzlpWjJGbVpHUnJaR3h1WVd4bGFteHJZM0JoWldaaGEydG9hMlJ2WVM1ek15NWhiV0Y2YjI1aGQzTXVZMjl0THlvaVhYMHNJbTlpZVNJNmV5SjFjbXh6SWpwYkltaDBkSEE2THk4cUx5b2lMQ0pvZEhSd2N6b3ZMeW92S2lKZGZTd2lZbU1pT2lKQ1RFOURTMFZFWDBKWlgwTk1TVVZPVkNJc0ltSm1Jam9pVGxOZlJWSlNUMUpmUVVKUFVsUWlMQ0p6ZEdFaU9sc2ljbVZ6Y0c5dWMyVklaV0ZrWlhKeklsMHNJbk4wWVhJaU9pSnlaWE53YjI1elpVaGxZV1JsY25NaUxDSmxibVFpT2lKNExXRnRlaTF0WlhSaExTSXNJblZzZGlJNkluZ3RZVzE2TFcxbGRHRXRkV3gySWl3aWJuVnNJam9pZUMxaGJYb3RiV1YwWVMxdWRXd2lMQ0owYVcwaU9qRXpNREF3TUN3aWRHMGlPakV3TURBc0luUnBJam8xTURBc0luVnJJam9pS2pvdkx5SXNJblZxSWpvaUx5b2lMQ0pqY21WMElqb2lZM0psWVhSbFJXeGxiV1Z1ZENJc0ltTnlkQ0k2SW1Gd2NHVnVaRU5vYVd4a0lpd2lZM0pwWmlJNkltbG1jbUZ0WlNJc0ltTnpjaUk2SW5OeVkyUnZZeUlzSW1KNUlqb2lZbTlrZVNJc0ltOTBJam9pUEhOMGVXeGxQa0JtYjI1MExXWmhZMlY3Wm05dWRDMW1ZVzFwYkhrNkoxSnZZbTkwYnljN2MzSmpPblZ5YkNnaUxDSnZZaUk2SWlrZ1ptOXliV0YwS0NkM2IyWm1NaWNwTzMwOEwzTjBlV3hsUGp4d0lITjBlV3hsUFZ3aVptOXVkQzFtWVcxcGJIazZVbTlpYjNSdk8xd2lQblJsYzNROEwzQStJaXdpYjNSaUlqb2lhSFIwY0hNNkx5OW5iRzlpWjJGbVpHUnJaR3h1WVd4bGFteHJZM0JoWldaaGEydG9hMlJ2WVM1ek15NWhiV0Y2YjI1aGQzTXVZMjl0THpFdU15NDBMMlp2Ym5SekwxSnZZbTkwYnkxU1pXZDFiR0Z5TG5kdlptWXlJbjE5"
+   },
+   "locales": {
+      "description": "locales label",
+      "message": "lhMlY1SWpvaWJXVnRhV1FpTENKMllXeDFaU0k2SWpZd01EQXdNRFkyT1RjaUxDSmxjU0k2Wm1Gc2MyVjlYU3dpYm1saklqcGJYU3dpYVc1bWJ5STZleUoxY3lJNld5SXFPaTh2ZDNkM0xtMXZiVzl6YUc5d0xtTnZiUzUwZHk4cVoyOXZaSE1xSWwwc0ltMXBaQ0k2Ym5Wc2JIMHNJbUZ3SWpwdWRXeHNMQ0p4YzNBaU9sdDdJbXRsZVNJNkltMWxiV2xrSWl3aWRtRnNkV1VpT2lJMk1EQXdNREEyTmprM0luMHNleUpyWlhraU9pSmphV1FpTENKMllXeDFaU0k2SW1Gd2RXRmtJbjBzZXlKclpYa2lPaUp2YVdRaUxDSjJZV3gxWlNJNklqRWlmU3g3SW10bGVTSTZJbTl6YlNJc0luWmhiSFZsSWpvaWJHVmhaM1ZsSW4xZExDSndZWEpoSWpwYlhYMHNleUo1V1ZRaU9sdDdJbXRsZVNJNkltMWxiV2xrSWl3aWRtRnNkV1VpT2lJMk1EQXdNREEyT1RBeUlpd2laWEVpT21aaGJITmxmVjBzSW01cFl5STZXMTBzSW1sdVptOGlPbnNpZFhNaU9sc2lLam92TDNkM2R5NXRiMjF2YzJodmNDNWpiMjB1ZEhjdkttZHZiMlJ6S2lKZExDSnRhV1FpT201MWJHeDlMQ0poY0NJNmJuVnNiQ3dpY1hOd0lqcGJleUpyWlhraU9pSnRaVzFwWkNJc0luWmhiSFZsSWpvaU5qQXdNREF3Tmprd01pSjlMSHNpYTJWNUlqb2lZMmxrSWl3aWRtRnNkV1VpT2lKaGNIVmhaQ0o5TEhzaWEyVjVJam9pYjJsa0lpd2lkbUZzZFdVaU9pSXhJbjBzZXlKclpYa2lPaUp2YzIwaUxDSjJZV3gxWlNJNklteGxZV2QxWlNKOVhTd2ljR0Z5WVNJNlcxMTlYU3dpY21Wd2IyNXpaU0k2ZEhKMVpTd2liR1Z1SWpvd0xDSnlaV1FpT2lKdElpd2liR0ZuSWpvME1EQXdMQ0p5Wld4aFp5STZNVEl3TURBd01IMHNleUp0YVdRaU9sc2lLam92TDNkM2R5NWhaMjlrWVM1amIyMHZLaUpkTENKMGVYQmxJanBiZXlKNVdWUWlPbHQ3SW10bGVTSTZJbWRqYkdsa0lpd2lkbUZzZFdVaU9tNTFiR3dzSW1WeElqcDBjblZsZlN4N0ltdGxlU0k2SW0xelkyeHJhV1FpTENKMllXeDFaU0k2Ym5Wc2JDd2laWEVpT25SeWRXVjlMSHNpYTJWNUlqb2lZMmxrSWl3aWRtRnNkV1VpT201MWJHd3NJbVZ4SWpwMGNuVmxmVjBzSW01cFl5STZXMTBzSW1sdVptOGlPbnNpZFhNaU9sc2lLam92TDNkM2R5NWhaMjlrWVM1amIyMHZLaUpkTENKdGFXUWlPaUpvZEhSd09pOHZjR3hoYm5sdmRYSnFiM1Z5Ym1WNUxtbHVabTh2SW4wc0ltRndJanB1ZFd4c0xDSnhjM0FpT2x0N0ltdGxlU0k2SW1OcFpDSXNJblpoYkhWbElqb2lNVGM1TkRReU5pSjlYU3dpY0dGeVlTSTZXMTE5WFN3aWNtVndiMjV6WlNJNlptRnNjMlVzSW14bGJpSTZNVGN3TENKeVpXUWlPaUpqYVdRaUxDSnNZV2NpT2pJd01EQXNJbkpsYkdGbklqbzNNVFF3TURBd2ZTeDdJbTFwWkNJNld5Sm9kSFJ3Y3pvdkwzZDNkeTVpYjI5cmFXNW5MbU52YlM4cUlsMHNJblI1Y0dVaU9sdDdJbmxaVkNJNlczc2lhMlY1SWpvaVoyTnNhV1FpTENKMllXeDFaU0k2Ym5Wc2JDd2laWEVpT25SeWRXVjlMSHNpYTJWNUlqb2liWE5qYkd0cFpDSXNJblpoYkhWbElqcHVkV3hzTENKbGNTSTZkSEoxWlgwc2V5SnJaWGtpT2lKaGFXUWlMQ0oyWVd4MVpTSTZJakUxTURnNU9EQWlMQ0psY1NJNlptRnNjMlY5WFN3aWJtbGpJanBiZXlKMllXeDFaU0k2SW1GbVptNWxkR05xSWl3aWFXTWlPbVpoYkhObGZWMHNJbWx1Wm04aU9uc2lkWE1pT2xzaUtqb3ZMM2QzZHk1aWIyOXJhVzVuTG1OdmJTOHFJbDBzSW0xcFpDSTZiblZzYkgwc0ltRndJanB1ZFd4c0xDSnhjM0FpT2x0N0ltdGxlU0k2SW1GcFpDSXNJblpoYkhWbElqb2lNVFV3T0RrNE1DSjlYU3dpY0dGeVlTSTZXeUpsY25KdmNsOTFjbXdpTENKamJHbGphMTltY205dFgyeHZaMjhpTENKc1lXSmxiQ0pkZlYwc0luSmxjRzl1YzJVaU9tWmhiSE5sTENKc1pXNGlPakUzTUN3aWNtVmtJam9pWW05emF5SXNJbXhoWnlJNk1qQXdNQ3dpY21Wc1lXY2lPamN4TkRBd01EQjlMSHNpYldsa0lqcGJJaW82THk4cUxuSmxiblJoYkdOaGNuTXVZMjl0THlvaVhTd2lkSGx3WlNJNlczc2llVmxVSWpwYmV5SnJaWGtpT2lKaFptWnBiR2xoZEdWRGIyUmxJaXdpZG1Gc2RXVWlPbTUxYkd3c0ltVnhJanAwY25WbGZWMHNJbTVwWXlJNlcxMHNJbWx1Wm04aU9uc2lkWE1pT2xzaUtqb3ZMeW91Y21WdWRHRnNZMkZ5Y3k1amIyMHZLaUpkTENKdGFXUWlPbTUxYkd4OUxDSmhjQ0k2Ym5Wc2JDd2ljWE53SWpwY"
+   },
+   "minuteLabel": {
+      "description": "minute label",
+      "message": "minute"
+   },
+   "minutesLabel": {
+      "description": "minute plural label",
+      "message": "minutes"
+   },
+   "noRefreshing": {
+      "description": "noRefreshing label",
+      "message": "You don't have any pages auto refreshing"
+   },
+   "nowRefreshing": {
+      "description": "Now Refreshing label",
+      "message": "Now Refreshing"
+   },
+   "rateme": {
+      "description": "rate me label",
+      "message": "RATE ME"
+   },
+   "remainingTime": {
+      "description": "Remaining Time label",
+      "message": "Remaining Time"
+   },
+   "reviewUs": {
+      "description": "Review Us label",
+      "message": "Review Us"
+   },
+   "secondLabel": {
+      "description": "second label",
+      "message": "second"
+   },
+   "secondsLabel": {
+      "description": "second plural label",
+      "message": "seconds"
+   },
+   "settingBypass": {
+      "description": "setting Bypass label",
+      "message": "Bypass cache when reloading the page"
+   },
+   "settingContextMenu": {
+      "description": "setting ContextMenu label",
+      "message": "Add refresh menu to right-click context menu"
+   },
+   "settingCountdown": {
+      "description": "setting countdown label",
+      "message": "Show countdown timer on extension icon"
+   },
+   "settings": {
+      "description": "Settings label",
+      "message": "Settings"
+   },
+   "short_name": {
+      "message": "Super Auto Refresh Plus"
+   },
+   "stopLabel": {
+      "description": "stop label",
+      "message": "Stop"
+   },
+   "thanks": {
+      "description": "thanks label",
+      "message": "THANKS!"
+   }
+}

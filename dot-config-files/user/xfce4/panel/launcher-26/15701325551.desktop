@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Windows 10 Enterprise x64
+Comment=Starts the VirtualBox machine Windows 10 Enterprise x64
+Type=Application
+Exec=/usr/lib/virtualbox/VirtualBoxVM --comment "Windows 10 Enterprise x64" --startvm "{4bf53b3d-af05-48be-bc8f-6d64c210858c}"
+Icon=virtualbox-vbox.png
+X-XFCE-Source=file:///home/anthony/Desktop/Windows%2010%20Enterprise%20x64.desktop

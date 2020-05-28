@@ -1,0 +1,43 @@
+2020/05/05-17:11:21.856 99ca Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_to-do.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/05-17:11:21.869 608e Level-0 table #5: started
+2020/05/05-17:11:21.873 608e Level-0 table #5: 530 bytes OK
+2020/05/05-17:11:21.880 608e Delete type=0 #3
+2020/05/05-17:11:21.880 608e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/05/05-17:11:21.889 608e Level-0 table #7: started
+2020/05/05-17:11:21.900 608e Level-0 table #7: 507 bytes OK
+2020/05/05-17:11:21.905 608e Delete type=0 #4
+2020/05/05-17:11:21.906 608e Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/05/05-17:11:21.915 608e Level-0 table #9: started
+2020/05/05-17:11:21.920 608e Level-0 table #9: 507 bytes OK
+2020/05/05-17:11:21.926 608e Delete type=0 #6
+2020/05/05-17:11:21.926 608e Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 43 : 1
+2020/05/05-17:11:21.926 608e Compacting 1@0 + 1@1 files
+2020/05/05-17:11:21.930 608e Generated table #10@0: 13 keys, 478 bytes
+2020/05/05-17:11:21.930 608e Compacted 1@0 + 1@1 files => 478 bytes
+2020/05/05-17:11:21.935 608e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/05-17:11:21.936 608e Delete type=2 #9
+2020/05/05-17:11:21.936 608e Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 43 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/05/05-17:11:45.225 608e Level-0 table #12: started
+2020/05/05-17:11:45.254 608e Level-0 table #12: 1082079 bytes OK
+2020/05/05-17:11:45.261 608e Delete type=0 #8
+2020/05/05-17:11:45.261 608e Delete type=2 #7
+2020/05/05-17:11:48.334 608e Level-0 table #14: started
+2020/05/05-17:11:48.343 608e Level-0 table #14: 140817 bytes OK
+2020/05/05-17:11:48.348 608e Delete type=0 #11
+2020/05/05-17:11:48.348 608e Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x07\x02\x01\x0d\x00l\x00-\x002\x00g\x00m\x00h\x00r\x00h\x00g\x00u\x005\x00d\x00b' @ 19410 : 1
+2020/05/05-17:11:48.348 608e Compacting 2@0 + 1@1 files
+2020/05/05-17:11:48.384 608e Generated table #15@0: 10517 keys, 989765 bytes
+2020/05/05-17:11:48.384 608e Compacted 2@0 + 1@1 files => 989765 bytes
+2020/05/05-17:11:48.389 608e compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/05-17:11:48.389 608e Delete type=2 #12
+2020/05/05-17:11:48.389 608e Delete type=2 #10
+2020/05/05-17:11:48.389 608e Delete type=2 #14
+2020/05/05-17:11:48.389 608e Manual compaction at level-0 from '\x00\x04\x07\x02\x01\x0d\x00l\x00-\x002\x00g\x00m\x00h\x00r\x00h\x00g\x00u\x005\x00d\x00b' @ 19410 : 1 .. (end); will stop at (end)
+2020/05/05-17:11:48.389 608e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x08\x02\x01\x10\x00W\x00u\x00n\x00d\x00e\x00r\x00l\x00i\x00s\x00t\x00I\x00m\x00p\x00o\x00r\x00t' @ 469 : 1
+2020/05/05-17:11:48.389 608e Compacting 1@1 + 1@2 files
+2020/05/05-17:11:48.415 608e Generated table #16@1: 3524 keys, 935114 bytes
+2020/05/05-17:11:48.415 608e Compacted 1@1 + 1@2 files => 935114 bytes
+2020/05/05-17:11:48.420 608e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/05-17:11:48.420 608e Delete type=2 #15
+2020/05/05-17:11:48.420 608e Delete type=2 #5
+2020/05/05-17:11:48.420 608e Manual compaction at level-1 from '\x00\x04\x08\x02\x01\x10\x00W\x00u\x00n\x00d\x00e\x00r\x00l\x00i\x00s\x00t\x00I\x00m\x00p\x00o\x00r\x00t' @ 469 : 1 .. (end); will stop at (end)

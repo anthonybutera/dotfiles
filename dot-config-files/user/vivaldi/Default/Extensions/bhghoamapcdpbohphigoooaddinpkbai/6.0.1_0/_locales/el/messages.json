@@ -1,0 +1,325 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Σχετικά"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Λογαριασμός"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Username"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Σάρωση QR κωδικού"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Χειροκίνητη εισαγωγή"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": "έχει προστεθεί."
+   },
+   "advanced": {
+      "message": "Advanced"
+   },
+   "autolock": {
+      "message": "Lock after"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Με μετρητή"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Βάσει χρόνου"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Η καταγραφή απέτυχε, επαναλάβετε τη φόρτωση της σελίδας και προσπαθήστε ξανά."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "ΠΡΟΣΟΧΗ! Τοπικό ρολόι σας είναι πάρα πολύ μακριά, παρακαλώ διορθώστε το πριν να συνεχίσετε."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Κλείσιμο"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Are you sure you want to delete this account? This action cannot be undone."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Επιβεβαίωση Κωδικού Πρόσβασης"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Αντιγράφηκε"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Τρέχον Κωδικός"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Λήψη αντιγράφου ασφαλείας"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Λήψη αντιγράφων ασφαλείας που προστατεύεται με κωδικό πρόσβασης"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Warning: backups are unencrypted. Use at your own risk."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Επεξεργασία"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Κρυπτογραφημένο"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Μη αναγνωρισμένος κώδικας QR."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Invalid account secret"
+   },
+   "export_import": {
+      "description": "Export and Import.",
+      "message": "Εξαγωγή/εισαγωγή"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Προειδοποίηση: όλα τα αντίγραφα ασφαλείας είναι κρυπτογραφημένη. Θέλετε να προσθέσετε ένα λογαριασμό σε μια άλλη εφαρμογή; Καταδείξτε επάνω δεξιά μέρος οποιουδήποτε λογαριασμού και πάτα το κουμπί κρυφό."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator generates two-factor authentication codes in your browser."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Authenticator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Authenticator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Αξιολόγηση"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Εισαγωγή αντιγράφου ασφαλείας"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Εισαγωγή αντιγράφων κειμένου"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Εισαγωγή αντιγράφου ασφαλείας"
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Πρέπει να παρέχετε το σωστό κωδικό πρόσβασης για να εισαγάγετε τα αντίγραφα ασφαλείας."
+   },
+   "invalid": {
+      "message": "Invalid"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Εκδότης"
+   },
+   "loading": {
+      "message": "Loading..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Τον κωδικό πρόσβασής σας είναι αποθηκευμένη τοπικά, παρακαλούμε αμέσως να το αλλάξετε από το μενού ασφάλεια."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Κλείδωμα"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Logout"
+   },
+   "manual_dropbox": {
+      "description": "Manual sync",
+      "message": "Χειροκίνητος συγχρονισμός"
+   },
+   "minutes": {
+      "message": "minutes"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Νέος κωδικός πρόσβασης"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Όχι"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Εντάξει"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "You can import backups from some other applications."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Learn more"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "You have one or more Steam or Blizzard accounts. Unencrypted backups will not use standardized backup format."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Εισάγετε κωδικό πρόσβασης για να αποκρυπτογραφήσει τα δεδομένα του λογαριασμού."
+   },
+   "period": {
+      "message": "Period"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Κωδικός πρόσβασης"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Δεν μπορείτε να προσθέσετε νέο λογαριασμό ή να εξαγάγετε δεδομένα μέχρι να αποκρυπτογραφηθούν όλοι οι λογαριασμοί. Εισαγάγετε τον σωστό κωδικό πρόσβασης πριν συνεχίσετε."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Το Συνθηματικό δεν ταιριάζει"
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Αναδυόμενο παράθυρο λειτουργίας"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Απομνημόνευση κωδικού πρόσβασης"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Do you have a backup for your accounts? Don't wait until it's too late!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Αφαίρεση"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Preferences"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Κλίμακα"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Αναζήτηση"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Μυστικό"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Ασφάλεια"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "This password will be used to encrypt your accounts. No one can help you if you forget the password."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Ρυθμίσεις"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Δείτε όλες τις καταχωρήσεις"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Sign in"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Πηγαίος Κώδικας"
+   },
+   "storage_location": {
+      "description": "Storage location",
+      "message": "Θέση αποθήκευσης"
+   },
+   "storage_location_info": {
+      "description": "Message explaning the diffrences between sync and local storage spaces.",
+      "message": "Επιλέξτε όπου είναι αποθηκευμένα τα δεδομένα σας. Χρησιμοποιώντας «τοπικό» αποθηκεύει τα δεδομένα σας στον υπολογιστή σας. Χρησιμοποιώντας «συγχρονισμού» σας επιτρέπει να συγχρονίσετε τα δεδομένα σας στο cloud, αν είστε συνδεδεμένοι σε ένα λογαριασμό συγχρονισμού το πρόγραμμα περιήγησής σας."
+   },
+   "storage_menu": {
+      "description": "Storage and sync menu title",
+      "message": "Αποθήκευση & δημιουργία αντιγράφων ασφαλείας"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Δημιουργήστε αυτόματα αντίγραφα ασφαλείας των δεδομένων σας σε υπηρεσίες αποθήκευσης τρίτων."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Συγχρονισμός ρολογιού με την Google"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "There was an issue connecting to your $SERVICE$ account, please sign in again.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Μετάφραση"
+   },
+   "type": {
+      "message": "Type"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Ενημέρωση"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Αποτυχία"
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Επιτυχία"
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Χρήση της αυτόματης συμπλήρωσης"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Use High Contrast"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Ναι"
+   }
+}

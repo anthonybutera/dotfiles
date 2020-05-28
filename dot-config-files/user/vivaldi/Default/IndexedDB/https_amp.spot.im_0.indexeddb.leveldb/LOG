@@ -1,0 +1,5 @@
+2020/05/05-22:59:07.007 e253 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_amp.spot.im_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/05-22:59:32.980 608e Level-0 table #5: started
+2020/05/05-22:59:32.985 608e Level-0 table #5: 5638 bytes OK
+2020/05/05-22:59:32.992 608e Delete type=0 #3
+2020/05/05-22:59:32.992 608e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

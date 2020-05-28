@@ -1,0 +1,5 @@
+2020/05/14-15:32:32.088 3df1 Reusing MANIFEST /home/anthony/.config/vivaldi/Default/IndexedDB/https_www.naturalreaders.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/14-15:32:51.700 1a1a Level-0 table #5: started
+2020/05/14-15:32:51.705 1a1a Level-0 table #5: 869 bytes OK
+2020/05/14-15:32:51.710 1a1a Delete type=0 #3
+2020/05/14-15:32:51.710 1a1a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
