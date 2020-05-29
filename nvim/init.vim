@@ -2,7 +2,7 @@
 
 " Vim-Plug                    " https://github.com/junegunn/vim-plug
 "" call plug#begin('~/.vim/plugged')
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/dotfiles/nvim/plugged')
 
 " Scripts
   Plug 'junegunn/vim-plug'
