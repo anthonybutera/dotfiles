@@ -10,7 +10,6 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'itchyny/lightline.vim'
-  Plug 'sheerun/vim-polyglot'
 
 " Colorschemes
   Plug 'morhetz/gruvbox'                    " <leader>1
