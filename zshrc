@@ -25,9 +25,8 @@ if ! [ $(id -u) = 0 ]; then
 ###     source $THEMES_DIR/mortalscumbag.zsh-theme       # Green 2-lined prompt
 ###     source $THEMES_DIR/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
 else
-###     prompt fade red
-     source /home/$(id -nu 1000)/dotfiles/zsh-themes/mrtazz.zsh-theme              # Red standard prompt
-
+     prompt fade red
+###     source /home/$(id -nu 1000)/dotfiles/zsh-themes/mrtazz.zsh-theme              # Red standard prompt
 fi
 # =====================================================
 
