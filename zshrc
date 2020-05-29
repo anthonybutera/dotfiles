@@ -18,15 +18,15 @@ promptinit
 # User = green
 # Root = red
 
-THEMES_DIR=$HOME/dotfiles
+THEMES_DIR="/home/$(/usr/bin/id -run)/dotfiles/zsh-themes"
 
 if ! [ $(id -u) = 0 ]; then
      prompt fade green 
-###     source $THEMES_DIR/themes/mortalscumbag.zsh-theme       # Green 2-lined prompt
-###     source $THEMES_DIR/themes/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
+###     source $THEMES_DIR/mortalscumbag.zsh-theme       # Green 2-lined prompt
+###     source $THEMES_DIR/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
 else
-     prompt fade red
-###     source $THEMES_DIR/themes/mrtazz.zsh-theme              # Red standard prompt
+###     prompt fade red
+     source /home/$(id -nu 1000)/dotfiles/zsh-themes/mrtazz.zsh-theme              # Red standard prompt
 
 fi
 # =====================================================
@@ -50,7 +50,7 @@ alias history='fc -flt "%A  %b-%d-%Y  %r" -500'
 
 # History settings
 HISTFILE=$HOME/.zsh_history
-HISTSIZE=1000000
+HISTSIZE=100000
 SAVEHIST=$HISTSIZE
 setopt histappend
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"

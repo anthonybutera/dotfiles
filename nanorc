@@ -20,8 +20,6 @@ bind ^J justify main
 bind ^_ gotoline main
 
 
-
-
 ## When soft line wrapping is enabled, make it wrap lines at blanks
 ## (tabs and spaces) instead of always at the edge of the screen.
 # set atblanks

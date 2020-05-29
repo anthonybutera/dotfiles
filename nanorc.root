@@ -1,4 +1,24 @@
 
+bind ^H help main
+bind ^Q exit main
+
+bind M-X cut main
+bind M-C copy main
+bind M-V paste main
+bind ^U undo main
+bind ^Y redo main
+
+bind ^w writeout main
+bind ^S savefile main
+
+bind ^F whereis main
+bind ^G replace main
+
+bind ^E speller main
+bind ^J justify main
+bind ^_ gotoline main
+
+
 ## When soft line wrapping is enabled, make it wrap lines at blanks
 ## (tabs and spaces) instead of always at the edge of the screen.
 # set atblanks
