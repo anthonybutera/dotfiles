@@ -40,28 +40,29 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
 alias History='fc -flt "%A  %b/%d/%Y  %r" 1 | fzf --tac --height=10'
-alias less='less -N'
+alias Less='less -N'                        # Displays line numbers
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
+alias lsa='ls -ld .*'
 alias lsd='ls -ld */'
 alias lsh='ls -lh `find . -maxdepth 1 -type l -print`'
 alias motd='clear && cat /etc/motd'
 alias mule-password-svc_mule='/mnt/c/Windows/System32/OpenSSH/ssh.exe -l svc_nsoc 10.240.29.43'
 alias nano='nano -m'
-alias open='xdg-open'         # Install xdg-utils
+alias open='xdg-open'                       # Install xdg-utils
 alias Ping='ping -OA -c 10'
 alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
 alias sl='ls'
-alias smotd='clear && neofetch'       # Install neofetch
+alias smotd='clear && neofetch'             # Install neofetch
 alias start='cmd.exe /C start $*'
 alias vim='nvim'
 alias w='w -fus'
 alias watch='watch -c'
 alias weather='curl http://wttr.in/tampa'   # Install curl
 alias who='who | column -t'
-alias whois='whois -H'          # Install whois
+alias whois='whois -H'                      # Install whois
 
 alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
 
