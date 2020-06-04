@@ -161,7 +161,7 @@ keymap :d DOWNLOAD_LIST
 ########## history navigation ##########
 keymap C-l NEXT
 keymap C-h PREV
-keymap :p SELECT_MENU
+keymap :m SELECT_MENU
 keymap :h HISTORY
 
 ########## scrolling ##########
@@ -192,8 +192,8 @@ keymap w NEXT_WORD
 keymap b PREV_WORD
 
 ########## cursor history ##########
-keymap C-i REDO
-keymap C-o UNDO
+keymap C-U REDO
+keymap U   UNDO
 
 ########## navigation ##########
 keymap u GOTO
@@ -210,14 +210,14 @@ keymap C-r RELOAD
 
 # save/load 
 keymap :w SAVE
-keymap :W PRINT
+keymap :P PRINT
 keymap :o GOTO
 keymap :e LOAD
 
 # jump
 keymap ESC-C-j SUBMIT
 keymap C-] TAB_LINK
-keymap C-j GOTO_LINK
+# keymap C-j GOTO_LINK
 
 ########## info ##########
 keymap y PEEK
