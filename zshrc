@@ -83,6 +83,8 @@ bindkey "^[[1;5D" backward-word
 # Make CTRL + U erase to the beginning of the line
 bindkey \^U backward-kill-line
 
+# Make CTRL + K erase to the end of the line
+bindkey \^K kill-line
 
 # Add blank line after each command
 precmd() { print "" }
