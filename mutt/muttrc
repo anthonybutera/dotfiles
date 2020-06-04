@@ -122,3 +122,4 @@ bind index,pager \Ca sidebar-toggle-visible
 
 
 source ~/dotfiles/mutt/colors.muttrc
+source ~/dotfiles/mutt/vim-keybindings
