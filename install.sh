@@ -6,7 +6,7 @@ ME="$(/usr/bin/id -run)"
 # ===============================================
 # Check for package installation
 
-for package in {wget,curl,zsh,nano,tmux,neovim,mc,qutebrowser,rofi,terminator,w3m,htop} ; do if [ which $package ] ; then echo "$package is installed" ; else sudo apt install --no-install-recommends -y $package ; fi ; done
+for package in {wget,curl,zsh,nano,tmux,neovim,neomutt,mc,qutebrowser,rofi,terminator,w3m,htop} ; do if [ which $package ] ; then echo "$package is installed" ; else sudo apt install --no-install-recommends -y $package ; fi ; done
 
 #    ===============================================
     #    if ! [ -x "$(command -v neovim)" ]; then
@@ -55,6 +55,7 @@ ln -sf $HOME/dotfiles/bash_aliases    $HOME/.bash_aliases
 ln -sf $HOME/dotfiles/mc              $HOME/.config/mc
 ln -sf $HOME/dotfiles/nano            $HOME/.config/nano
 ln -sf $HOME/dotfiles/nanorc          $HOME/.nanorc
+ln -sf $HOME/dotfiles/mutt/muttrc     $HOME/.muttrc
 ln -sf $HOME/dotfiles/newsboat        $HOME/.config/newsboat
 ln -sf $HOME/dotfiles/nvim            $HOME/.config/nvim
 ln -sf $HOME/dotfiles/nvim/init.vim   $HOME/.vimrc

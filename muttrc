@@ -13,21 +13,16 @@
 
 # Folder hooks
 folder-hook 'account.com.gmail.anthony.butera' 'source ~/.mutt/account.com.gmail.anthony.butera'
-folder-hook 'account.com.hostway.anthony.butera' 'source ~/.mutt/account.com.hostway.anthony.butera'
 
 
 # Default account
 source ~/.mutt/account.com.gmail.anthony.butera
-#source ~/.mutt/account.com.hostway.anthony.butera
 
 
 # Macros for switching accounts
-
 macro index <F1> '<sync-mailbox><enter-command>source ~/.mutt/account.com.gmail.anthony.butera<enter><change-folder>!<enter>'
-macro index <F2> '<sync-mailbox><enter-command>source ~/.mutt/account.com.hostway.anthony.butera<enter><change-folder>!<enter>'
 
 # Fetch IMAP mail
-
 bind index G imap-fetch-mail
 
 
