@@ -7,7 +7,7 @@ ME="$(/usr/bin/id -run)"
 # Check for package installation
 # ==============================
 
-for package in nmap wget curl zsh nano tmux neovim mc terminator w3m htop glances transmission-cli ; do if [ -f $(which $package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
+for package in nmap wget curl zsh nano tmux neovim mc terminator w3m qutebrowser rofi htop glances transmission-cli ; do if [ -f $(which $package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
 
 # Install NeoMutt
 if [ ! -f $(which neomutt) ]; then
