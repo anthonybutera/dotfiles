@@ -3,6 +3,10 @@ bind editor                     <tab> complete-query
 bind editor                     <space> noop
 bind attach                     <space> view-mailcap
 
+bind attach,pager,index g noop
+bind index  d noop
+
+
 #------------------------------------------------------------
 # Vi Key Bindings
 #------------------------------------------------------------
