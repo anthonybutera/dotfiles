@@ -1,3 +1,6 @@
+
+unmailboxes *
+
 set ssl_starttls=yes
 set ssl_force_tls=yes
 set imap_user = 'anthony.butera@gmail.com'
@@ -5,21 +8,25 @@ set imap_user = 'anthony.butera@gmail.com'
 set from='anthony.butera@gmail.com'
 set realname='Anthony Butera'
 set folder = "imaps://imap.gmail.com/"
-set spoolfile = "imaps://imap.gmail.com/INBOX"
-set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+set spoolfile = "+INBOX"
+set postponed="+[Gmail]/Drafts"
+set trash="+[Gmail]/Trash"
 set header_cache = "~/.mutt/cache/headers"
 set message_cachedir = "~/.mutt/cache/bodies"
 set certificate_file = "~/.mutt/certificates"
 set smtp_url = 'smtps://smtp.gmail.com:465/'
 set move = no
-set imap_keepalive = 90
+set imap_keepalive = 60
 set sort = reverse-date
+set imap_check_subscribed
 
 set sidebar_visible
-set sidebar_width = 20
+set sidebar_width = 30
 set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
 set mail_check_stats
 
+auto_view text/html
+alternative_order text/plain text/enriched text/html
 
 # --------------------------------------------------------------------------
 # FUNCTIONS – shown with an example mapping
