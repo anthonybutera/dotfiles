@@ -4,88 +4,21 @@ set imap_user = 'anthony.butera@gmail.com'
 ## set imap_pass = 'PASSWORD'
 set from='anthony.butera@gmail.com'
 set realname='Anthony Butera'
-set folder = imaps://imap.gmail.com/
-set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "imaps://imap.gmail.com/INBOX"
 set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
 set header_cache = "~/.mutt/cache/headers"
 set message_cachedir = "~/.mutt/cache/bodies"
 set certificate_file = "~/.mutt/certificates"
 set smtp_url = 'smtps://smtp.gmail.com:465/'
 set move = no
-set imap_keepalive = 900
-
+set imap_keepalive = 90
+set sort = reverse-date
 
 set sidebar_visible
+set sidebar_width = 20
 set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
 set mail_check_stats
-
-
-# --------------------------------------------------------------------------
-# VARIABLES – shown with their default values
-# --------------------------------------------------------------------------
-
-# Should the Sidebar be shown?
-set sidebar_visible = no
-
-# How wide should the Sidebar be in screen columns?
-
-# Note: Some characters, e.g. Chinese, take up two columns each.
-set sidebar_width = 20
-
-# Should the mailbox paths be abbreviated?
-set sidebar_short_path = no
-
-# Number of top-level mailbox path subdirectories to truncate for display
-set sidebar_component_depth = 0
-
-# When abbreviating mailbox path names, use any of these characters as path
-# separators. Only the part after the last separators will be shown.
-# For file folders '/' is good. For IMAP folders, often '.' is useful.
-set sidebar_delim_chars = '/.'
-
-# If the mailbox path is abbreviated, should it be indented?
-set sidebar_folder_indent = no
-
-# Indent mailbox paths with this string.
-set sidebar_indent_string = '  '
-
-# Make the Sidebar only display mailboxes that contain new, or flagged,
-# mail.
-set sidebar_new_mail_only = no
-
-# Any mailboxes that are whitelisted will always be visible, even if the
-# sidebar_new_mail_only option is enabled.
-set sidebar_non_empty_mailbox_only = no
-
-# Only show mailboxes that contain some mail
-sidebar_whitelist '/home/user/mailbox1'
-sidebar_whitelist '/home/user/mailbox2'
-
-# When searching for mailboxes containing new mail, should the search wrap
-# around when it reaches the end of the list?
-set sidebar_next_new_wrap = no
-
-# Show the Sidebar on the right-hand side of the screen
-set sidebar_on_right = no
-
-# The character to use as the divider between the Sidebar and the other NeoMutt
-# panels.
-set sidebar_divider_char = '|'
-
-# Enable extended mailbox mode to calculate total, new, and flagged
-# message counts for each mailbox.
-set mail_check_stats
-
-# Display the Sidebar mailboxes using this format string.
-set sidebar_format = '%B%?F? [%F]?%* %?N?%N/?%S'
-# Sort the mailboxes in the Sidebar using this method:
-#       count    – total number of messages
-#       flagged  – number of flagged messages
-#       new      – number of new messages
-#       path     – mailbox path
-#       unsorted – do not sort the mailboxes
-set sidebar_sort_method = 'unsorted'
-
 
 
 # --------------------------------------------------------------------------
@@ -121,5 +54,5 @@ bind index,pager \Ca sidebar-toggle-visible
 
 
 
-source ~/dotfiles/mutt/colors.muttrc
+# source ~/dotfiles/mutt/colors.muttrc
 source ~/dotfiles/mutt/vim-keybindings
