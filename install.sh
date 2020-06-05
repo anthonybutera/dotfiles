@@ -3,37 +3,11 @@
 ME="$(/usr/bin/id -run)"
 
 
-# ===============================================
+# ==============================
 # Check for package installation
+# ==============================
 
 for package in {wget,curl,zsh,nano,tmux,neovim,neomutt,mc,qutebrowser,rofi,terminator,w3m,htop} ; do if [ which $package ] ; then echo "$package is installed" ; else sudo apt install --no-install-recommends -y $package ; fi ; done
-
-#    ===============================================
-    #    if ! [ -x "$(command -v neovim)" ]; then
-    #      echo "Is NeoVIM installed? If not, it will be!"
-    #      sudo apt install neovim -y
-    #    fi
-
-    #    ===============================================
-    #    # If USER's .config folder exists, rename it and symlink to dotfiles/
-    #    echo "Checking for $HOME/.config and redirecting it ..." ;
-    #    if [ -d $HOME/.config ]; then
-    #      mv $HOME/.config $HOME/.config-old && ln -sf $HOME/dotfiles/ $HOME/.config
-    #    else
-    #      ln -sf $HOME/dotfiles/dot-config-files/user $HOME/.config
-    #    fi
-    #
-    #    ===============================================
-    #
-    #    # If ROOT's .config folder exists, rename it and symlink to dotfiles/
-    #    echo "Checking for /root/.config and redirecting it" ; 
-    #    if sudo [ -d /root/.config ]; then
-    #      sudo mv /root/.config /root/.config-old && sudo ln -sf /home/$ME/dotfiles/dot-config-files/root /root/.config
-    #    else
-    #      sudo ln -sf /home/$ME/dotfiles/dot-config-files/root /root/.config
-    #    fi
-    #    ===============================================
-# ===============================================
 
 
 # Install Vim-Plug if necessary
@@ -44,12 +18,10 @@ if [ ! -f $HOME/dotfiles/nvim/autoload/plug.vim ]; then
 fi
 
 
-
 # Configure Aliases
 # ln -sf /path/to/dotfile  /path/to/destination
 
 # User
-
 ln -sf $HOME/dotfiles/bashrc             $HOME/.bashrc
 ln -sf $HOME/dotfiles/bash_aliases       $HOME/.bash_aliases
 ln -sf $HOME/dotfiles/mc                 $HOME/.config/mc
