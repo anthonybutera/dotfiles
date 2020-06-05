@@ -232,8 +232,8 @@ keymap n SEARCH_NEXT
 keymap N SEARCH_PREV
 
 ########## bookmarks ##########
-keymap a ADD_BOOKMARK
-keymap :b VIEW_BOOKMARK
+keymap :ab ADD_BOOKMARK
+keymap :vb VIEW_BOOKMARK
 
 ########## tab ##########
 keymap x CLOSE_TAB
