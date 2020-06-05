@@ -1,6 +1,6 @@
 
 # Customize to your needs...
-export PATH=$PATH:$HOME/.local.bin:/mnt/c/Windows/System32/
+export PATH=$PATH:$HOME/.local/bin:/mnt/c/Windows/System32/
 export EDITOR=/usr/bin/nvim
 
 # Fix Globbing
