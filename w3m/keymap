@@ -197,8 +197,8 @@ keymap U   UNDO
 
 ########## navigation ##########
 keymap u GOTO
-keymap f MOVE_LIST_MENU
-keymap F LIST_MENU
+keymap d MOVE_LIST_MENU
+keymap D LIST_MENU
 keymap TAB NEXT_LINK
 keymap C-n NEXT_LINK
 keymap C-p PREV_LINK
