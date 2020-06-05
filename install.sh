@@ -7,10 +7,11 @@ ME="$(/usr/bin/id -run)"
 # Check for package installation
 # ==============================
 
-for package in {wget,curl,zsh,nano,tmux,neovim,mc,qutebrowser,rofi,terminator,w3m,htop,glances,transmission-cli} ; do sudo apt install --no-install-recommends -y $package ;done
+for package in nmap wget curl zsh nano tmux neovim mc terminator w3m htop glances transmission-cli ; do if [ -f $(which $package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
 
 # Install NeoMutt
 if [ ! -f $(which neomutt) ]; then
+  echo "NeoMutt ain't here, chief. Installing it."; 
   sudo dpkg -i $(wget http://http.us.debian.org/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb)
 fi
 
@@ -49,12 +50,12 @@ ln -sf $HOME/dotfiles/zshrc              $HOME/.zshrc
 # Root
 sudo ln -sf /home/$ME/dotfiles/bash_aliases   /root/.bash_aliases
 sudo ln -sf /home/$ME/dotfiles/bashrc         /root/.bashrc
-sudo ln -sf /home/$ME/nvim/init.vim           /root/.vimrc
+sudo ln -sf /home/$ME/dotfiles/nvim/init.vim  /root/.vimrc
 sudo ln -sf /home/$ME/dotfiles/zshrc          /root/.zshrc
 
 sudo ln -sf /home/$ME/dotfiles/nvim           /root/.config/nvim 
-sudo ln -sf /home/$ME/dotfiles/nanorc         /root/.nanorc
-sudo ln -sf /home/$ME/dotfiles/w3m_keymap     /root/.w3m_keymap
+sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
+sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
 
 echo "All done. Enjoy!"

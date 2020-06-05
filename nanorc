@@ -187,13 +187,14 @@ set trimblanks    ## (The old form, 'justifytrim', is deprecated.)
 
 ## Paint the interface elements of nano. These are examples;
 ## by default there are no colors, except for errorcolor.
- set titlecolor brightwhite,green
- set statuscolor brightwhite,green
- set errorcolor brightwhite,red
- set selectedcolor brightwhite,magenta
- set numbercolor brightcyan
- set keycolor brightcyan
- set functioncolor green
+set titlecolor brightwhite,green
+set statuscolor brightwhite,green
+set errorcolor brightwhite,red
+set selectedcolor brightwhite,magenta
+set numbercolor brightcyan
+set keycolor brightcyan
+set functioncolor green
+
 
 ## In root's .nanorc you might want to use:
 # set titlecolor brightwhite,red
@@ -203,6 +204,7 @@ set trimblanks    ## (The old form, 'justifytrim', is deprecated.)
 # set numbercolor brightred
 # set keycolor brightred
 # set functioncolor white
+
 
 ## To include all existing syntax definitions, you can do:
 include "/usr/share/nano/*.nanorc"
