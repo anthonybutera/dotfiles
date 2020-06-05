@@ -9,14 +9,16 @@ set from='anthony.butera@gmail.com'
 set realname='Anthony Butera'
 set folder = "imaps://imap.gmail.com/"
 set spoolfile = "+INBOX"
-set postponed="+[Gmail]/Drafts"
-set trash="+[Gmail]/Trash"
+set postponed= "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent"
+set trash= "+[Gmail]/Trash"
 set header_cache = "~/.mutt/cache/headers"
 set message_cachedir = "~/.mutt/cache/bodies"
 set certificate_file = "~/.mutt/certificates"
 set smtp_url = 'smtps://smtp.gmail.com:465/'
 set move = no
-set imap_keepalive = 60
+set mail_check = 60
+set imap_keepalive = 120
 set sort = reverse-date
 set imap_check_subscribed
 
