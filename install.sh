@@ -7,8 +7,12 @@ ME="$(/usr/bin/id -run)"
 # Check for package installation
 # ==============================
 
-for package in {wget,curl,zsh,nano,tmux,neovim,neomutt,mc,qutebrowser,rofi,terminator,w3m,htop} ; do sudo apt install --no-install-recommends -y $package ;done
+for package in {wget,curl,zsh,nano,tmux,neovim,mc,qutebrowser,rofi,terminator,w3m,htop,glances,transmission-cli} ; do sudo apt install --no-install-recommends -y $package ;done
 
+# Install NeoMutt
+if [ ! -f $(which neomutt) ]; then
+  sudo dpkg -i $(wget http://http.us.debian.org/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb)
+fi
 
 # Install Vim-Plug if necessary
 # - https://github.com/junegunn/vim-plug
