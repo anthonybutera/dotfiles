@@ -161,7 +161,7 @@ keymap :d DOWNLOAD_LIST
 ########## history navigation ##########
 keymap L  NEXT
 keymap H  PREV
-keymap :m SELECT_MENU
+keymap f  SELECT_MENU
 keymap :h HISTORY
 
 ########## scrolling ##########

@@ -7,7 +7,7 @@ ME="$(/usr/bin/id -run)"
 # Check for package installation
 # ==============================
 
-for package in {wget,curl,zsh,nano,tmux,neovim,neomutt,mc,qutebrowser,rofi,terminator,w3m,htop} ; do if [ which $package ] ; then echo "$package is installed" ; else sudo apt install --no-install-recommends -y $package ; fi ; done
+for package in {wget,curl,zsh,nano,tmux,neovim,neomutt,mc,qutebrowser,rofi,terminator,w3m,htop} ; do sudo apt install --no-install-recommends -y $package ;done
 
 
 # Install Vim-Plug if necessary
