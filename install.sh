@@ -23,7 +23,12 @@ fi
 # Install Vivaldi Browser 
 if [ ! -f $(/usr/bin/vivaldi-stable) ]; then
   echo "Vivaldi ain't here, dawg. Installing it."; 
-  sudo apt install --no-install-recommends -y $(wget -P /tmp/ https://downloads.vivaldi.com/stable/vivaldi-stable_3.0.1874.38-1_amd64.deb)
+  wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add - && \
+  sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main' && \
+  sudo apt update && \ 
+  sudo apt install vivaldi-stable && \ 
+  sudo apt -f install
+  # sudo apt install --no-install-recommends -y $(wg wet -P /tmp/ https://downloads.vivaldi.com/stable/vivaldi-stable_3.0.1874.38-1_amd64.deb)
 fi
 
 
