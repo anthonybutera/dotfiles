@@ -1,3 +1,46 @@
-https://www.baynews9.com/services/contentfeed.fl%7Ctampa.hero.rss                                     # Bay News 9 Local Headlines
-https://www.baynews9.com/services/contentfeed.fl%7Ctampa%7Cnews%7Ctechnology.landing.rss              # Bay News 9 Technology 
-https://www.cyberciti.biz/atom/atom.xml                                                               # nixcraft.com
+-----------------------
+-------NEWSFEEDS--------
+------------------------
+https://www.cyberciti.biz/atom/atom.xml "~NEWSFEED: NixCraft"
+https://www.tecmint.com/feed/ "~NEWSFEED: TecMint"
+https://4sysops.com/feed/ "~NEWSFEED: 4sysops (Windows)"
+https://www.engadget.com/rss.xml "~NEWSFEED: Engadget"
+https://gizmodo.com/rss "~NEWSFEED: Gizmodo"
+https://www.howtoforge.com/feed.rss "~NEWSFEED: HowToForge"
+http://feeds.feedburner.com/d0od "~NEWSFEED: OMG Ubuntu!"
+https://www.linux.com/feed/ "~NEWSFEED: Linux.com"
+https://www.zdnet.com/topic/linux/rss.xml "~NEWSFEED: ZDNet (Linux)"
+https://itsfoss.com/feed/ "~NEWSFEED: It's Foss"
+https://www.techrepublic.com/rssfeeds/topic/open-source/ "~NEWSFEED: Tech Republic (Open Source)"
+https://www.theinquirer.net/feeds/rss/tag/open-source "~NEWSFEED: The Inquirer (Open Source)"
+https://www.gamingonlinux.com/article_rss.php "~NEWSFEED: Gaming On Linux"
+-------------------------
+-------YOUTUBE-----------
+-------------------------
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSJPFQdZwrOutnmSFYtbstA "~YOUTUBE: The Critical Drinker"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbRj3Tcy1Zoz3rcf83nW5kw "~YOUTUBE: Same the Cooking Guy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "~YOUTUBE: Gotbletu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~YOUTUBE: DistroTube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~YOUTUBE: Brodie Robertson"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "~YOUTUBE: Linus Tech Tips"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwY9B5_8QDGP8niZhBtTh8w "~YOUTUBE: TWiT Netcast"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw "~YOUTUBE: Jupiter Broadcasting"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "~YOUTUBE: Bryan Lunduke"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~YOUTUBE: Luke Smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q "~YOUTUBE: Matt Hartley"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ "~YOUTUBE: Destination Linux"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCv1Kcz-CuGM6mxzL3B1_Eiw "~YOUTUBE: The Linux Gamer"
+-------------------------
+-------REDDIT------------
+-------------------------
+https://www.reddit.com/r/linux.rss "~REDDIT: r/linux"
+https://www.reddit.com/r/unixporn.rss "~REDDIT: r/unixporn"
+https://www.reddit.com/r/commandline.rss "~REDDIT: r/commandline"
+https://www.reddit.com/r/linux4noobs.rss "~REDDIT: r/linux4noobs"
+https://www.reddit.com/r/linuxquestions.rss "~REDDIT: r/linuxquestions"
+https://www.reddit.com/r/linuxmasterrace.rss "~REDDIT: r/linuxmasterrace"
+https://www.reddit.com/r/linux_gaming.rss "~REDDIT: r/linux_gaming"
+https://www.reddit.com/r/linuxaudio.rss "~REDDIT: r/linuxaudio"
+https://www.reddit.com/r/ubuntu.rss "~REDDIT: r/ubuntu"
+https://www.reddit.com/r/vim.rss "~REDDIT: r/vim"
+

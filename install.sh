@@ -7,13 +7,15 @@ ME="$(/usr/bin/id -run)"
 # Check for package installation
 # ==============================
 
-for package in nmap wget curl zsh nano tmux neovim mc terminator w3m qutebrowser rofi htop glances transmission-cli ; do if [ -f $(which $package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
+for package in nmap wget curl zsh nano tmux neovim newsboat mc terminator w3m qutebrowser rofi htop glances transmission-cli ; do if [ -f $(which $package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
+
 
 # Install NeoMutt
 if [ ! -f $(which neomutt) ]; then
   echo "NeoMutt ain't here, chief. Installing it."; 
   sudo dpkg -i $(wget http://http.us.debian.org/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb)
 fi
+
 
 # Install Vim-Plug if necessary
 # - https://github.com/junegunn/vim-plug
@@ -43,9 +45,6 @@ ln -sf $HOME/dotfiles/tmux.conf          $HOME/.tmux.conf
 ln -sf $HOME/dotfiles/w3m                $HOME/.config/w3m
 ln -sf $HOME/dotfiles/w3m/keymap         $HOME/.w3m_keymap
 ln -sf $HOME/dotfiles/zshrc              $HOME/.zshrc
-
-
-
 
 # Root
 sudo ln -sf /home/$ME/dotfiles/bash_aliases   /root/.bash_aliases
