@@ -2,18 +2,28 @@
 
 ME="$(/usr/bin/id -run)"
 
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
+  sudo cp /home/$ME/dotfiles/sources.list /etc/apt/sources.list \
+  sudo apt update
 
 # ==============================
 # Check for package installation
 # ==============================
 
-for package in nmap wget curl zsh nano tmux neovim newsboat mc terminator w3m qutebrowser rofi htop glances transmission-cli ; do if [ -f $(which $package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
+for package in nmap wget curl zsh nano tmux neovim newsboat mc terminator w3m qutebrowser rofi htop glances transmission-cli ; do if [ -f $(/usr/bin/$package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
 
 
 # Install NeoMutt
-if [ ! -f $(which neomutt) ]; then
+if [ ! -f $(/usr/bin/neomutt) ]; then
   echo "NeoMutt ain't here, chief. Installing it."; 
-  sudo dpkg -i $(wget http://http.us.debian.org/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb)
+  sudo apt install --no-install-recommends -y $(wget -P /tmp/ http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb)
+fi
+
+
+# Install Vivaldi Browser 
+if [ ! -f $(/usr/bin/vivaldi-stable) ]; then
+  echo "Vivaldi ain't here, dawg. Installing it."; 
+  sudo apt install --no-install-recommends -y $(wget -P /tmp/ https://downloads.vivaldi.com/stable/vivaldi-stable_3.0.1874.38-1_amd64.deb)
 fi
 
 
@@ -57,4 +67,5 @@ sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
 sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
 
+source ~/.zshrc
 echo "All done. Enjoy!"
