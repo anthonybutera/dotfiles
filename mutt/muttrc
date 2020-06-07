@@ -1,4 +1,3 @@
-
 unmailboxes *
 
 set ssl_starttls=yes
@@ -23,7 +22,7 @@ set sort = reverse-date
 set imap_check_subscribed
 
 set sidebar_visible
-set sidebar_width = 30
+set sidebar_width = 15
 set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
 set mail_check_stats
 
