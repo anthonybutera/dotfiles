@@ -3,7 +3,7 @@
 export PATH=$PATH:$HOME/.local/bin:/mnt/c/Windows/System32/
 export EDITOR=/usr/bin/nvim
 
-if [ "$HOSTNAME" = SEF-SVCDSK-V6K ]; then
+if [ "$HOSTNAME" = "SEF-SVCDSK-V6K" ]; then
   export REQUESTS_CA_BUNDLE=/etc/ssl/certs/Netskope.pem     # Netskope SSL certificate for Rooms To Go
 fi
 

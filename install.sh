@@ -16,12 +16,13 @@ for package in firefox nmap wget curl zsh nano tmux neovim newsboat mc terminato
 # Install NeoMutt
 if [ ! -f $(/usr/bin/neomutt) ]; then
   echo "NeoMutt ain't here, chief. Installing it."; 
-  sudo apt install --no-install-recommends -y $(wget -P /tmp/ http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb)
+  sudo apt install --no-install-recommends -y $(wget -P /tmp/ http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb) && sudo apt upgrade -y neomutt
 fi
 
 
 # Install Vivaldi Browser 
-if [ ! -f $(/usr/bin/vivaldi-stable) ]; then
+echo Checking for Vivaldi Browser installation ...
+if [ ! -f $(sudo dpkg-query -l vivaldi) ]; then
   echo "Vivaldi ain't here, dawg. Installing it."; 
   wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add - && \
   sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main' && \
