@@ -1,6 +1,6 @@
 
 # Customize to your needs...
-export PATH=$PATH:$HOME/.local/bin:/mnt/c/Windows/System32/
+export PATH=$HOME/.local/bin/:$PATH
 export EDITOR=/usr/bin/nvim
 
 if [ "$HOSTNAME" = "SEF-SVCDSK-V6K" ]; then
@@ -46,7 +46,7 @@ export TERM=xterm-256color
 
 
 # Sets BROWSER variable to Vivaldi
-export BROWSER='/usr/bin/vivaldi-stable':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 
 # ZSH-specific aliases
