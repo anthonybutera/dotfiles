@@ -32,6 +32,11 @@ if [ ! -f $(sudo dpkg-query -l vivaldi) ]; then
   # sudo apt install --no-install-recommends -y $(wg wet -P /tmp/ https://downloads.vivaldi.com/stable/vivaldi-stable_3.0.1874.38-1_amd64.deb)
 fi
 
+if [[ $(uname --kernel-release) = *Microsoft* ]]; then
+  setx.exe WSLUSER 'C:\\Users\%username%'
+  setx.exe WSLENV 'WSLUSER/up'
+  echo "Don't forget to reboot the system for the ENV variable changes to take effect. Vivaldi won't like you otherwise."
+fi
 
 # Install Vim-Plug if necessary
 # - https://github.com/junegunn/vim-plug
@@ -74,4 +79,4 @@ sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
 
 source ~/.zshrc
-echo "All done. Enjoy!"
+echo "All done. Make sure to reboot if you're on WSL to set the WSLUSER environmental variable. Enjoy!"

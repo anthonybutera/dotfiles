@@ -46,7 +46,7 @@ export TERM=xterm-256color
 
 
 # Sets BROWSER variable to Vivaldi
-export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 
 # ZSH-specific aliases
