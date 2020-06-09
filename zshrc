@@ -4,7 +4,8 @@ export PATH=$HOME/.local/bin/:$PATH
 export EDITOR=/usr/bin/nvim
 export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
-if [ "$HOSTNAME" = "SEF-SVCDSK-V6K" ]; then
+if [ $(hostname) = "SEF-SVCDSK-V6K" ]; then
+  
   export REQUESTS_CA_BUNDLE=/etc/ssl/certs/Netskope.pem     # Netskope SSL certificate for Rooms To Go
 fi
 
