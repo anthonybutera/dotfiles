@@ -10,7 +10,7 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
 # Check for package installation
 # ==============================
 
-for package in fzf firefox nmap wget curl zsh nano tmux neovim newsboat mc terminator w3m htop glances transmission-cli ; do if [ -f $(/usr/bin/$package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
+for package in fzf firefox nmap wget curl zsh zsh-syntax-highlighting nano tmux neovim newsboat mc terminator w3m htop glances transmission-cli ; do if [ -f $(/usr/bin/$package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
 
 
 # Install NeoMutt
