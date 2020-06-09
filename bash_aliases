@@ -40,7 +40,7 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias Firefox='nohup firefox > /dev/null 2>&1 &'
 alias grep='grep --color=auto'
-alias History='fc -flt "%A  %b/%d/%Y  %r" 1 | fzf --tac --height=20'
+alias History='fc -flt "%b/%d/%Y  %A  %r" 1 | fzf --tac --height=20'
 alias Less='less -N'                        # Displays line numbers
 alias l='ls -CF'
 alias la='ls -A'
