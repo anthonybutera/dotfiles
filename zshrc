@@ -47,7 +47,7 @@ export TERM=xterm-256color
 
 
 # ZSH-specific aliases
-alias history='fc -flt "%A  %b-%d-%Y  %r" -500'
+alias history='fc -flt "%b-%d-%Y  %A  %r" -500'
 
 
 # History settings
