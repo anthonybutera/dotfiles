@@ -2,6 +2,7 @@
 # Customize to your needs...
 export PATH=$HOME/.local/bin/:$PATH
 export EDITOR=/usr/bin/nvim
+export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 if [ "$HOSTNAME" = "SEF-SVCDSK-V6K" ]; then
   export REQUESTS_CA_BUNDLE=/etc/ssl/certs/Netskope.pem     # Netskope SSL certificate for Rooms To Go
@@ -26,7 +27,7 @@ promptinit
 
 THEMES_DIR="/home/$(/usr/bin/id -run)/dotfiles/zsh-themes"
 
-if ! [ $(id -u) = 0 ]; then
+if [ $(id -u) != 0 ]; then
      prompt fade green 
 ###     source $THEMES_DIR/mortalscumbag.zsh-theme       # Green 2-lined prompt
 ###     source $THEMES_DIR/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
@@ -43,10 +44,6 @@ DISABLE_AUTO_UPDATE="false"
 
 # Sets terminal type to Xterm 256-color
 export TERM=xterm-256color
-
-
-# Sets BROWSER variable to Vivaldi
-export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 
 # ZSH-specific aliases
