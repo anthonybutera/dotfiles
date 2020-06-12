@@ -10,26 +10,31 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
 # Check for package installation
 # ==============================
 
-for package in fzf firefox nmap wget curl zsh zsh-syntax-highlighting nano tmux neovim newsboat mc terminator w3m htop glances transmission-cli ; do if [ -f $(/usr/bin/$package) ]; then echo "$package is here, boss"; else sudo apt install --no-install-recommends -y $package; fi; done; echo
+for package in fzf firefox nmap wget curl zsh zsh-syntax-highlighting nano tmux neovim newsboat mc terminator w3m htop glances transmission-cli; 
+  do if [ -f /usr/bin/$package ] || [ -f /bin/$package ];
+        then echo "$package is here, boss"; 
+        else echo; echo "Installing $package now, dawg"; 
+          sudo apt install --no-install-recommends -y $package;  echo; 
+     fi; 
+  done; echo
 
 
 # Install NeoMutt
-if [ ! -f $(/usr/bin/neomutt) ]; then
+if ! [ -f /usr/bin/neomutt ]; then
   echo "NeoMutt ain't here, chief. Installing it."; 
-  sudo apt install --no-install-recommends -y $(wget -P /tmp/ http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_20191207+dfsg.1-1.1_amd64.deb) && sudo apt upgrade -y neomutt
+   curl -# -o /tmp/neomutt_amd64.tmp http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_*_amd64.deb && sudo dpkg -i /tmp/neomutt_amd64.deb && sudo apt upgrade -y neomutt
 fi
 
 
 # Install Vivaldi Browser 
 echo Checking for Vivaldi Browser installation ...
-if [ ! -f $(sudo dpkg-query -l vivaldi) ]; then
+if ! [ $(sudo dpkg-query -l vivaldi) ]; then
   echo "Vivaldi ain't here, dawg. Installing it."; 
   wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add - && \
   sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main' && \
   sudo apt update && \ 
-  sudo apt install vivaldi-stable && \ 
+  sudo apt install vivaldi && \ 
   sudo apt -f install
-  # sudo apt install --no-install-recommends -y $(wg wet -P /tmp/ https://downloads.vivaldi.com/stable/vivaldi-stable_3.0.1874.38-1_amd64.deb)
 fi
 
 if [[ $(uname --kernel-release) = *Microsoft* ]]; then
@@ -41,7 +46,7 @@ fi
 # Install Vim-Plug if necessary
 # - https://github.com/junegunn/vim-plug
 
-if [ ! -f $HOME/dotfiles/nvim/autoload/plug.vim ]; then
+if ! [ -f $HOME/dotfiles/nvim/autoload/plug.vim ]; then
  curl -kfLo ~/dotfiles/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
