@@ -120,9 +120,9 @@ nnoremap <leader>s :x<CR>
 nnoremap <leader>q :q!<CR>
 
 " Alternate way to split buffers
-nnoremap <leader>sv      :vnew<CR>
-nnoremap <leader>sh      :new<CR>
-nnoremap <leader>ls      :ls<CR>
+nnoremap <leader>sv :vnew<CR>
+nnoremap <leader>sh :new<CR>
+nnoremap <leader>ls :ls<CR>
 
 " Escape real quick
 inoremap jk <Esc>
