@@ -23,9 +23,6 @@ call plug#end()
 " set leader key and color scheme
 let g:mapleader="\<Space>"
 
-" Enable Deoplete at startup
-let g:deoplete#enable_at_startup = 1
-
 
 syntax on                     " Enables syntax highlighing
 highlight Comment ctermfg=green
