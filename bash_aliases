@@ -62,7 +62,7 @@ alias start='cmd.exe /C start $*'
 alias vim='nvim'
 alias w='w -fus'
 alias watch='watch -c'
-alias weather='curl http://wttr.in/tampa'   # Install curl
+alias weather='curl "http://wttr.in/tampa?u"'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'                      # Install whois
 

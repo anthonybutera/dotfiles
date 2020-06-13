@@ -125,7 +125,7 @@ nnoremap <leader>sh :new<CR>
 nnoremap <leader>ls :ls<CR>
 
 " Escape real quick
-inoremap jk <Esc>
+inoremap jj <Esc>
 inoremap kj <Esc>
 nnoremap <C-c> <Esc>
 
