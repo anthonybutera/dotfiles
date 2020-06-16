@@ -38,7 +38,7 @@ if ! [ $(sudo dpkg-query -l vivaldi) ]; then
 fi
 
 if [[ $(uname --kernel-release) = *Microsoft* ]]; then
-  setx.exe WSLUSER 'C:\\Users\%username%'
+  setx.exe WSLUSER 'C:\\Users\\username%'
   setx.exe WSLENV 'WSLUSER/up'
   echo "Don't forget to reboot the system for the ENV variable changes to take effect. Vivaldi won't like you otherwise."
 fi

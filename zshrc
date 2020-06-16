@@ -3,6 +3,8 @@
 export PATH=$HOME/.local/bin/:$PATH
 export EDITOR=/usr/bin/nvim
 export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export RTV_BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export TUIR_BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$WSLUSER/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 if [ $(hostname) = "SEF-SVCDSK-V6K" ]; then
   
