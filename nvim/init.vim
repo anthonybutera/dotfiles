@@ -51,7 +51,7 @@ set noshowmode                " We don't need to see things like -- INSERT -- an
 set noswapfile                " Same as nobackup
 set nowritebackup             " This is recommended by coc
 set pumheight=10              " Makes popup menu smaller
-set relativenumber
+set number relativenumber
 set ruler
 set scrolloff=10						  " Keeps 10 lines above or below the cursor visible while scrolling
 set shiftwidth=2              " Change the number of space characters inserted for indentation
