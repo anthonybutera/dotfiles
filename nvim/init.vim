@@ -12,10 +12,12 @@ call plug#begin('~/dotfiles/nvim/plugged')
   Plug 'itchyny/lightline.vim'
 
 " Colorschemes
-  Plug 'morhetz/gruvbox'                    " <leader>1
-  Plug 'gosukiwi/vim-atom-dark'             " <leader>2
-  Plug 'float168/vim-colors-cherryblossom'  " <leader>3
-  Plug 'pcostasgr/red_alert_vim_theme'      " <leader>4 -- Must enable 'set termguicolors'
+  Plug 'morhetz/gruvbox'                         " <leader>1
+  Plug 'sjl/badwolf'                             " <leader>2
+  Plug 'float168/vim-colors-cherryblossom'       " <leader>3
+  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>4 -- Must enable 'set termguicolors'
+  Plug 'kyoz/purify', { 'rtp': 'vim' }           " <leader>5
+  Plug 'mkarmona/colorsbox'                      " <leader>6
 
 call plug#end()
 
@@ -148,15 +150,18 @@ nnoremap <leader>b :Buffers<CR>
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
 nnoremap <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
-nnoremap <leader>2 :colorscheme atom-dark-256<CR>            " https://github.com/gosukiwi/vim-atom-dark 
+nnoremap <leader>2 :colorscheme badwolf<CR>                  " https://github.com/sjl/badwolf
 nnoremap <leader>3 :colorscheme cherryblossom<CR>            " https://github.com/float168/vim-colors-cherryblossom
 nnoremap <leader>4 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
+nnoremap <leader>5 :colorscheme purify<CR>                   " https://github.com/kyoz/purify
+nnoremap <leader>6 :colorscheme colorsbox-stblue<CR>         " https://github.com/lmintmate/blue-mood-vim
+
 
 
 if $USER == 'root'
   :colorscheme red_alert
 else
-  :colorscheme gruvbox
+  :colorscheme badwolf
 endif
 
 
