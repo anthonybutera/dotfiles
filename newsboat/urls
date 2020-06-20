@@ -1,6 +1,4 @@
------------------------
 -------NEWSFEEDS-------
------------------------
 https://www.cyberciti.biz/atom/atom.xml "~NEWSFEED: NixCraft"
 https://www.tecmint.com/feed/ "~NEWSFEED: TecMint"
 https://4sysops.com/feed/ "~NEWSFEED: 4sysops (Windows)"
@@ -14,11 +12,11 @@ https://itsfoss.com/feed/ "~NEWSFEED: It's Foss"
 https://www.techrepublic.com/rssfeeds/topic/open-source/ "~NEWSFEED: Tech Republic (Open Source)"
 https://www.theinquirer.net/feeds/rss/tag/open-source "~NEWSFEED: The Inquirer (Open Source)"
 https://www.gamingonlinux.com/article_rss.php "~NEWSFEED: Gaming On Linux"
--------------------------
+
+" "
 ---------YOUTUBE---------
--------------------------
 https://www.youtube.com/feeds/videos.xml?channel_id=UCSJPFQdZwrOutnmSFYtbstA "~YOUTUBE: The Critical Drinker"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbRj3Tcy1Zoz3rcf83nW5kw "~YOUTUBE: Same the Cooking Guy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbRj3Tcy1Zoz3rcf83nW5kw "~YOUTUBE: Sam the Cooking Guy"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "~YOUTUBE: Gotbletu"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~YOUTUBE: DistroTube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~YOUTUBE: Brodie Robertson"
@@ -30,9 +28,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Y
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbHXJGd7c8Hy4z0-YX1Jf3Q "~YOUTUBE: Matt Hartley"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ "~YOUTUBE: Destination Linux"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCv1Kcz-CuGM6mxzL3B1_Eiw "~YOUTUBE: The Linux Gamer"
-------------------------
+
+" "
 ---------REDDIT---------
-------------------------
 https://www.reddit.com/r/linux.rss "~REDDIT: r/linux"
 https://www.reddit.com/r/unixporn.rss "~REDDIT: r/unixporn"
 https://www.reddit.com/r/commandline.rss "~REDDIT: r/commandline"
