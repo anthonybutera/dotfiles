@@ -23,8 +23,8 @@ call plug#end()
 
 
 " set leader key and color scheme
-let g:mapleader="\<Space>"
-
+let g:mapleader = "\<Space>"
+let g:maplocalleader = ','
 
 syntax on                     " Enables syntax highlighing
 highlight Comment ctermfg=green
@@ -36,7 +36,7 @@ set cmdheight=1               " More space for displaying messages
 set complete+=kspell          " Shortcut for autocomplete
 set cot=longest,menuone       " Sets completeopt option
 set conceallevel=0            " So that I can see `` in markdown files
-" set cursorcolumn              " Enable highlighting of the current column
+set cursorcolumn              " Enable highlighting of the current column
 set cursorline                " Enable highlighting of the current line
 setlocal dictionary+=/usr/share/dict/words
 set encoding=utf-8            " The encoding displayed 
@@ -52,10 +52,10 @@ set nobackup                  " This is recommended by coc
 set noshowmode                " We don't need to see things like -- INSERT -- anymore
 set noswapfile                " Same as nobackup
 set nowritebackup             " This is recommended by coc
-set pumheight=10              " Makes popup menu smaller
+set pumheight=15              " Makes popup menu smaller
 set number relativenumber
 set ruler
-set scrolloff=10						  " Keeps 10 lines above or below the cursor visible while scrolling
+" set scrolloff=5						  " Keeps 5 lines above or below the cursor visible while scrolling
 set shiftwidth=2              " Change the number of space characters inserted for indentation
 set showcmd
 set showmatch
@@ -66,11 +66,11 @@ set smartindent               " Makes indenting smart
 set smarttab                  " Makes tabbing smarter will realize you have 2 vs 4
 set splitbelow                " Horizontal splits will automatically be below
 set splitright                " Vertical splits will automatically be to the right
-set tabstop=2                 " Insert 2 spaces for a tab
+set tabstop=4                 " Insert 2 spaces for a tab
 set t_Co=256                  " Support 256 colors
 set termguicolors             " Sets TrueColor to ON
 set timeoutlen=250            " By default timeoutlen is 1000 ms
-set updatetime=100            " Faster completion
+set updatetime=50             " Faster completion
 set wildmenu
 
 
@@ -99,6 +99,10 @@ inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 
 " Miscellaneous
 " =============
+
+" Reload .vimrc source
+nnoremap <leader>r :source ~/.vimrc<CR>
+nnoremap <leader>ee :e ~/.vimrc<CR>
 
 " Disable flow control
 map <C-s> <Nop>
@@ -149,12 +153,24 @@ nnoremap <leader>b :Buffers<CR>
 
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
-nnoremap <leader>1 :colorscheme gruvbox<CR>                  " https://github.com/morhetz/gruvbox               
-nnoremap <leader>2 :colorscheme badwolf<CR>                  " https://github.com/sjl/badwolf
-nnoremap <leader>3 :colorscheme cherryblossom<CR>            " https://github.com/float168/vim-colors-cherryblossom
-nnoremap <leader>4 :colorscheme red_alert<CR>                " https://github.com/pcostasgr/red_alert_vim_theme 
-nnoremap <leader>5 :colorscheme purify<CR>                   " https://github.com/kyoz/purify
-nnoremap <leader>6 :colorscheme colorsbox-stblue<CR>         " https://github.com/lmintmate/blue-mood-vim
+
+" https://github.com/morhetz/gruvbox               
+nnoremap <leader>1 :colorscheme gruvbox<CR>                  
+
+" https://github.com/sjl/badwolf
+nnoremap <leader>2 :colorscheme badwolf<CR>                  
+
+" https://github.com/float168/vim-colors-cherryblossom
+nnoremap <leader>3 :colorscheme cherryblossom<CR>            
+
+" https://github.com/pcostasgr/red_alert_vim_theme
+nnoremap <leader>4 :colorscheme red_alert<CR>                
+
+" https://github.com/kyoz/purify
+nnoremap <leader>5 :colorscheme purify<CR>                   
+
+" https://github.com/lmintmate/blue-mood-vim
+nnoremap <leader>6 :colorscheme colorsbox-stblue<CR>         
 
 
 
