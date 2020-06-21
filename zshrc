@@ -17,7 +17,7 @@ fi
 setopt NULL_GLOB
 
 # PromptInit themes
-autoload -Uz compinit promptinit colors && colors
+autoload -Uz vcs_info compinit promptinit colors && colors
 compinit
 promptinit
 
@@ -34,6 +34,7 @@ if [ $(id -u) != 0 ]; then
      prompt fade green 
 ###     source $THEMES_DIR/mortalscumbag.zsh-theme       # Green 2-lined prompt
 ###     source $THEMES_DIR/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
+###     source $THEMES_DIR/windows.zsh-theme             # Windows Command Prompt 
 else
      prompt fade red
 ###     source /home/$(id -nu 1000)/dotfiles/zsh-themes/mrtazz.zsh-theme              # Red standard prompt
