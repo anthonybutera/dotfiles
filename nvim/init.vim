@@ -154,8 +154,14 @@ nnoremap <leader>b :Buffers<CR>
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
 
-let g:lightline = { 'colorscheme': 'powerlineish', }
+let g:lightline = { 'colorscheme': 'landscape', }
+let g:gruvbox_contrast_dark = 'hard'
 
+if $USER == 'root'
+  :colorscheme red_alert
+else
+  :colorscheme gruvbox
+endif
 
 " https://github.com/morhetz/gruvbox               
 nnoremap <leader>1 :colorscheme gruvbox<CR>                  
@@ -163,21 +169,15 @@ nnoremap <leader>1 :colorscheme gruvbox<CR>
 " https://github.com/sjl/badwolf
 nnoremap <leader>2 :colorscheme badwolf<CR>                  
 
+" https://github.com/lmintmate/blue-mood-vim
+nnoremap <leader>3 :colorscheme jellybeans<CR>         
+
 " https://github.com/float168/vim-colors-cherryblossom
-nnoremap <leader>3 :colorscheme cherryblossom<CR>            
+nnoremap <leader>4 :colorscheme cherryblossom<CR>            
 
 " https://github.com/pcostasgr/red_alert_vim_theme
-nnoremap <leader>4 :colorscheme red_alert<CR>                
+nnoremap <leader>5 :colorscheme red_alert<CR>                
 
-" https://github.com/lmintmate/blue-mood-vim
-nnoremap <leader>5 :colorscheme jellybeans<CR>         
-
-
-if $USER == 'root'
-  :colorscheme red_alert
-else
-  :colorscheme badwolf
-endif
 
 
 
