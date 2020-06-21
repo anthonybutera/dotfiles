@@ -27,7 +27,7 @@ let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
 
 syntax on                     " Enables syntax highlighing
-highlight Comment ctermfg=green
+" highlight Comment ctermfg=green
 set autoindent                " Good auto indent
 set autoread                  " Autoread
 set background=dark 
@@ -35,10 +35,9 @@ set clipboard=unnamedplus     " Copy paste between vim and everything else
 set cmdheight=1               " More space for displaying messages
 set complete+=kspell          " Shortcut for autocomplete
 set cot=longest,menuone       " Sets completeopt option
-set conceallevel=0            " So that I can see `` in markdown files
+" set conceallevel=0            " So that I can see `` in markdown files
 set cursorcolumn              " Enable highlighting of the current column
 set cursorline                " Enable highlighting of the current line
-setlocal dictionary+=/usr/share/dict/words
 set encoding=utf-8            " The encoding displayed 
 set expandtab                 " Converts tabs to spaces
 set fileencoding=utf-8        " The encoding written to file
@@ -49,10 +48,11 @@ set iskeyword+=-              " treat dash separated words as a word text object
 set laststatus=2              " Always display the status line
 set mouse=a                   " Enable your mouse
 set nobackup                  " This is recommended by coc
+" set nohlsearch                " Disables search highlighting
 set noshowmode                " We don't need to see things like -- INSERT -- anymore
 set noswapfile                " Same as nobackup
 set nowritebackup             " This is recommended by coc
-" set pumheight=15              " Makes popup menu smaller
+" set pumheight=10              " Makes popup menu smaller
 set number relativenumber
 set ruler
 " set scrolloff=5						  " Keeps 5 lines above or below the cursor visible while scrolling
@@ -96,6 +96,8 @@ nnoremap <C-k> <C-b>
 " Use TAB for AutoComplete instead of <C-n>
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 
+" Get rid of search result highlighting
+nnoremap \\ :noh<CR>
 
 " Miscellaneous
 " =============
@@ -132,7 +134,6 @@ nnoremap <leader>ls :ls<CR>
 
 " Escape real quick
 inoremap jj <Esc>
-inoremap kj <Esc>
 nnoremap <C-c> <Esc>
 
 " Better window navigation
@@ -147,7 +148,7 @@ let g:NERDTreeWinPos = "right"
 let g:NERDTreeWinSize = "45"
 
 " Fuzzy Finder
-nnoremap <leader>f :Files<CR>
+nnoremap <leader>f :Files ~<CR>
 nnoremap <leader>b :Buffers<CR>
 
 

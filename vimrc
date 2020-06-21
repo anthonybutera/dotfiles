@@ -50,6 +50,7 @@ set iskeyword+=-              " treat dash separated words as a word text object
 set laststatus=2              " Always display the status line
 set mouse=a                   " Enable your mouse
 set nobackup                  " This is recommended by coc
+set nohlsearch!               " Do not highlight search results
 set noshowmode                " We don't need to see things like -- INSERT -- anymore
 set noswapfile                " Same as nobackup
 set nowritebackup             " This is recommended by coc
