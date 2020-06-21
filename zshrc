@@ -47,7 +47,7 @@ DISABLE_AUTO_UPDATE="false"
 
 # Sets terminal type to Xterm 256-color
 export TERM=xterm-256color
-
+export COLORTERM="truecolor"
 
 # ZSH-specific aliases
 alias history='fc -flt "%b-%d-%Y  %A  %r" -500'

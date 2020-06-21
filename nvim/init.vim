@@ -36,7 +36,7 @@ set cmdheight=1               " More space for displaying messages
 set complete+=kspell          " Shortcut for autocomplete
 set cot=longest,menuone       " Sets completeopt option
 " set conceallevel=0            " So that I can see `` in markdown files
-set cursorcolumn              " Enable highlighting of the current column
+" set cursorcolumn              " Enable highlighting of the current column
 set cursorline                " Enable highlighting of the current line
 set encoding=utf-8            " The encoding displayed 
 set expandtab                 " Converts tabs to spaces
@@ -60,7 +60,7 @@ set shiftwidth=2              " Change the number of space characters inserted f
 set showcmd
 set showmatch
 set sidescrolloff=5           " Keeps 5 lines left or right of the cursor visible while scrolling
-set showtabline=2             " Always show tabs 
+set showtabline=4             " Always show tabs 
 set smartcase
 set smartindent               " Makes indenting smart
 set smarttab                  " Makes tabbing smarter will realize you have 2 vs 4
@@ -154,6 +154,11 @@ nnoremap <leader>b :Buffers<CR>
 
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
+
+let g:lightline = {
+      \ 'colorscheme': 'powerlineish',
+      \ }
+
 
 " https://github.com/morhetz/gruvbox               
 nnoremap <leader>1 :colorscheme gruvbox<CR>                  
