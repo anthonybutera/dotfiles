@@ -42,10 +42,6 @@ fi
 # =====================================================
 
 
-# Comment this out to disable weekly auto-update checks
-DISABLE_AUTO_UPDATE="false"
-
-
 # Sets terminal type to Xterm 256-color
 export TERM=xterm-256color
 export COLORTERM="truecolor"
