@@ -16,8 +16,7 @@ call plug#begin('~/dotfiles/nvim/plugged')
   Plug 'sjl/badwolf'                             " <leader>2
   Plug 'float168/vim-colors-cherryblossom'       " <leader>3
   Plug 'pcostasgr/red_alert_vim_theme'           " <leader>4 -- Must enable 'set termguicolors'
-  Plug 'kyoz/purify', { 'rtp': 'vim' }           " <leader>5
-  Plug 'mkarmona/colorsbox'                      " <leader>6
+  Plug 'nanotech/jellybeans.vim'                 " <leader>5
 
 call plug#end()
 
@@ -103,8 +102,8 @@ nnoremap \\ :noh<CR>
 " =============
 
 " Reload .vimrc source
-nnoremap <leader>r :source ~/.vimrc<CR>
-nnoremap <leader>ee :e ~/.vimrc<CR>
+nnoremap <leader>r :source $MYVIMRC<CR>
+nnoremap <leader>ee :e $MYVIMRC<CR>
 
 " Disable flow control
 map <C-s> <Nop>
@@ -155,9 +154,7 @@ nnoremap <leader>b :Buffers<CR>
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
 
-let g:lightline = {
-      \ 'colorscheme': 'powerlineish',
-      \ }
+let g:lightline = { 'colorscheme': 'powerlineish', }
 
 
 " https://github.com/morhetz/gruvbox               
@@ -172,12 +169,8 @@ nnoremap <leader>3 :colorscheme cherryblossom<CR>
 " https://github.com/pcostasgr/red_alert_vim_theme
 nnoremap <leader>4 :colorscheme red_alert<CR>                
 
-" https://github.com/kyoz/purify
-nnoremap <leader>5 :colorscheme purify<CR>                   
-
 " https://github.com/lmintmate/blue-mood-vim
-nnoremap <leader>6 :colorscheme colorsbox-stblue<CR>         
-
+nnoremap <leader>5 :colorscheme jellybeans<CR>         
 
 
 if $USER == 'root'
