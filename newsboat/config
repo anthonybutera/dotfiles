@@ -29,7 +29,9 @@ bind-key a toggle-article-read
 bind-key n next-unread
 bind-key N prev-unread
 bind-key s show-urls
-
+bind-key a mark-feed-read
+bind-key A mark-all-feeds-read
+bind-key ; open-in-browser
 
 # solarized
 color background         default   default
@@ -45,3 +47,7 @@ color article            default   default
 highlight article "^(Title):.*$" blue default
 highlight article "https?://[^ ]+" red default
 highlight article "\\[image\\ [0-9]+\\]" green default
+
+# miscellaneous
+history-limit 0
+
