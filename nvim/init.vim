@@ -154,7 +154,7 @@ nnoremap <leader>b :Buffers<CR>
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
 
-let g:lightline = { 'colorscheme': 'landscape', }
+let g:lightline = { 'colorscheme': 'powerline', }
 let g:gruvbox_contrast_dark = 'hard'
 
 if $USER == 'root'
