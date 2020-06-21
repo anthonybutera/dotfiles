@@ -1,7 +1,7 @@
 # general settings
 auto-reload yes
 max-items 50
-browser "/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe %u" 
+browser "/usr/bin/vivaldi":"/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe %u" 
 
 
 # unbind keys
