@@ -34,7 +34,6 @@ set clipboard=unnamedplus     " Copy paste between vim and everything else
 set cmdheight=1               " More space for displaying messages
 set complete+=kspell          " Shortcut for autocomplete
 set cot=longest,menuone       " Sets completeopt option
-" set conceallevel=0            " So that I can see `` in markdown files
 " set cursorcolumn              " Enable highlighting of the current column
 set cursorline                " Enable highlighting of the current line
 set encoding=utf-8            " The encoding displayed 
@@ -65,7 +64,7 @@ set smartindent               " Makes indenting smart
 set smarttab                  " Makes tabbing smarter will realize you have 2 vs 4
 set splitbelow                " Horizontal splits will automatically be below
 set splitright                " Vertical splits will automatically be to the right
-set tabstop=4                 " Insert 2 spaces for a tab
+set tabstop=4                 " Insert 4 spaces for a tab
 set t_Co=256                  " Support 256 colors
 set termguicolors             " Sets TrueColor to ON
 set timeoutlen=250            " By default timeoutlen is 1000 ms
@@ -133,7 +132,7 @@ nnoremap <leader>ls :ls<CR>
 
 " Escape real quick
 inoremap jj <Esc>
-nnoremap <C-c> <Esc>
+inoremap <C-c> <Esc>
 
 " Better window navigation
 nnoremap <leader>h <C-w>h
