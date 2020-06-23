@@ -2,8 +2,8 @@
 auto-reload yes
 max-items 50
 browser '/usr/bin/vivaldi'
-browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 browser '/mnt/c/Users/anthony/AppData/Local/Vivaldi/Application/vivaldi.exe'
+browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 
 # unbind keys
@@ -31,6 +31,7 @@ bind-key a toggle-article-read
 bind-key n next-unread
 bind-key N prev-unread
 bind-key s show-urls
+bind-key S save
 bind-key a mark-feed-read
 bind-key A mark-all-feeds-read
 bind-key ; open-in-browser
