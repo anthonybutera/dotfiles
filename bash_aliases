@@ -59,6 +59,7 @@ alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
 alias sl='ls'
 alias smotd='clear && neofetch'             # Install neofetch
 alias start='cmd.exe /C start $*'
+alias updatedb='sudo updatedb --prunepaths="/mnt"'
 alias vim='nvim'
 alias w='w -fus'
 alias watch='watch -c'
