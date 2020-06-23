@@ -1,3 +1,5 @@
+# This file goes in %APPDATA/alacritty/alacritty.yml on Windows
+
 # Colors (Gruvbox dark)
 colors:
   # Default colors
