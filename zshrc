@@ -1,12 +1,8 @@
 
 # Customize to your needs...
-
-USERS=(anthony,abutera,buterant)
-
-
 export PATH=$HOME/.local/bin/:$PATH
 export EDITOR=/usr/bin/nvim
-export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/$(USERS)/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe':'/mnt/c/Users/anthony/AppData/Local/Vivaldi/Application/vivaldi.exe'
 export RTV_BROWSER=$BROWSER
 export TUIR_BROWSER=$BROWSER
 
