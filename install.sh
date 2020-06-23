@@ -22,19 +22,22 @@ for package in firefox nmap wget curl zsh zsh-syntax-highlighting nano git fzf t
 # Install NeoMutt
 if ! [ -f /usr/bin/neomutt ]; then
   echo "NeoMutt ain't here, chief. Installing it."; 
-   curl -# -o /tmp/neomutt_amd64.tmp http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_*_amd64.deb && sudo dpkg -i /tmp/neomutt_amd64.deb && sudo apt upgrade -y neomutt
+   curl -# -o /tmp/neomutt_amd64.deb http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_*_amd64.deb && \
+   sudo chmod +x /tmp/neomutt_amd64.deb && \
+   sudo dpkg -i /tmp/neomutt_amd64.deb && \
+   sudo apt upgrade -y neomutt
 fi
 
 
 # Install Vivaldi Browser 
 echo Checking for Vivaldi Browser installation ...
 if ! [ $(sudo dpkg-query -l vivaldi) ]; then
-  echo "Vivaldi ain't here, dawg. Installing it."; 
-  wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add - && \
-  sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main' && \
-  sudo apt update && \ 
-  sudo apt install vivaldi && \ 
-  sudo apt -f install
+  echo "No Vivaldi in sight. Installing it."; 
+    wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add - && \
+    sudo add-apt-repository 'deb https://repo.vivaldi.com/archive/deb/ stable main' && \
+    sudo apt update && \ 
+    sudo apt install vivaldi && \ 
+    sudo apt -f install
 fi
 
 # Install TUIR (Terminal UI For Reddit)
