@@ -46,13 +46,13 @@ bind-key ; open-in-browser
 #color article            default   default
 
 # Gruvbox -- https://github.com/morhetz/gruvbox
-color background         color237	color237 			# Faded Gray 	Faded Gray
-color listnormal         color223 	color237 			# Almond		Faded Gray
-color listnormal_unread  color223	color237			# Almond		Faded Gray
-color listfocus          color237   color214			# Faded Gray	Yellow
-color listfocus_unread   color237   color214			# Faded Gray	Yellow
-color info               color214   color237			# Yellow		Faded Gray
-color article            color223   color237			# Yellow		Faded Gray
+color background         color234	color234 			# Faded Black 	Faded Black
+color listnormal         color223 	color234 			# Almond		Faded Black
+color listnormal_unread  color223	color234			# Almond		Faded Black
+color listfocus          color234   color214			# Faded Black	Yellow
+color listfocus_unread   color234   color214			# Faded Black	Yellow
+color info               color214   color234			# Yellow		Faded Black
+color article            color223   color234			# Yellow		Faded Black
 
 # highlights
 # highlight article "^(Title):.*$" blue default
@@ -61,9 +61,9 @@ color article            color223   color237			# Yellow		Faded Gray
 
 
 # highlights
-highlight article "^(Title):.*$" color214 color237               # Yellow  Faded Gray
-highlight article "https?://[^ ]+" color66 color237              # Blue    Faded Gray
-highlight article "\\[image\\ [0-9]+\\]" color106 color237       # Green   Faded Gray
+highlight article "^(Title):.*$" color214 color234               # Yellow  Faded Black
+highlight article "https?://[^ ]+" color66 color234              # Blue    Faded Black
+highlight article "\\[image\\ [0-9]+\\]" color106 color234       # Green   Faded Black
 
 # miscellaneous
 history-limit 0
