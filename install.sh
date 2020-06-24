@@ -77,6 +77,7 @@ ln -sf $HOME/dotfiles/newsboat           $HOME/.config/newsboat
 ln -sf $HOME/dotfiles/nvim               $HOME/.config/nvim
 ln -sf $HOME/dotfiles/nvim/init.vim      $HOME/.vimrc
 ln -sf $HOME/dotfiles/qutebrowser        $HOME/.config/qutebrowser
+ln -sf $HOME/dotfiles/ranger             $HOME/.config/ranger
 ln -sf $HOME/dotfiles/rofi               $HOME/.config/rofi
 ln -sf $HOME/dotfiles/terminator         $HOME/.config/terminator
 ln -sf $HOME/dotfiles/tmux.conf          $HOME/.tmux.conf
