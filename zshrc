@@ -31,7 +31,7 @@ promptinit
 THEMES_DIR="/home/$(/usr/bin/id -run)/dotfiles/zsh-themes"
 
 if [ $(id -u) != 0 ]; then
-     prompt fade green 
+     prompt fade yellow 
 ###     source $THEMES_DIR/mortalscumbag.zsh-theme       # Green 2-lined prompt
 ###     source $THEMES_DIR/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
 ###     source $THEMES_DIR/windows.zsh-theme             # Windows Command Prompt 
