@@ -14,9 +14,10 @@ call plug#begin('~/dotfiles/nvim/plugged')
 " Colorschemes
   Plug 'morhetz/gruvbox'                         " <leader>1
   Plug 'sjl/badwolf'                             " <leader>2
-  Plug 'float168/vim-colors-cherryblossom'       " <leader>3
-  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>4 -- Must enable 'set termguicolors'
-  Plug 'nanotech/jellybeans.vim'                 " <leader>5
+  Plug 'nanotech/jellybeans.vim'                 " <leader>3
+  Plug 'float168/vim-colors-cherryblossom'       " <leader>4
+  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>5 -- Must enable 'set termguicolors'
+
 
 call plug#end()
 
