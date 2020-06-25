@@ -1,9 +1,13 @@
 # general settings
 auto-reload yes
 max-items 50
-browser '/usr/bin/vivaldi'
+
+# miscellaneous
+history-limit 0
+
 browser '/mnt/c/Users/anthony/AppData/Local/Vivaldi/Application/vivaldi.exe'
 browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+browser '/usr/bin/vivaldi'
 
 
 # unbind keys
@@ -36,15 +40,6 @@ bind-key a mark-feed-read
 bind-key A mark-all-feeds-read
 bind-key ; open-in-browser
 
-# solarized
-#color background         default   default
-#color listnormal         default   default
-#color listnormal_unread  default   default
-#color listfocus          black     cyan
-#color listfocus_unread   black     cyan
-#color info               default   black
-#color article            default   default
-
 # Gruvbox -- https://github.com/morhetz/gruvbox
 color background         color234	color234 			# Faded Black 	Faded Black
 color listnormal         color223 	color234 			# Almond		Faded Black
@@ -55,16 +50,25 @@ color info               color214   color234			# Yellow		Faded Black
 color article            color223   color234			# Yellow		Faded Black
 
 # highlights
+highlight article "^(Title):.*$" color214 color234               # Yellow  Faded Black
+highlight article "https?://[^ ]+" color66 color234              # Blue    Faded Black
+highlight article "\\[image\\ [0-9]+\\]" color106 color234       # Green   Faded Black
+
+
+# solarized
+#color background         default   default
+#color listnormal         default   default
+#color listnormal_unread  default   default
+#color listfocus          black     cyan
+#color listfocus_unread   black     cyan
+#color info               default   black
+#color article            default   default
+
+# highlights
 # highlight article "^(Title):.*$" blue default
 # highlight article "https?://[^ ]+" red default
 # highlight article "\\[image\\ [0-9]+\\]" green default
 
 
-# highlights
-highlight article "^(Title):.*$" color214 color234               # Yellow  Faded Black
-highlight article "https?://[^ ]+" color66 color234              # Blue    Faded Black
-highlight article "\\[image\\ [0-9]+\\]" color106 color234       # Green   Faded Black
 
-# miscellaneous
-history-limit 0
 
