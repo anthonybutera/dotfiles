@@ -1,13 +1,47 @@
- Mega Dark
+Mega Dark
  	Background		000000
  	Foreground		ffffff
  	Highlight		ffb608
  	Accent			3c3c3c
 
- Gruvbox
+
+Gruvbox
   	Background		1d2021
  	Foreground		ebdbb2
  	Highlight		fabd2f
  	Accent			3c3c3c
 
  
+Windows 10
+	Background		000000
+	Foreground		ffffff
+	Highlight		0080ff
+	Accent			0080ff
+
+
+White Out
+	Background		cccccc
+	Foreground		333333
+	Highlight		c83838
+	Accent			808080
+
+
+Chocolate
+	Background		361f0a
+	Foreground		ffffff
+	Highlight		eda400
+	Accent			eda400
+
+
+Florida State
+	Background		5c0e1a
+	Foreground		ffffff
+	Highlight		ceb888
+	Accent			ceb888
+
+
+Tampa Bay Rays
+	Background		092c5c
+	Foreground		ffffff
+	Highlight		f5d130
+	Accent			8fbce6
