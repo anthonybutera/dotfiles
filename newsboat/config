@@ -5,9 +5,8 @@ max-items 50
 # miscellaneous
 history-limit 0
 
-browser '/mnt/c/Users/anthony/AppData/Local/Vivaldi/Application/vivaldi.exe'
-browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 browser '/usr/bin/vivaldi'
+browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 # unbind keys
 unbind-key ENTER
@@ -19,10 +18,8 @@ unbind-key K
 # bind keys - vim style
 bind-key j down
 bind-key k up
-bind-key j next articlelist
-bind-key k prev articlelist
-bind-key J next-feed articlelist
-bind-key K prev-feed articlelist
+bind-key J next articlelist
+bind-key K prev articlelist
 bind-key g home
 bind-key G end
 bind-key u pageup
