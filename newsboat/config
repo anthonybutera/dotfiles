@@ -9,14 +9,12 @@ browser '/mnt/c/Users/anthony/AppData/Local/Vivaldi/Application/vivaldi.exe'
 browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 browser '/usr/bin/vivaldi'
 
-
 # unbind keys
 unbind-key ENTER
 unbind-key j
 unbind-key k
 unbind-key J
 unbind-key K
-
 
 # bind keys - vim style
 bind-key j down
@@ -68,7 +66,5 @@ highlight article "\\[image\\ [0-9]+\\]" color106 color234       # Green   Faded
 # highlight article "^(Title):.*$" blue default
 # highlight article "https?://[^ ]+" red default
 # highlight article "\\[image\\ [0-9]+\\]" green default
-
-
 
 
