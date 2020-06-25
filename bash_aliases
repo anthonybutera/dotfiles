@@ -56,6 +56,7 @@ alias nano='nano -m'
 alias open='xdg-open'                       # Install xdg-utils
 alias Ping='ping -OA -c 10'
 alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
+alias rtv='tuir'
 alias sl='ls'
 alias smotd='clear && neofetch'             # Install neofetch
 alias start='cmd.exe /C start $*'
