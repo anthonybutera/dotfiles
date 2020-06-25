@@ -14,10 +14,10 @@ call plug#begin('~/dotfiles/nvim/plugged')
 " Colorschemes
   Plug 'morhetz/gruvbox'                         " <leader>1
   Plug 'sjl/badwolf'                             " <leader>2
-  Plug 'nanotech/jellybeans.vim'                 " <leader>3
-  Plug 'float168/vim-colors-cherryblossom'       " <leader>4
-  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>5 -- Must enable 'set termguicolors'
-
+  Plug 'duckwork/nirvana'                        " <leader>3
+  Plug 'nanotech/jellybeans.vim'                 " <leader>4
+  Plug 'float168/vim-colors-cherryblossom'       " <leader>5
+  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>6 -- Must enable 'set termguicolors'
 
 call plug#end()
 
@@ -163,21 +163,23 @@ else
   :colorscheme gruvbox
 endif
 
-" https://github.com/morhetz/gruvbox               
+" https://github.com/morhetz/gruvbox
 nnoremap <leader>1 :colorscheme gruvbox<CR>                  
 
 " https://github.com/sjl/badwolf
 nnoremap <leader>2 :colorscheme badwolf<CR>                  
 
+" https://github.com/duckwork/nirvana
+nnoremap <leader>3 :colorscheme nirvana<CR>                
+
 " https://github.com/lmintmate/blue-mood-vim
-nnoremap <leader>3 :colorscheme jellybeans<CR>         
+nnoremap <leader>4 :colorscheme jellybeans<CR>         
 
 " https://github.com/float168/vim-colors-cherryblossom
-nnoremap <leader>4 :colorscheme cherryblossom<CR>            
+nnoremap <leader>5 :colorscheme cherryblossom<CR>            
 
 " https://github.com/pcostasgr/red_alert_vim_theme
-nnoremap <leader>5 :colorscheme red_alert<CR>                
-
+nnoremap <leader>6 :colorscheme red_alert<CR>                
 
 
 
