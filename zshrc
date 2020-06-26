@@ -2,7 +2,10 @@
 # Customize to your needs...
 export PATH=$HOME/.local/bin/:$PATH
 export EDITOR=/usr/bin/nvim
-export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe':'/mnt/c/Users/anthony/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe':'/mnt/c/Users/root/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export TVPC_BROWSER='/mnt/c/Users/root/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export WORK_BROWSER='/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+export LINUX_BROWSER='/usr/bin/vivaldi'
 export RTV_BROWSER=$BROWSER
 export TUIR_BROWSER=$BROWSER
 

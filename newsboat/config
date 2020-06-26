@@ -1,3 +1,5 @@
+# vim: filetype=newsboatrc
+
 # general settings
 auto-reload yes
 max-items 50
@@ -5,8 +7,9 @@ max-items 50
 # miscellaneous
 history-limit 0
 
-browser '/usr/bin/vivaldi'
-browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+browser vivaldi
+# browser '/usr/bin/vivaldi'
+# browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 # unbind keys
 unbind-key ENTER
@@ -16,16 +19,27 @@ unbind-key J
 unbind-key K
 
 # bind keys - vim style
-bind-key j down
-bind-key k up
-bind-key J next articlelist
-bind-key K prev articlelist
+bind-key j next
+bind-key k prev
+
+bind-key J next-feed
+bind-key K prev-feed
+
+bind-key j down article
+bind-key k up article
+
+bind-key J next article
+bind-key K prev article
+
 bind-key g home
 bind-key G end
+
 bind-key u pageup
 bind-key d pagedown
+
 bind-key l open
 bind-key h quit
+
 bind-key a toggle-article-read
 bind-key n next-unread
 bind-key N prev-unread
@@ -34,6 +48,7 @@ bind-key S save
 bind-key a mark-feed-read
 bind-key A mark-all-feeds-read
 bind-key ; open-in-browser
+
 
 # Gruvbox -- https://github.com/morhetz/gruvbox
 color background         color234	color234 			# Faded Black 	Faded Black
@@ -44,11 +59,13 @@ color listfocus_unread   color234   color214			# Faded Black	Yellow
 color info               color214   color234			# Yellow		Faded Black
 color article            color223   color234			# Yellow		Faded Black
 
+
 # highlights
 highlight article "^(Title):.*$" color214 color234               # Yellow  Faded Black
 highlight article "https?://[^ ]+" color66 color234              # Blue    Faded Black
 highlight article "\\[image\\ [0-9]+\\]" color106 color234       # Green   Faded Black
 
+# ======================
 
 # solarized
 #color background         default   default
@@ -58,6 +75,7 @@ highlight article "\\[image\\ [0-9]+\\]" color106 color234       # Green   Faded
 #color listfocus_unread   black     cyan
 #color info               default   black
 #color article            default   default
+
 
 # highlights
 # highlight article "^(Title):.*$" blue default
