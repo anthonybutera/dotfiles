@@ -152,102 +152,103 @@ keymap ZQ NULL
 
 
 ########## command ##########
-keymap :: COMMAND
-keymap :H HELP
-keymap :o OPTIONS
-keymap o  OPTIONS
-keymap :d DOWNLOAD_LIST
+keymap ::   COMMAND
+keymap :H   HELP
+keymap :o   OPTIONS
+keymap o    OPTIONS
+keymap :d   DOWNLOAD_LIST
 
 ########## history navigation ##########
-keymap L  NEXT
-keymap H  PREV
-keymap f  SELECT_MENU
-keymap :h HISTORY
+keymap L    NEXT
+keymap H    PREV
+keymap M    PREV
+keymap f    SELECT_MENU
+keymap :h   HISTORY
 
 ########## scrolling ##########
-keymap gg BEGIN
-keymap G END
-keymap J NEXT_PAGE
-# keymap d NEXT_PAGE
-keymap K PREV_PAGE
-# keymap u PREV_PAGE
-keymap zz CENTER_V
+keymap gg   BEGIN
+keymap G    END
+keymap J    NEXT_PAGE
+# keymap d  NEXT_PAGE
+keymap K    PREV_PAGE
+# keymap u  PREV_PAGE
+keymap zz   CENTER_V
 
 ########## cursor ##########
-keymap l MOVE_RIGHT
-keymap C-l NEXT_TAB
-keymap h MOVE_LEFT
-keymap C-h PREV_TAB
-keymap j MOVE_DOWN1
-keymap k MOVE_UP1
-keymap RIGHT MOVE_RIGHT
-keymap LEFT MOVE_LEFT
-keymap DOWN MOVE_DOWN1
-keymap UP MOVE_UP1
-keymap gh LINE_BEGIN
-keymap gl LINE_END
-keymap w NEXT_WORD
-keymap b PREV_WORD
+keymap l        MOVE_RIGHT
+keymap C-l      NEXT_TAB
+keymap h        MOVE_LEFT
+keymap C-h      PREV_TAB
+keymap j        MOVE_DOWN1
+keymap k        MOVE_UP1
+keymap RIGHT    MOVE_RIGHT
+keymap LEFT     MOVE_LEFT
+keymap DOWN     MOVE_DOWN1
+keymap UP       MOVE_UP1
+keymap gh       LINE_BEGIN
+keymap gl       LINE_END
+keymap w        NEXT_WORD
+keymap b        PREV_WORD
 
 ########## cursor history ##########
-keymap C-u REDO
 keymap U   UNDO
+keymap Y   REDO
 
 ########## navigation ##########
-keymap u GOTO
-keymap d MOVE_LIST_MENU
-keymap D LIST_MENU
-keymap TAB NEXT_LINK
-keymap m NEXT_LINK
-keymap , PREV_LINK
-keymap C-n NEXT_LINK
-keymap C-p PREV_LINK
-keymap :l PEEK_LINK
-keymap	C-j	GOTO_LINK
+keymap u    GOTO
+keymap d    MOVE_LIST_MENU
+keymap D    LIST_MENU
+keymap TAB  NEXT_LINK
+keymap m    NEXT_LINK
+keymap ,    PREV_LINK
+keymap C-n  NEXT_LINK
+keymap C-p  PREV_LINK
+keymap :l   PEEK_LINK
+keymap C-j	GOTO_LINK
+keymap .    GOTO_LINK
 
 # reload
 keymap r RELOAD
-keymap C-r RELOAD
 
 # save/load 
-keymap :w SAVE
-keymap :P PRINT
-keymap :o GOTO
-keymap :e LOAD
+keymap :w   SAVE
+keymap :P   PRINT
+keymap :o   GOTO
+keymap :e   LOAD
 
 # jump
-keymap ESC-C-j SUBMIT
-keymap C-T TAB_LINK
+keymap ESC-C-j  SUBMIT
+keymap C-T      TAB_LINK
 
 ########## info ##########
-keymap y PEEK
-keymap gC-g INFO
-keymap C-g LINE_INFO
-keymap gf VIEW
+keymap y        PEEK
+keymap gC-g     INFO
+keymap C-g      LINE_INFO
+keymap gf       VIEW
 
 ########## search ##########
-keymap / ISEARCH
-keymap ? ISEARCH_BACK
-keymap n SEARCH_NEXT
-keymap N SEARCH_PREV
+keymap /    ISEARCH
+keymap ?    ISEARCH_BACK
+keymap n    SEARCH_NEXT
+keymap N    SEARCH_PREV
 
 ########## bookmarks ##########
-keymap :ab ADD_BOOKMARK
-keymap :vb VIEW_BOOKMARK
+keymap :ab  ADD_BOOKMARK
+keymap :vb  VIEW_BOOKMARK
 
 ########## tab ##########
-keymap x CLOSE_TAB
+keymap x    CLOSE_TAB
 # keymap gh GOTO http://www.google.com/en
 # keymap gH TAB_GOTO http://www.google.com/en
-keymap C-t NEW_TAB
-keymap gt NEXT_TAB
-keymap gT PREV_TAB
-keymap t TAB_MENU
-keymap T TAB_GOTO
+keymap C-t  NEW_TAB
+keymap gt   NEXT_TAB
+keymap gT   PREV_TAB
+keymap t    TAB_MENU
+keymap T    TAB_GOTO
 
 
 ########## quit ##########
-keymap ZZ EXIT
-keymap C-Q EXIT
-keymap ZQ QUIT
-keymap :q QUIT
+keymap ZZ   EXIT
+keymap C-Q  EXIT
+keymap ZQ   QUIT
+keymap :q   QUIT
