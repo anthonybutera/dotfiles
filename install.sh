@@ -82,6 +82,7 @@ ln -sf $HOME/dotfiles/rofi               $HOME/.config/rofi
 ln -sf $HOME/dotfiles/terminator         $HOME/.config/terminator
 ln -sf $HOME/dotfiles/tmux.conf          $HOME/.tmux.conf
 ln -sf $HOME/dotfiles/tuir               $HOME/.config/tuir
+ln -sf $HOME/dotfiles/w3m                $HOME/.w3m
 ln -sf $HOME/dotfiles/w3m                $HOME/.config/w3m
 ln -sf $HOME/dotfiles/w3m/keymap         $HOME/.w3m_keymap
 ln -sf $HOME/dotfiles/zshrc              $HOME/.zshrc
