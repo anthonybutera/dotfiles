@@ -39,6 +39,8 @@ alias dmesg='dmesg --color'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias Firefox='nohup firefox > /dev/null 2>&1 &'
+alias gc='git commit -a --allow-empty-message'
+alias gp='git push'
 alias grep='grep --color=auto'
 alias History='fc -flt "%b/%d/%Y  %A  %r" 1 | fzf --tac --height=20'
 alias Less='less -N'                        # Displays line numbers
