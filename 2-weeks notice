@@ -1,0 +1,55 @@
+2-weeks notice
+
+TLDR: - Not enough of what I want, too much of what I don't ... we're being treated like children
+
+
+
+PROS:
+- Respectable salary for the role
+- Tolerable working hours
+	- Little management interference
+- Amount of work during shift is light
+	- Sometimes, too much so
+- NSOC office room is delightully cold in the later hours
+- Some staff are tolerable
+	- A few like-minded co-workers that want better for themselves
+- Hardee's chicken soft tacos
+
+
+
+CONS: 
+- After many months, NSOC department is going nowhere, not being developed at all
+- No meaningful work: mindless, automatable busy work (tickets / timelines) instead of system administration level stuff
+- No purposeful career path or advancement opportunities
+- Management is either non-transparent, incompetent or are control freaks
+- Management is not open to suggestions for improvement, unless it solely benefits them
+	- Welcomed the recommendation of getting more NSOC responsibility, no extra benefits
+	- Refused the suggestion of automating ticket creation because "not passionate about it"
+	- Delayed because "no runbook" and no one followed up
+		- Been denied by Lynn Hall or put off by Tony Serrano too many times
+- All decisions for the 3 adjacent Service Desk departments (L1's / L2's, NSOC, Access Management) are made by 1 person
+	- Everyone is afraid of Lynn Hall
+- Most co-workers are low effort / quality / don't give a shit
+- NSOC office room and desks are uncomfortable
+- Only 30 minutes for lunch
+- Lack of proper parking in rear of building is a nightmare for 2nd shift
+- No work from home, even as an option
+	- (despite Citrix environment used during COVID-19)
+- Too much email
+	- NSOC is on all Service Desk email distribution lists
+- Access to systems is unnecessarily denied 
+	- SSH to the SDWAN routers just to force us to use the web GUI
+	- VPN was restricted just to force us to use Citrix
+		- Citrix program installation / usage is even further restricted
+		- Cannot ping outside of the RTG network
+- Websites restrictions are unnecessary, non-uniform and targeted in some cases
+	- Block debian.org because I use it with Windows Subsystem for Linux 
+		- But per IT Security "MIS is allowed to download and install software"
+	- Block gmail.com and other webmail services because we said so 
+	
+
+
+
+Bottom line:
+- Not getting enough of what I need or want to continue working here
+- We're looked at and treated like children
