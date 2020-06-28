@@ -16,7 +16,6 @@ https://www.youtube.com/feed/trending?disable_polymer=1
 https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&hl=en&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26hl%3Den%26next%3D%252F%26feature%3Dsign_in_promo&passive=true
 https://www.youtube.com/feed/history
 https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3Dsign_in_promo%26action_handle_signin%3Dtrue%26next%3D%252F&hl=en&passive=true
-https://accounts.google.com/signin/v1/lookup
 file:///home/anthony/mastodon.technology
 https://mastodon.technology/about
 https://mastodon.technology/auth/sign_in
@@ -69,12 +68,30 @@ https://www.youtube.com/howyoutubeworks
 https://reddit.com/
 https://www.reddit.com/
 https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2F
-<<<<<<< HEAD
+<<<<<<<%20HEAD
 https://ddg.co/
 https://duckduckgo.com/lite/
 https://nintendo.fandom.com/wiki/Super_Nintendo_Entertainment_System
 =======
 file:///home/anthony/duckduckgo.com
-https://duckduckgo.com/lite/
 https://duckduckgo.com/lite/?q=w3m%20%22colorscheme%22&norw=1
->>>>>>> 0771c068f9eaf1638e76761e1129ece63d0e7666
+>>>>>>>%200771c068f9eaf1638e76761e1129ece63d0e7666
+file:///home/anthony/gmail.com
+https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#
+https://support.google.com/accounts/answer/7675428?hl=en
+file:///home/anthony/google.com
+http://www.google.com/
+http://www.google.com/search?ie=ISO-8859-1&hl=en&source=hp&q=html+gmail&btnG=Google+Search&iflsig=AINFCbYAAAAAXvguRGCd2udWhpIuqoGDrLQIVi4ZRgep&gbv=1
+http://www.google.com/url?q=https://chrome.google.com/webstore/detail/free-html-editor-for-gmai/ioinaaeeacahcmbgfmeaaofhfkijpdeb%3Fhl%3Den-US&sa=U&ved=2ahUKEwjHheHO2aPqAhWFmeAKHUFXAGkQFjABegQICBAB&usg=AOvVaw0-bUnSwOrMHRZNY4nMRvvp
+http://www.google.com/url?q=https://support.google.com/mail/answer/15049%3Fhl%3Den&sa=U&ved=2ahUKEwjHheHO2aPqAhWFmeAKHUFXAGkQFjAAegQIBBAB&usg=AOvVaw0nz9N3EocFf8YDoMm3qfG9
+file:///home/anthony/ddg.co
+https://duckduckgo.com/lite/
+https://support.google.com/mail/answer/15049?hl=en
+https://www.lifewire.com/how-to-switch-to-gmail-basics-simple-html-view-4048467
+https://www.lifewire.com/gmail-4781438
+https://mail.google.com/mail/?ui=html&zy=h
+https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fui%3Dhtml%26zy%3Dh&service=mail&ss=1&scc=1&rm=false&osid=1&ltmpl=default&hl=en
+http://mail.google.com/mail?nocheckbrowser
+https://osxdaily.com/2019/05/18/use-gmail-html-basic-mode/
+https://mail.google.com/mail/u/0/h/
+https://accounts.google.com/signin/v1/lookup

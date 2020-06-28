@@ -7,9 +7,17 @@ max-items 50
 # miscellaneous
 history-limit 0
 
-browser vivaldi
+
+if [ -f $(which vivaldi) ]; then
+  browser vivaldi
+else
+  browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+fi
+
+
+# browser vivaldi
 # browser '/usr/bin/vivaldi'
-browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+# browser '/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
 # unbind keys
 unbind-key ENTER
