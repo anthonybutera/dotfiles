@@ -1,7 +1,7 @@
 
 # Customize to your needs...
 if [[ $(uname --kernel-release) = *Microsoft* ]]; then
- BROWSER="$(locate vivaldi.exe | grep -i appdata)"
+ BROWSER="$(locate vivaldi.exe | grep '/mnt/c' | grep -i appdata)"
 else
  BROWSER="$(which vivaldi)"
 fi
