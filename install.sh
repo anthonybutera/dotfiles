@@ -18,6 +18,13 @@ for package in firefox nmap wget curl zsh zsh-syntax-highlighting nano git fzf t
      fi; 
   done; echo
 
+# Install Exa
+if ! [ -f $(whereis exa) ]; then
+    echo "Exa has taken a hike. Gettin' it back."
+      sudo apt install -y cargo && \
+      sudo cargo install exa
+fi
+
 
 # Install NeoMutt
 if ! [ -f /usr/bin/neomutt ]; then
