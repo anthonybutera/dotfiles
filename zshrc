@@ -3,25 +3,18 @@
 if [[ $(uname --kernel-release) = *Microsoft* ]]; then
  BROWSER="$(locate vivaldi.exe | grep -i appdata)"
 else
- BROWSER='vivaldi'
+ BROWSER="$(which vivaldi)"
 fi
 
 
-
 export PATH=$HOME/.local/bin/:/$HOME/.cargo/bin:$PATH
-export EDITOR=/usr/bin/nvim
-# export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe':'/mnt/c/Users/root/AppData/Local/Vivaldi/Application/vivaldi.exe'
-export TVPC_BROWSER='/mnt/c/Users/root/AppData/Local/Vivaldi/Application/vivaldi.exe'
-export WORK_BROWSER='/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
-export LINUX_BROWSER='/usr/bin/vivaldi'
+export EDITOR=$(which nvim)
 export RTV_BROWSER=$BROWSER
 export TUIR_BROWSER=$BROWSER
 
 if [ $(hostname) = "SEF-SVCDSK-V6K" ]; then
   export REQUESTS_CA_BUNDLE=/etc/ssl/certs/Netskope.pem     # Netskope SSL certificate for Rooms To Go
 fi
-
-
 
 
 # Fix Globbing
