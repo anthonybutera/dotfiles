@@ -33,7 +33,7 @@ alias 12..='cd ../../../../../../../../../../../../'
 
 
 
-
+alias cargo='cargo --color=always'
 alias cmd='/mnt/c/Windows/System32/cmd.exe'
 alias dmesg='dmesg --color'
 alias egrep='egrep --color=auto'
