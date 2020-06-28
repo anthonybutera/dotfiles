@@ -1,6 +1,6 @@
 
 # Customize to your needs...
-export PATH=$HOME/.local/bin/:$PATH
+export PATH=$HOME/.local/bin/:/$HOME/.cargo/bin:$PATH
 export EDITOR=/usr/bin/nvim
 export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe':'/mnt/c/Users/root/AppData/Local/Vivaldi/Application/vivaldi.exe'
 export TVPC_BROWSER='/mnt/c/Users/root/AppData/Local/Vivaldi/Application/vivaldi.exe'
