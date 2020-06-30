@@ -106,10 +106,6 @@ zstyle ':completion*' menu select
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 
-# For TMUX 
-export SUPER_L='Super_L'
-export ALT_L='M-'
-
 
 # ======================================
 # ======================================
