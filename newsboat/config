@@ -7,7 +7,7 @@ max-items 50
 # miscellaneous
 history-limit 0
 
-browser $BROWSER
+browser "$TUIR_BROWSER"
 
 # unbind keys
 unbind-key ENTER
