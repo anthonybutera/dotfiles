@@ -59,7 +59,7 @@ alias lss='ls -lh `find . -maxdepth 1 -type l -print`'
 alias motd='clear && cat /etc/motd'
 alias mule-password-svc_mule='/mnt/c/Windows/System32/OpenSSH/ssh.exe -l svc_nsoc 10.240.29.43'
 alias nano='nano -m'
-alias open='xdg-open $1 2>&1'                        # Install xdg-utils
+alias open='xdg-open 2>&1'                        # Install xdg-utils
 alias Ping='ping -OA -c 10'
 alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
 alias rtv='tuir'
@@ -120,3 +120,20 @@ alias xrdesktop='xfreerdp -g 1280x768 /v:$1 '
 alias sssh='ssh -l root'
 alias rdp='/mnt/c/Windows/System32/mstsc.exe /v:$1 '
 alias mstsc='/mnt/c/Windows/System32/mstsc.exe /v:$1 '
+
+
+########################
+# TMUX Background Colors
+########################
+
+alias tmux-black='tmux select-pane -P "bg=black, fg=white"'
+alias tmux-red='tmux select-pane -P "bg=red, fg=white"'
+alias tmux-green='tmux select-pane -P "bg=green, fg=white"'
+alias tmux-blue='tmux select-pane -P "bg=blue, fg=white"'
+alias tmux-magenta='tmux select-pane -P "bg=magenta, fg=white"'
+alias tmux-cyan='tmux select-pane -P "bg=cyan, fg=white"'
+alias tmux-gray='tmux select-pane -P "bg=gray, fg=white"'
+alias tmux-orange='tmux select-pane -P "bg=orange, fg=white"'
+
+alias tmux-white='tmux select-pane -P "bg=white, fg=black"'
+alias tmux-yellow='tmux select-pane -P "bg=yellow, fg=black"'

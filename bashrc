@@ -138,8 +138,13 @@ export PATH=$HOME/.local/bin/:$PATH
 export TERM="xterm-256color"
 export COLORTERM="truecolor"
 export EDITOR="nvim"
-export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
+# export BROWSER='/usr/bin/vivaldi':'/mnt/c/Users/buterant/AppData/Local/Vivaldi/Application/vivaldi.exe'
 
+if [[ $(uname --kernel-release) = *Microsoft* ]]; then
+ BROWSER="$(locate vivaldi.exe | grep '/mnt/c' | grep -i appdata)"
+else
+ BROWSER="$(which vivaldi)"
+fi
 
 # INSTALL XMING GRAPHICAL DISPLAY SERVER 
 export DISPLAY=:0
