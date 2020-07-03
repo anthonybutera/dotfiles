@@ -48,7 +48,8 @@ fi
 
 
 # Sets terminal type to Xterm 256-color
-export TERM=screen-256color 
+export TERM=xterm-256color
+
 export COLORTERM="truecolor"
 
 # ZSH-specific aliases

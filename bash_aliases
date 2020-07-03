@@ -127,8 +127,4 @@ alias mstsc='/mnt/c/Windows/System32/mstsc.exe /v:$1 '
 ########################
 
 alias tmux-black='tmux select-pane -P "bg=black, fg=white"'
-alias tmux-red='tmux select-pane -P "bg=red, fg=white"'
-alias tmux-blue='tmux select-pane -P "bg=blue, fg=white"'
-alias tmux-magenta='tmux select-pane -P "bg=magenta, fg=white"'
-alias tmux-cyan='tmux select-pane -P "bg=cyan, fg=white"'
 alias tmux-white='tmux select-pane -P "bg=white, fg=black"'
