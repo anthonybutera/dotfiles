@@ -1,6 +1,6 @@
 # This file goes in %APPDATA/alacritty/alacritty.yml on Windows
 
-background_opacity: 0.97
+background_opacity: 0.95
 
 # Colors (Gruvbox dark)
 colors:
