@@ -50,10 +50,13 @@ bind-key ; open-in-browser
 
 # Gruvbox -- https://github.com/morhetz/gruvbox
 color background             color234	color234 			# Faded Black 	Faded Black
-color listnormal             color223 	color234 			# Almond		Faded Black
-color listnormal_unread      color223	color234			# Almond		Faded Black
+
+color listnormal             color241 	color234 			# Dark Gray		Faded Black
+color listnormal_unread      color180	color234			# Peach 		Faded Black
+
 #color listfocus             color234   color214			# Faded Black	Yellow
 #color listfocus_unread      color234   color214			# Faded Black	Yellow
+
 color info                   color214   color234			# Yellow		Faded Black
 color article                color223   color234			# Yellow		Faded Black
 
