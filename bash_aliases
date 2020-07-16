@@ -66,7 +66,7 @@ alias rtv='tuir'
 alias sl='ls'
 alias smotd='clear && neofetch'             # Install neofetch
 alias start='cmd.exe /C start $*'
-alias updatedb='sudo updatedb --prunepaths="/mnt"'
+alias Updatedb='sudo updatedb --prunepaths="/mnt"'
 alias vim='nvim'
 alias w='w -fus'
 alias watch='watch -c'
@@ -74,7 +74,8 @@ alias weather='curl "http://wttr.in/tampa?u"'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'                      # Install whois
 
-alias caps='setxkbmap -option caps:super && setxkbmap -option shift:both_capslock'
+alias caps='setxkbmap -option caps:super'
+alias shift='setxkbmap -option shift:both_capslock'
 
 #############
 # Apt Aliases
