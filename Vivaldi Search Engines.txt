@@ -24,7 +24,7 @@
 	- URL: https://roomstogo.service-now.com/sys_user_list.do?sysparm_first_row=1&sysparm_query=user_nameISNOTEMPTY%5EGOTO123TEXTQUERY321%3d%s&sysparm_view=quick_profile
 	 
 	- Nickname: .snkb (Service Now Knowledge Base)
-	- URL: https://roomstogo.service-now.com/$knowledge.do?keywords=%s
+	- URL: https://roomstogo.service-now.com/$knowledge.do?keywords=sccm&query=%s&sysparm_type_filter=all&sysparm_order=relevancy
 	 
 	- Nickname: .orion (SolarWinds General Search)
 	- URL: https://orion/Orion/NetPerfMon/Resources/NodeSearchResults.aspx?Property=Caption&SearchText=%s
