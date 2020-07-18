@@ -3,14 +3,14 @@
 ME="$(/usr/bin/id -run)"
 
 sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
-  sudo cp /home/$ME/dotfiles/sources.list /etc/apt/sources.list \
+  sudo cp /home/$ME/dotfiles/sources.list /etc/apt/sources.list && \
   sudo apt update
 
 # ==============================
 # Check for package installation
 # ==============================
 
-for package in firefox nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
+for package in firefox nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim neomutt python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
   do if [ -f /usr/bin/$package ] || [ -f /bin/$package ];
         then echo "$package is here, boss"; 
         else echo; echo "Installing $package now, dawg"; 
@@ -23,16 +23,6 @@ if ! [ -f $(whereis exa) ]; then
     echo "Exa has taken a hike. Gettin' it back."
       sudo apt install -y cargo && \
       sudo cargo install exa
-fi
-
-
-# Install NeoMutt
-if ! [ -f /usr/bin/neomutt ]; then
-  echo "NeoMutt ain't here, chief. Installing it."; 
-   curl -# -o /tmp/neomutt_amd64.deb http://debian-archive.trafficmanager.net/debian/pool/main/n/neomutt/neomutt_*_amd64.deb && \
-   sudo chmod +x /tmp/neomutt_amd64.deb && \
-   sudo dpkg -i /tmp/neomutt_amd64.deb && \
-   sudo apt upgrade -y neomutt
 fi
 
 
