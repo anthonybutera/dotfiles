@@ -10,7 +10,7 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
 # Check for package installation
 # ==============================
 
-for package in firefox nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim neomutt python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
+for package in firefox-esr nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim neomutt python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
   do if [ -f /usr/bin/$package ] || [ -f /bin/$package ];
         then echo "$package is here, boss"; 
         else echo; echo "Installing $package now, dawg"; 
