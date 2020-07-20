@@ -46,7 +46,7 @@ fi
 
 
 
-if [[ $(uname --kernel-release) = *Microsoft* ]]; then
+if [ $(uname --kernel-release) = *Microsoft* ]; then
   setx.exe WSLUSER 'USERPROFILE/up:SystemRoot/up:WIN_USER'
   setx.exe WSLENV 'WSLUSER/up'
   echo "Don't forget to reboot the system for the ENV variable changes to take effect. Vivaldi won't like you otherwise."
@@ -95,5 +95,4 @@ sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
 sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
 
-source ~/.zshrc
 echo "All done. Make sure to reboot if you're on WSL to set the WSLUSER environmental variable. Enjoy!"
