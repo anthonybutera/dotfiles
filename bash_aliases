@@ -32,7 +32,7 @@ alias 11..='cd ../../../../../../../../../../../'
 alias 12..='cd ../../../../../../../../../../../../'
 
 
-
+alias cat="$HOME/.cargo/bin/bat"
 alias cargo='cargo --color=always'
 alias cmd='/mnt/c/Windows/System32/cmd.exe'
 alias dmesg='dmesg --color'
