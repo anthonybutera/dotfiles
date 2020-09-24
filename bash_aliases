@@ -32,11 +32,12 @@ alias 11..='cd ../../../../../../../../../../../'
 alias 12..='cd ../../../../../../../../../../../../'
 
 
-
+alias cat="$HOME/.cargo/bin/bat"
 alias cargo='cargo --color=always'
 alias cmd='/mnt/c/Windows/System32/cmd.exe'
 alias dmesg='dmesg --color'
 alias egrep='egrep --color=auto'
+alias fd='fdfind'
 alias fgrep='fgrep --color=auto'
 alias Firefox='firefox 2>/dev/null &'
 alias gc='git commit -a --allow-empty-message'

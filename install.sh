@@ -10,7 +10,7 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
 # Check for package installation
 # ==============================
 
-for package in firefox nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim neomutt python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
+for package in firefox-esr nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim neomutt python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
   do if [ -f /usr/bin/$package ] || [ -f /bin/$package ];
         then echo "$package is here, boss"; 
         else echo; echo "Installing $package now, dawg"; 
@@ -46,7 +46,7 @@ fi
 
 
 
-if [[ $(uname --kernel-release) = *Microsoft* ]]; then
+if [ $(uname --kernel-release) = *Microsoft* ]; then
   setx.exe WSLUSER 'USERPROFILE/up:SystemRoot/up:WIN_USER'
   setx.exe WSLENV 'WSLUSER/up'
   echo "Don't forget to reboot the system for the ENV variable changes to take effect. Vivaldi won't like you otherwise."
@@ -99,5 +99,8 @@ sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
 sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e49c3422205f5268f8ab659e7b6f4d1944824a2a
 echo "All done. Make sure to reboot if you're on WSL to set the WSLUSER environmental variable. Enjoy!"
