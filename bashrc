@@ -134,7 +134,7 @@ export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
 export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 
 
-export PATH=$HOME/.local/bin/:$PATH
+export PATH=$HOME/.local/bin/:/snap/bin/:$PATH
 export TERM="xterm-256color"
 export COLORTERM="truecolor"
 export EDITOR="nvim"

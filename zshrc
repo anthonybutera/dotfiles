@@ -7,7 +7,7 @@ else
 fi
 
 
-export PATH=$HOME/.local/bin/:/$HOME/.cargo/bin:$PATH
+export PATH=$HOME/.local/bin/:/$HOME/.cargo/bin:/snap/bin:$PATH
 export EDITOR=$(which nvim)
 export RTV_BROWSER=$BROWSER
 export TUIR_BROWSER=$BROWSER
