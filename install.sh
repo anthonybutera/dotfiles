@@ -64,6 +64,8 @@ fi
 # ln -sf /path/to/dotfile  /path/to/destination
 
 # User
+mkdir -p $HOME/.config 
+
 ln -sf $HOME/dotfiles/bashrc             $HOME/.bashrc
 ln -sf $HOME/dotfiles/bash_aliases       $HOME/.bash_aliases
 ln -sf $HOME/dotfiles/mc                 $HOME/.config/mc
@@ -85,6 +87,8 @@ ln -sf $HOME/dotfiles/w3m/keymap         $HOME/.w3m_keymap
 ln -sf $HOME/dotfiles/zshrc              $HOME/.zshrc
 
 # Root
+sudo mkdir -p /root/.config
+
 sudo ln -sf /home/$ME/dotfiles/bash_aliases   /root/.bash_aliases
 sudo ln -sf /home/$ME/dotfiles/bashrc         /root/.bashrc
 sudo ln -sf /home/$ME/dotfiles/nvim/init.vim  /root/.vimrc
@@ -95,4 +99,8 @@ sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
 sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> e49c3422205f5268f8ab659e7b6f4d1944824a2a
 echo "All done. Make sure to reboot if you're on WSL to set the WSLUSER environmental variable. Enjoy!"
