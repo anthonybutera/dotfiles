@@ -75,6 +75,7 @@ alias watch='watch -c'
 alias weather='curl "http://wttr.in/tampa?u"'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'                      # Install whois
+alias Vivaldi='vivaldi-stable 2> /dev/null &'
 
 alias caps='setxkbmap -option caps:super'
 alias shift='setxkbmap -option shift:both_capslock'
