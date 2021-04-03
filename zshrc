@@ -126,7 +126,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 # WINDOWS SUBSYSTEM FOR LINUX
 # - INSTALL XMING GRAPHICAL DISPLAY SERVER
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
-export PULSE_SERVER=tcp:"$DISPLAY"
+export PULSE_SERVER=tcp:"$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null)"
 export LIBGL_ALWAYS_INDIRECT=1
 
 
