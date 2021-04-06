@@ -1,6 +1,6 @@
 			
 	- Nickname: .ddg
-	- URL: https://.com/?q=%s&t=vivaldi
+	- URL: https://start.duckduckgo.com/?q=%s&t=vivaldi
 
 	- Nickname: .start
 	- URL: https://www.startpage.com/do/search?q=%s&segment=startpage.vivaldi
@@ -17,18 +17,5 @@
 	- Nickname: .amazon
 	- URL: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=%s
 	 
-	- Nickname: .sn (Service Now General Search)
-	- URL: https://roomstogo.service-now.com/text_search_exact_match.do?sysparm_search=%s
-	 
-	- Nickname: .snqp (Service Now Quick Profile)
-	- URL: https://roomstogo.service-now.com/sys_user_list.do?sysparm_first_row=1&sysparm_query=user_nameISNOTEMPTY%5EGOTO123TEXTQUERY321%3d%s&sysparm_view=quick_profile
-	 
-	- Nickname: .snkb (Service Now Knowledge Base)
-	- URL: https://roomstogo.service-now.com/$knowledge.do?keywords=sccm&query=%s&sysparm_type_filter=all&sysparm_order=relevancy
-	 
-	- Nickname: .orion (SolarWinds General Search)
-	- URL: https://orion/Orion/NetPerfMon/Resources/NodeSearchResults.aspx?Property=Caption&SearchText=%s
-	 
-	- Nickname: !orion (SolarWinds In-Depth Search)
-	- URL: https://orion/ui/search?q=%s
+
 	 
