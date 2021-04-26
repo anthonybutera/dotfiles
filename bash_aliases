@@ -40,7 +40,7 @@ alias egrep='egrep --color=auto'
 alias fd='fdfind'
 alias fgrep='fgrep --color=auto'
 alias Firefox='firefox 2>/dev/null &'
-alias gc='git commit -a --allow-empty-message'
+alias gc='git commit -a --allow-empty-message'          # Git Access Token:  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 
 alias gp='git push'
 alias gs='git status'
 alias grep='grep --color=auto'
