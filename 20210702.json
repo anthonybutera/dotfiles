@@ -1,0 +1,29 @@
+{
+  "035256f0-109d-4a73-9e77-ecac60d4559f": {
+    "account": "anthony.butera@gmail.com",
+    "encrypted": false,
+    "hash": "035256f0-109d-4a73-9e77-ecac60d4559f",
+    "index": 0,
+    "issuer": "Bitwarden",
+    "secret": "2GUKA44R6GGI2IHUAMJU7HGM4UFPDIO6",
+    "type": "totp"
+  },
+  "3414ae39-0d11-4dce-8b54-fb2d12201c24": {
+    "account": "anthony.butera@gmail.com",
+    "encrypted": false,
+    "hash": "3414ae39-0d11-4dce-8b54-fb2d12201c24",
+    "index": 1,
+    "issuer": "Discord",
+    "secret": "5X46PF7PPH5HWNH6",
+    "type": "totp"
+  },
+  "e376d2d4-a59a-4083-acda-1388770f4f74": {
+    "account": "anthony.butera@gmail.com",
+    "encrypted": false,
+    "hash": "e376d2d4-a59a-4083-acda-1388770f4f74",
+    "index": 2,
+    "issuer": "Microsoft - Personal",
+    "secret": "H4JFLMKFCVLKS4M6",
+    "type": "totp"
+  }
+}
