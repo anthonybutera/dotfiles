@@ -72,7 +72,7 @@ alias Updatedb='sudo updatedb --prunepaths="/mnt"'
 alias vim='nvim'
 alias w='w -fus'
 alias watch='watch -c'
-alias weather='curl "http://wttr.in/tampa?u"'   # Install curl
+alias weather='curl "http://wttr.in/greater_northdale?u"'   # Install curl
 alias who='who | column -t'
 alias whois='whois -H'                      # Install whois
 alias Vivaldi='vivaldi-stable 2> /dev/null &'

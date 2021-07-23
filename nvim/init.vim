@@ -30,7 +30,7 @@ syntax on                     " Enables syntax highlighing
 " highlight Comment ctermfg=green
 set autoindent                " Good auto indent
 set autoread                  " Autoread
-set background=dark 
+"set background=dark 
 set clipboard=unnamedplus     " Copy paste between vim and everything else
 set cmdheight=1               " More space for displaying messages
 set complete+=kspell          " Shortcut for autocomplete
@@ -54,7 +54,7 @@ set nowritebackup             " This is recommended by coc
 " set pumheight=10              " Makes popup menu smaller
 set number relativenumber
 set ruler
-" set scrolloff=5						  " Keeps 5 lines above or below the cursor visible while scrolling
+set scrolloff=5				  " Keeps 5 lines above or below the cursor visible while scrolling
 set shiftwidth=2              " Change the number of space characters inserted for indentation
 set showcmd
 set showmatch
