@@ -32,6 +32,8 @@
 	- Nickname: .maps
 	- URL: https://www.google.com/maps?hl=en&q=%s
 
+	- Nickname: .translate
+	- URL: https://translate.google.com/?sl=es&tl=en&text=%s&op=translate
 	 
 
 	 
