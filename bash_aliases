@@ -44,7 +44,6 @@ alias gc='git commit -a --allow-empty-message'         #See Bitwarden for Git Ac
 alias gp='git push'
 alias gs='git status'
 alias grep='grep --color=auto'
-alias History='fc -flt "%A  %b/%d/%Y  %r" 1 | fzf --tac --height=20'
 alias Less='less -N'                        # Displays line numbers
 alias l='ls -CF'
 alias la='ls -A'
