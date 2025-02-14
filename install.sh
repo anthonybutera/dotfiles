@@ -10,20 +10,13 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
 # Check for package installation
 # ==============================
 
-for package in firefox-esr nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim neomutt python3 python3-pip newsboat mc terminator w3m htop bashtop glances rtorrent qbittorent-nox mosh neofetch; 
+for package in firefox-esr nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim python3 python3-pip newsboat mc terminator w3m htop bashtop glances exa; 
   do if [ -f /usr/bin/$package ] || [ -f /bin/$package ];
         then echo "$package is here, boss"; 
         else echo; echo "Installing $package now, dawg"; 
           sudo apt install --no-install-recommends -y $package;  echo; 
      fi; 
   done; echo
-
-# Install Exa
-if ! [ -f $(whereis exa) ]; then
-    echo "Exa has taken a hike. Gettin' it back."
-      sudo apt install -y cargo && \
-      sudo cargo install exa
-fi
 
 
 # Install Vivaldi Browser 
@@ -35,21 +28,6 @@ if ! [ $(sudo dpkg-query -l vivaldi) ]; then
     sudo apt update && \ 
     sudo apt install vivaldi && \ 
     sudo apt -f install
-fi
-
-# Install TUIR (Terminal UI For Reddit)
-  # Using Python
-     # pip3 install tuir
-
-  # Install it from GitLab 
-     # git clone git@gitlab.com:ajak/tuir.git && cd tuir && python setup.py install
-
-
-
-if [ $(uname --kernel-release) = *Microsoft* ]; then
-  setx.exe WSLUSER 'USERPROFILE/up:SystemRoot/up:WIN_USER'
-  setx.exe WSLENV 'WSLUSER/up'
-  echo "Don't forget to reboot the system for the ENV variable changes to take effect. Vivaldi won't like you otherwise."
 fi
 
 # Install Vim-Plug if necessary
@@ -98,9 +76,4 @@ sudo ln -sf /home/$ME/dotfiles/nvim           /root/.config/nvim
 sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
 sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> e49c3422205f5268f8ab659e7b6f4d1944824a2a
-echo "All done. Make sure to reboot if you're on WSL to set the WSLUSER environmental variable. Enjoy!"
+echo "All done. Enjoy!"
