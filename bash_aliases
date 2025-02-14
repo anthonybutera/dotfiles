@@ -58,7 +58,6 @@ alias lsl='ls -lh `find . -maxdepth 1 -type l -print`'
 alias lss='ls -lh `find . -maxdepth 1 -type l -print`'
 alias metasploit='msfconsole'
 alias motd='clear && cat /etc/motd'
-alias mule-password-svc_mule='/mnt/c/Windows/System32/OpenSSH/ssh.exe -l svc_nsoc 10.240.29.43'
 alias nano='nano -m'
 alias open='xdg-open 2>&1'                        # Install xdg-utils
 alias Ping='ping -OA -c 10'
