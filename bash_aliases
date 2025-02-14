@@ -44,7 +44,6 @@ alias gc='git commit -a --allow-empty-message'         #See Bitwarden for Git Ac
 alias gp='git push'
 alias gs='git status'
 alias grep='grep --color=auto'
-alias gmail='neomutt'
 alias History='fc -flt "%A  %b/%d/%Y  %r" 1 | fzf --tac --height=20'
 alias Less='less -N'                        # Displays line numbers
 alias l='ls -CF'
@@ -63,10 +62,7 @@ alias mule-password-svc_mule='/mnt/c/Windows/System32/OpenSSH/ssh.exe -l svc_nso
 alias nano='nano -m'
 alias open='xdg-open 2>&1'                        # Install xdg-utils
 alias Ping='ping -OA -c 10'
-alias powershell='/mnt/c/Program\ Files/PowerShell/7/pwsh.exe'
-alias rtv='tuir'
 alias sl='ls'
-alias smotd='clear && neofetch'             # Install neofetch
 alias start='cmd.exe /C start $*'
 alias Updatedb='sudo updatedb --prunepaths="/mnt"'
 alias vim='nvim'
