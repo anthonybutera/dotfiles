@@ -10,7 +10,7 @@ sudo mv /etc/apt/sources.list /etc/apt/sources.list.WORKING && \
 # Check for package installation
 # ==============================
 
-for package in firefox-esr nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim python3 python3-pip newsboat mc terminator w3m htop bashtop glances exa mtr-tiny dnsutils;
+for package in aptitude firefox-esr nmap wget curl zsh zsh-syntax-highlighting nano git fzf tmux neovim python3 python3-pip newsboat mc terminator w3m htop bashtop glances exa mtr-tiny dnsutils rdesktop freerdp3-x11;
   do if [ -f /usr/bin/$package ] || [ -f /bin/$package ];
         then echo "$package is here, boss"; 
         else echo; echo "Installing $package now, dawg"; 
@@ -49,7 +49,6 @@ ln -sf $HOME/dotfiles/bash_aliases       $HOME/.bash_aliases
 ln -sf $HOME/dotfiles/mc                 $HOME/.config/mc
 ln -sf $HOME/dotfiles/nano               $HOME/.config/nano
 ln -sf $HOME/dotfiles/nanorc             $HOME/.nanorc
-ln -sf $HOME/dotfiles/mutt/muttrc        $HOME/.muttrc
 ln -sf $HOME/dotfiles/newsboat           $HOME/.config/newsboat
 ln -sf $HOME/dotfiles/nvim               $HOME/.config/nvim
 ln -sf $HOME/dotfiles/nvim/init.vim      $HOME/.vimrc
@@ -58,7 +57,6 @@ ln -sf $HOME/dotfiles/ranger             $HOME/.config/ranger
 ln -sf $HOME/dotfiles/rofi               $HOME/.config/rofi
 ln -sf $HOME/dotfiles/terminator         $HOME/.config/terminator
 ln -sf $HOME/dotfiles/tmux.conf          $HOME/.tmux.conf
-ln -sf $HOME/dotfiles/tuir               $HOME/.config/tuir
 ln -sf $HOME/dotfiles/w3m                $HOME/.w3m
 ln -sf $HOME/dotfiles/w3m                $HOME/.config/w3m
 ln -sf $HOME/dotfiles/w3m/keymap         $HOME/.w3m_keymap
@@ -71,7 +69,6 @@ sudo ln -sf /home/$ME/dotfiles/bash_aliases   /root/.bash_aliases
 sudo ln -sf /home/$ME/dotfiles/bashrc         /root/.bashrc
 sudo ln -sf /home/$ME/dotfiles/nvim/init.vim  /root/.vimrc
 sudo ln -sf /home/$ME/dotfiles/zshrc          /root/.zshrc
-
 sudo ln -sf /home/$ME/dotfiles/nvim           /root/.config/nvim 
 sudo ln -sf /home/$ME/dotfiles/nanorc.root    /root/.nanorc
 sudo ln -sf /home/$ME/dotfiles/w3m/keymap     /root/.w3m_keymap
