@@ -18,7 +18,7 @@ alias 12..='cd ../../../../../../../../../../../../'
 
 alias cat='batcat'
 alias cargo='cargo --color=always'
-alias cmd='/mnt/c/Windows/System32/cmd.exe'
+alias cmd='"$(where.exe cmd.exe)"'
 alias dmesg='dmesg --color'
 alias egrep='grep -e --color=auto'
 alias fgrep='grep -f --color=auto'
@@ -34,9 +34,7 @@ alias Less='less -N'                        # Displays line numbers
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
-
 alias ls='eza --color=always --group-directories-first "${@}"'
-
 alias lsa='eza -ld .* || ls -ld .*'
 alias lsh='eza -lh .* || ls -lh .*'
 alias lsd='eza -ld */ || ls -ld */'
@@ -50,7 +48,7 @@ alias sl='ls'
 alias smotd='clear && fastfetch'             # Install fastfetch
 alias start='"$(where.exe cmd.exe)" /C start $*'
 alias Updatedb='sudo updatedb --prunepaths="/mnt"'
-alias vim='nvim'
+alias vim='nvim || vim || micro || nano || vi'
 alias w='w -fus'
 alias watch='watch -c'
 alias weather='curl "http://wttr.in/lake_magdalene?u"'   # Install curl
