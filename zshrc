@@ -1,20 +1,4 @@
-
-# Customize to your needs...
-if [[ $(uname --kernel-release) = *Microsoft* ]]; then
- BROWSER="$(locate vivaldi.exe | grep '/mnt/c' | grep -i appdata)"
-else
- BROWSER="$(which vivaldi)"
-fi
-
-
 export PATH=$HOME/.local/bin/:/$HOME/.cargo/bin:/snap/bin:$PATH
-export EDITOR=$(which nvim)
-export RTV_BROWSER=$BROWSER
-export TUIR_BROWSER=$BROWSER
-
-if [ $(hostname) = "SEF-SVCDSK-V6K" ]; then
-  export REQUESTS_CA_BUNDLE=/etc/ssl/certs/Netskope.pem     # Netskope SSL certificate for Rooms To Go
-fi
 
 
 # Fix Globbing
@@ -36,7 +20,7 @@ promptinit
 THEMES_DIR="/home/$(/usr/bin/id -run)/dotfiles/zsh-themes"
 
 if [ $(id -u) != 0 ]; then
-     prompt fade yellow
+     prompt fade blue
 ###     source $THEMES_DIR/mortalscumbag.zsh-theme       # Green 2-lined prompt
 ###     source $THEMES_DIR/terminalparty.zsh-theme       # Minimal 1-lined prompt, time on right
 ###     source $THEMES_DIR/windows.zsh-theme             # Windows Command Prompt 
@@ -120,14 +104,6 @@ export LESS_TERMCAP_se=$'\E[0m'                 # end standout-mode
 export LESS_TERMCAP_so=$'\E[01;44;33m'          # begin standout-mode - info box
 export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
 export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
-
-
-
-# WINDOWS SUBSYSTEM FOR LINUX
-# - INSTALL XMING GRAPHICAL DISPLAY SERVER
-export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
-export PULSE_SERVER=tcp:"$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null)"
-export LIBGL_ALWAYS_INDIRECT=1
 
 
 
