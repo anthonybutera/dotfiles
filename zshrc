@@ -114,7 +114,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
-fi
+fi 
 
 
 

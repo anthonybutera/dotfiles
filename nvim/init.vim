@@ -160,7 +160,7 @@ let g:gruvbox_contrast_dark = 'hard'
 if $USER == 'root'
   :colorscheme red_alert
 else
-  :colorscheme gruvbox
+  :colorscheme jellybeans
 endif
 
 " https://github.com/morhetz/gruvbox

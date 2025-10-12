@@ -41,14 +41,14 @@ alias lsd='eza -ld */ || ls -ld */'
 alias lsl='eza -lh `find . -maxdepth 1 -type l -print` || ls -lh . `-maxdepth 1 -type l -print`'
 alias metasploit='msfconsole'
 alias motd='clear && cat /etc/motd'
-alias nano='micro || nano || nvim || vim || vi'
+alias nano='nano || micro'
 alias open='xdg-open 2>&1'                        # Install xdg-utils
 alias Ping='ping -OA -c 10'
 alias sl='ls'
 alias smotd='clear && fastfetch'             # Install fastfetch
 alias start='"$(where.exe cmd.exe)" /C start $*'
 alias Updatedb='sudo updatedb --prunepaths="/mnt"'
-alias vim='nvim || vim || micro || nano || vi'
+alias vim='nvim || vim'
 alias w='w -fus'
 alias watch='watch -c'
 alias weather='curl "http://wttr.in/lake_magdalene?u"'   # Install curl
