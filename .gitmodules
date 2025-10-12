@@ -1,3 +1,7 @@
 [submodule "fzf"]
 	path = nvim/plugged/fzf
 	url = https://github.com/junegunn/fzf
+
+[submodule "fzf.vim"]
+	path = nvim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
