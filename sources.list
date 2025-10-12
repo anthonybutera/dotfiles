@@ -1,13 +1,3 @@
-# http://debian-archive.trafficmanager.net
-# http://debian.gtisc.gatech.edu
-# http://mirror.wdc1.us.leaseweb.net
-
-
-# deb http://deb.debian.org/debian testing main
-# deb http://deb.debian.org/debian testing-updates main
-# deb http://security.debian.org/testing-security/ testing/updates main
-
-
 deb http://debian-archive.trafficmanager.net/debian testing main non-free contrib
 deb http://debian-archive.trafficmanager.net/debian testing-updates main non-free contrib
 deb http://debian-archive.trafficmanager.net/debian-security testing-security/updates main non-free contrib
