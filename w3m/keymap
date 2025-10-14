@@ -196,8 +196,8 @@ keymap Y   REDO
 
 ########## navigation ##########
 keymap u    GOTO
-keymap d    MOVE_LIST_MENU
-keymap D    LIST_MENU
+keymap D    MOVE_LIST_MENU
+keymap d    LIST_MENU
 keymap TAB  NEXT_LINK
 keymap m    NEXT_LINK
 keymap ,    PREV_LINK

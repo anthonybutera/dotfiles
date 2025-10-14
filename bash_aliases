@@ -48,7 +48,6 @@ alias sl='ls'
 alias smotd='clear && fastfetch'             # Install fastfetch
 alias start='"$(where.exe cmd.exe)" /C start $*'
 alias Updatedb='sudo updatedb --prunepaths="/mnt"'
-alias vim='nvim || vim'
 alias w='w -fus'
 alias watch='watch -c'
 alias weather='curl "http://wttr.in/lake_magdalene?u"'   # Install curl

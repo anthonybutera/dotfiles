@@ -14,10 +14,9 @@ call plug#begin('~/dotfiles/nvim/plugged')
 " Colorschemes
   Plug 'morhetz/gruvbox'                         " <leader>1
   Plug 'sjl/badwolf'                             " <leader>2
-  Plug 'duckwork/nirvana'                        " <leader>3
-  Plug 'nanotech/jellybeans.vim'                 " <leader>4
-  Plug 'float168/vim-colors-cherryblossom'       " <leader>5
-  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>6 -- Must enable 'set termguicolors'
+  Plug 'nanotech/jellybeans.vim'                 " <leader>3
+  Plug 'float168/vim-colors-cherryblossom'       " <leader>4
+  Plug 'pcostasgr/red_alert_vim_theme'           " <leader>5 -- Must enable 'set termguicolors'
 
 call plug#end()
 
@@ -154,7 +153,7 @@ nnoremap <leader>b :Buffers<CR>
 " Colorschemes (must be at the bottom of the .vimrc file)
 " ============
 
-let g:lightline = { 'colorscheme': 'powerline', }
+let g:lightline = { 'colorscheme': 'jellybeans', }
 let g:gruvbox_contrast_dark = 'hard'
 
 if $USER == 'root'
@@ -169,17 +168,14 @@ nnoremap <leader>1 :colorscheme gruvbox<CR>
 " https://github.com/sjl/badwolf
 nnoremap <leader>2 :colorscheme badwolf<CR>                  
 
-" https://github.com/duckwork/nirvana
-nnoremap <leader>3 :colorscheme nirvana<CR>                
-
 " https://github.com/lmintmate/blue-mood-vim
-nnoremap <leader>4 :colorscheme jellybeans<CR>         
+nnoremap <leader>3 :colorscheme jellybeans<CR>         
 
 " https://github.com/float168/vim-colors-cherryblossom
-nnoremap <leader>5 :colorscheme cherryblossom<CR>            
+nnoremap <leader>4 :colorscheme cherryblossom<CR>            
 
 " https://github.com/pcostasgr/red_alert_vim_theme
-nnoremap <leader>6 :colorscheme red_alert<CR>                
+nnoremap <leader>5 :colorscheme red_alert<CR>                
 
 
 
