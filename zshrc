@@ -105,7 +105,8 @@ export LESS_TERMCAP_so=$'\E[01;44;33m'          # begin standout-mode - info box
 export LESS_TERMCAP_ue=$'\E[0m'                 # end underline
 export LESS_TERMCAP_us=$'\E[01;32m'             # begin underline
 
-
+# Set batcat ("cat" replacement) to a non-default color theme
+export BAT_THEME=gruvbox-dark
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
