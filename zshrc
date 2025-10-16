@@ -78,8 +78,12 @@ bindkey \^U backward-kill-line
 bindkey \^K kill-line
 
 # Add blank line after each command
-precmd() { print "" }
-
+# precmd() { print "" }
+precmd() {
+    precmd() {
+        echo
+    }
+}
 
 # Local syntax highlighting ( sudo apt install zsh-syntax-highlighting )
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
