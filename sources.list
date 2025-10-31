@@ -1,6 +1,0 @@
-deb http://debian-archive.trafficmanager.net/debian testing main non-free contrib
-deb http://debian-archive.trafficmanager.net/debian testing-updates main non-free contrib
-deb http://debian-archive.trafficmanager.net/debian-security testing-security/updates main non-free contrib
-deb http://ftp.debian.org/debian testing-backports main
-
-
